@@ -18,7 +18,7 @@ A definition appears under every PR that specifies it.
 - Roadmap: adelic algebraic groups (depends on #785), https://github.com/TauCetiProject/TauCetiRoadmap/pull/792: #67, #68
 - Abelian schemes and arithmetic moduli (the Jacobian challenge, part II), https://github.com/TauCetiProject/TauCetiRoadmap/pull/849: #12, #78
 - Néron models and semistable abelian varieties, https://github.com/TauCetiProject/TauCetiRoadmap/pull/852: #78, #85
-- Add unbounded-operator spectral, extension and form theory roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/1027: #35, #45
+- Add unbounded-operator spectral, extension and form theory roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/1027: #35
 - Shimura data, Hermitian domains and adelic level structures, https://github.com/TauCetiProject/TauCetiRoadmap/pull/1038: #13, #23
 - Teichmüller geometry: marked surfaces, finite actions and generic lattices, https://github.com/TauCetiProject/TauCetiRoadmap/pull/1169: #59, #61
 - Mordell finiteness by the Lawrence–Venkatesh method, https://github.com/TauCetiProject/TauCetiRoadmap/pull/1231: #59, #61
@@ -28,7 +28,6 @@ A definition appears under every PR that specifies it.
 - RepresentationTheory: modular characters and blocks, https://github.com/TauCetiProject/TauCetiRoadmap/pull/1775: #2, #3
 - roadmap: construct the Behrend–Fantechi virtual fundamental class, https://github.com/TauCetiProject/TauCetiRoadmap/pull/1996: #16, #27
 - roadmap: develop algebraic Gromov-Witten theory and quantum cohomology, https://github.com/TauCetiProject/TauCetiRoadmap/pull/1998: #24, #27
-- QuasiregularMaps: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2134: #41, #42
 - Add roadmap: planar and surface topology, https://github.com/TauCetiProject/TauCetiRoadmap/pull/271: #59
 - Complex comparison, part II: coherent analytic sheaves, algebraization and the de Rham–Betti comparison, https://github.com/TauCetiProject/TauCetiRoadmap/pull/848: #12
 - Geometry of numbers, quadratic forms and homogeneous arithmetic, https://github.com/TauCetiProject/TauCetiRoadmap/pull/851: #82
@@ -62,7 +61,7 @@ A definition appears under every PR that specifies it.
 - PurityForFlatCohomology: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/1840: #21
 - FiniteFlatGroupsAndIntegralPadicHodgeTheoryPartII: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/1843: #21
 
-## By definition (46)
+## By definition (43)
 
 
 ### Algebra, representation theory & homotopy theory
@@ -103,12 +102,6 @@ A definition appears under every PR that specifies it.
   Papers: [2020·191(1)·3] Euclidean triangles have no hot spots; [2022·196(3)·4] One can hear the shape of ellipses of small eccentricity. [census](../census/034.md)
 - **#35 Absolutely continuous spectrum of a self-adjoint operator.** PR [#1027](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1027) UO-C03, on merged [SelfAdjointSpectralTheory](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/OperatorTheory/SelfAdjointSpectralTheory/README.md) SA-E01.  
   Papers: [2026·203(2)·1] Bethe–Sommerfeld Conjecture and absolutely continuous spectrum of multi-dimensional quasi-periodic Schrödinger operators. [census](../census/035.md)
-- **#41 Quasiregular map between Riemannian manifolds.** PR [#2134](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2134) (draft) §§2.1–2.3. Rests on #47 (Sobolev maps between manifolds), filed in needs-roadmap-written.md.  
-  Papers: [2025·201(2)·3] De Rham algebras of closed quasiregularly elliptic manifolds are Euclidean. [census](../census/041.md)
-- **#42 Quasiregularly elliptic manifold.** PR [#2134](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2134) (draft) §§7.1–7.3. As for #41.  
-  Papers: [2025·201(2)·3] De Rham algebras of closed quasiregularly elliptic manifolds are Euclidean. [census](../census/042.md)
-- **#45 Schrödinger operator $-\Delta+V$ on $L^2(\mathbb{R}^d)$.** PR [#1027](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1027) UO-E06 (d = 3); Kato–Rellich in code. The definition is for all d; the PR specifies d = 3 and needs generalising.  
-  Papers: [2026·203(2)·1] Bethe–Sommerfeld Conjecture and absolutely continuous spectrum of multi-dimensional quasi-periodic Schrödinger operators. [census](../census/045.md)
 
 ### Geometry & topology
 

@@ -8,7 +8,7 @@ Every one of the 100 definitions is in exactly one of four files: [ready-to-writ
 
 Order: among the new roadmaps, classical ergodic theory, Lorentzian geometry and causality, and Sobolev maps between manifolds unblock the most below them. The ergodic-theory roadmap underlies hyperbolic dynamics and billiards, the Lorentzian one underlies hyperbolic PDE, and the Gibbs/DLR formalism serves both lattice spin systems and dimers.
 
-## Extend an existing roadmap or PR (23)
+## Extend an existing roadmap or PR (24)
 
 
 ### Real semisimple Lie groups and symmetric spaces (after LieGroups Layer 9, or a roadmap of its own)
@@ -134,7 +134,16 @@ Needs #98.
 - **#94 Borel complete class of countable structures.** Code: `Setoid.BorelReducible`, `RelationalConfiguration`, `isoSetoid`; PR [#1316](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1316).  
   Papers: [2024·199(3)·4] Torsion-free abelian groups are Borel complete. [census](../census/094.md)
 
-## New roadmaps (22)
+### Unbounded operators (amend PR #1027)
+
+Sources: Reed–Simon, *Methods of Modern Mathematical Physics* II, §X.2; Kato, *Perturbation Theory for Linear Operators*, §V.4.
+
+PR [#1027](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1027) UO-E06 specifies −Δ + V on L²(ℝ³); the definition is for all d.
+
+- **#45 Schrödinger operator $-\Delta+V$ on $L^2(\mathbb{R}^d)$.** PR [#1027](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1027) UO-E06 (d = 3); Kato–Rellich in code.  
+  Papers: [2026·203(2)·1] Bethe–Sommerfeld Conjecture and absolutely continuous spectrum of multi-dimensional quasi-periodic Schrödinger operators. [census](../census/045.md)
+
+## New roadmaps (24)
 
 
 ### Lorentzian geometry and causality
@@ -155,14 +164,18 @@ Needs #50, #51.
 - **#33 Domain of dependence and development of initial data for the compressible Euler equations.**  
   Papers: [2025·202(2)·2] On the stability of multi-dimensional rarefaction waves I: the energy estimates; [2025·202(2)·3] On the stability of multi-dimensional rarefaction waves II: existence of solutions and applications to the Riemann problem. [census](../census/033.md)
 
-### Sobolev maps between manifolds
+### Sobolev maps between manifolds and quasiregular maps
 
 Sources: Ziemer, *Weakly Differentiable Functions*; Iwaniec–Martin, *Geometric Function Theory and Non-linear Analysis*. Neighbour: PDE.
 
-PR [#2134](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2134) (#41, #42) already contracts against this roadmap.
+PR [#2134](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2134) (draft) specifies quasiregular maps (#41, #42) on top of #47, and contracts against this roadmap for #47.
 
 - **#47 Sobolev space $W^{1,p}_{\mathrm{loc}}(M,N)$ of maps between Riemannian manifolds.** Contracted by PR [#2134](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2134) to a nonexistent SobolevMapsBetweenManifolds roadmap.  
   Papers: [2025·201(2)·3] De Rham algebras of closed quasiregularly elliptic manifolds are Euclidean. [census](../census/047.md)
+- **#41 Quasiregular map between Riemannian manifolds.** PR [#2134](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2134) (draft) §§2.1–2.3. Rests on #47.  
+  Papers: [2025·201(2)·3] De Rham algebras of closed quasiregularly elliptic manifolds are Euclidean. [census](../census/041.md)
+- **#42 Quasiregularly elliptic manifold.** PR [#2134](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2134) (draft) §§7.1–7.3. Rests on #47.  
+  Papers: [2025·201(2)·3] De Rham algebras of closed quasiregularly elliptic manifolds are Euclidean. [census](../census/042.md)
 
 ### Low-regularity gauge theory and Yang–Mills flows
 
