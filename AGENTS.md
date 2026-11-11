@@ -17,6 +17,30 @@ Prepare pull requests to Tau Ceti by following its
 Definitions in the other `tasks/` files are not ready for Tau Ceti code: they need a roadmap
 reviewed or written first.
 
+## Writing statements
+
+When [tasks/ready-to-write-statements.md](tasks/ready-to-write-statements.md) lists a paper, every
+one of the 100 definitions it needs is formalized. Formalize the paper's main theorem statements and
+contribute them to [lean-eval](https://github.com/leanprover/lean-eval) or
+[formal-conjectures](https://github.com/google-deepmind/formal-conjectures), following that
+repository's contribution instructions. Check first that the statement does not need further
+notions that are missing; if it does, record them in the definitions' census files.
+
+## Reviewing or writing roadmaps
+
+To help someone find roadmap work matching their expertise, ask about their area, then look in
+[tasks/needs-roadmap-review.md](tasks/needs-roadmap-review.md) (open roadmap PRs to review, listed by
+PR) and [tasks/needs-roadmap-written.md](tasks/needs-roadmap-written.md) (sections to add to
+existing roadmaps, and new roadmaps, with sources). Weigh how many definitions each item serves, and
+for new roadmaps the suggested order at the top of that file. The census files' "Library-scale gap"
+sections describe the theory involved.
+
+Roadmap review and writing follow TauCetiRoadmap's
+[README.md](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/README.md) (especially
+"Writing a roadmap") and
+[CONTRIBUTING.md](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/CONTRIBUTING.md). A
+roadmap covers a whole theory, not just the definitions listed here.
+
 ## Updating the repository
 
 The census describes a snapshot, recorded in [README.md](README.md#sources). To bring it up to date:
