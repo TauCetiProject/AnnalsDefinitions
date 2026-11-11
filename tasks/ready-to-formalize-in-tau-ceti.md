@@ -6,7 +6,9 @@ Every one of the 100 definitions is in exactly one of four files: [ready-to-writ
 
 **Condition:** a merged roadmap names the definition as a target, so implementation work can be dispatched against the roadmap now. Implementation status of every merged-roadmap item involved is in [prerequisites.md](../prerequisites.md), which also lists the merged-roadmap prerequisites of definitions filed elsewhere.
 
-## Definitions (9)
+## Definitions
+
+9 definitions.
 
 - **#14 The volume form $\omega^n$ and integration on a compact Kähler (or Hermitian) manifold.** [ComplexKahlerGeometry](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/ComplexKahlerGeometry/README.md) §5.9 (`dvol_g = ωⁿ/n!`), §6.1.  
   Papers: [2023·198(1)·4] On $L^\infty$ estimates for complex Monge-Ampère equations; [2024·200(1)·6] On $L^\infty$ estimates for fully non-linear partial differential equations. [census](../census/014.md)

@@ -8,7 +8,9 @@ Every one of the 100 definitions is in exactly one of four files: [ready-to-writ
 
 Order: among the new roadmaps, classical ergodic theory, Lorentzian geometry and causality, and Sobolev maps between manifolds unblock the most below them. The ergodic-theory roadmap underlies hyperbolic dynamics and billiards, the Lorentzian one underlies hyperbolic PDE, and the Gibbs/DLR formalism serves both lattice spin systems and dimers.
 
-## Extend an existing roadmap or PR (24)
+## Extend an existing roadmap or PR
+
+24 definitions.
 
 
 ### Real semisimple Lie groups and symmetric spaces (after LieGroups Layer 9, or a roadmap of its own)
@@ -143,7 +145,9 @@ PR [#1027](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1027) UO-E06 sp
 - **#45 Schrödinger operator $-\Delta+V$ on $L^2(\mathbb{R}^d)$.** PR [#1027](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1027) UO-E06 (d = 3); Kato–Rellich in code.  
   Papers: [2026·203(2)·1] Bethe–Sommerfeld Conjecture and absolutely continuous spectrum of multi-dimensional quasi-periodic Schrödinger operators. [census](../census/045.md)
 
-## New roadmaps (24)
+## New roadmaps
+
+24 definitions.
 
 
 ### Lorentzian geometry and causality

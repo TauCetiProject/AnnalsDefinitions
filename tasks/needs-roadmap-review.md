@@ -61,7 +61,9 @@ A definition appears under every PR that specifies it.
 - PurityForFlatCohomology: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/1840: #21
 - FiniteFlatGroupsAndIntegralPadicHodgeTheoryPartII: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/1843: #21
 
-## By definition (43)
+## By definition
+
+43 definitions.
 
 
 ### Algebra, representation theory & homotopy theory

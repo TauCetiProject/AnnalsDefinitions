@@ -5,7 +5,9 @@ Papers are cited as [year, volume(issue), no. n], resolved to titles via Crossre
 Papers are grouped by the least-advanced status among their listed definitions (the bottleneck).
 
 
-## Bottleneck: partly in code (3)
+## Bottleneck: partly in code
+
+3 papers.
 
 - <a id="202019134"></a>**[2020·191(3)·4]** A geometric version of the circle method, Browning, Sawin. https://doi.org/10.4007/annals.2020.191.3.4  
   #6 Convergence of a spectral sequence (Partly in code)
@@ -14,7 +16,9 @@ Papers are grouped by the least-advanced status among their listed definitions (
 - <a id="202520221"></a>**[2025·202(2)·1]** The interior of dynamical vacuum black holes I: The $C^0$-stability of the Kerr Cauchy horizon, Dafermos, Luk. https://doi.org/10.4007/annals.2025.202.2.1  
   #50 Lorentzian manifold, time orientation and spacetime (Partly in code)
 
-## Bottleneck: merged roadmap (9)
+## Bottleneck: merged roadmap
+
+9 papers.
 
 - <a id="202019114"></a>**[2020·191(1)·4]** Minimal surfaces and the Allen--Cahn equation on 3-manifolds: index, multiplicity, and curvature estimates, Chodosh, Mantoulidis. https://doi.org/10.4007/annals.2020.191.1.4  
   #49 Second fundamental form, principal curvatures and mean curvature of a hypersurface (Merged roadmap), #52 Minimal hypersurface in a Riemannian manifold (Merged roadmap)
@@ -35,7 +39,9 @@ Papers are grouped by the least-advanced status among their listed definitions (
 - <a id="202520212"></a>**[2025·202(1)·2]** Weil-Petersson curves, $\beta$-numbers, and minimal surfaces, Bishop. https://doi.org/10.4007/annals.2025.202.1.2  
   #49 Second fundamental form, principal curvatures and mean curvature of a hypersurface (Merged roadmap), #52 Minimal hypersurface in a Riemannian manifold (Merged roadmap)
 
-## Bottleneck: open roadmap PR (23)
+## Bottleneck: open roadmap PR
+
+23 papers.
 
 - <a id="202019113"></a>**[2020·191(1)·3]** Euclidean triangles have no hot spots, Judge, Mondal. https://doi.org/10.4007/annals.2020.191.1.3  
   #34 Neumann eigenvalues and eigenfunctions of the Laplacian on a bounded domain (Roadmap PR)
@@ -84,7 +90,9 @@ Papers are grouped by the least-advanced status among their listed definitions (
 - <a id="202620333"></a>**[2026·203(3)·3]** Quantum variance on quaternion algebras, III, Nelson. https://doi.org/10.4007/annals.2026.203.3.3  
   #5 Infinitesimal character (and Casimir eigenvalue) of a representation of a real reductive group (Partly in code), #7 Discrete series representations of $\mathrm{GL}_2(\mathbb{R})$ (Roadmap PR)
 
-## Bottleneck: prerequisites planned (26)
+## Bottleneck: prerequisites planned
+
+26 papers.
 
 - <a id="202019123"></a>**[2020·191(2)·3]** A $k$-linear triangulated category without a model, Rizzardo, Van den Bergh. https://doi.org/10.4007/annals.2020.191.2.3  
   #10 Hochschild--Kostant--Rosenberg antisymmetrisation map (Prerequisites planned)
@@ -139,7 +147,9 @@ Papers are grouped by the least-advanced status among their listed definitions (
 - <a id="202620327"></a>**[2026·203(2)·7]** Nash blowup fails to resolve singularities in dimensions four and higher, Castillo, Duarte, Leyton-Álvarez, Liendo. https://doi.org/10.4007/annals.2026.203.2.7  
   #25 Nash blowup of a variety (Prerequisites planned), #26 Normalized Nash blowup (Prerequisites planned)
 
-## Bottleneck: unplanned (10)
+## Bottleneck: unplanned
+
+10 papers.
 
 - <a id="202119413"></a>**[2021·194(1)·3]** Marginal triviality of the scaling limits of critical 4D Ising and $\lambda\phi_4^4$ models, Aizenman, Duminil-Copin. https://doi.org/10.4007/annals.2021.194.1.3  
   #99 Scaling limit of lattice $\phi^4$ fields (reachable random field) (Unplanned)
