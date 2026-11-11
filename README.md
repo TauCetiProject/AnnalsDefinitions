@@ -22,6 +22,7 @@ definitions.md     all 100 in one table
 prerequisites.md   merged-roadmap work on the path to the definitions
 papers.md          the Annals papers and the definitions each needs
 census/NNN.md      the evidence, one file per definition
+sources/           Kevin Buzzard's definition texts (markdown and PDF)
 ```
 
 ### `tasks/`
@@ -54,8 +55,11 @@ paper are noted on the entry.
 
 ## Sources
 
-- **Definitions.** "100 definitions for Tau Ceti: textbook versions" (`definitions_100_v2_textbook.md`
-  and `astra_definitions_100_v2.pdf`, 22 October 2026), attached to the Zulip thread above. Definition
+- **Definitions.** "100 definitions for Tau Ceti: textbook versions", 22 October 2026, by Kevin
+  Buzzard's team, in [`sources/`](sources/) as
+  [`definitions_100_v2_textbook.md`](sources/definitions_100_v2_textbook.md) and
+  [`astra_definitions_100_v2.pdf`](sources/astra_definitions_100_v2.pdf), as attached to the Zulip
+  thread above. Definition
   numbers, and references such as "Definition 56.3", are that document's. Its texts were drafted by
   AI agents and have not been reviewed by a human.
 - **Papers.** The definition texts cite Annals papers as [year, volume(issue), no. n], resolved here
