@@ -10,7 +10,7 @@ Every one of the 100 definitions is in exactly one of four files: [ready-to-writ
 
 A definition appears under every PR that specifies it.
 
-- Automorphic forms on reductive groups, https://github.com/TauCetiProject/TauCetiRoadmap/pull/1037: #5, #7, #67, #72, #73, #76, #79, #83
+- Automorphic forms on reductive groups, https://github.com/TauCetiProject/TauCetiRoadmap/pull/1037: #4, #5, #7, #67, #72, #73, #76, #79, #83
 - Roadmap: GL₂ automorphic representations and transfer, https://github.com/TauCetiProject/TauCetiRoadmap/pull/931: #7, #72, #76
 - Roadmap: complex Shimura varieties and canonical models, https://github.com/TauCetiProject/TauCetiRoadmap/pull/933: #13, #70, #89
 - AutomorphicPadicLFunctionsPartII: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/1543: #70, #74, #75
@@ -61,18 +61,23 @@ A definition appears under every PR that specifies it.
 - PurityForFlatCohomology: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/1840: #21
 - FiniteFlatGroupsAndIntegralPadicHodgeTheoryPartII: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/1843: #21
 - YangMillsConnectionsAndCaloricGauge: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2164: #37, #48
+- feat: add the RealSemisimpleLieGroups roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2229: #1, #4, #62
 
 ## By definition
 
-45 definitions.
+48 definitions.
 
 
 ### Algebra, representation theory & homotopy theory
 
+- **#1 Real rank of a semisimple Lie group.** PR [#2229](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2229) §1.3 `realRank`, §2.1 `groupRealRank` (factors, higher rank), §2.4 (Borel–Tits `ℝ`-rank); inputs [LieGroups](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/RepresentationTheory/LieGroups/README.md) L7, L9.  
+  Papers: [2021·193(3)·2] Filling functions of arithmetic groups; [2022·196(3)·1] Zimmer's conjecture: Subexponential growth, measure rigidity, and strong property (T); [2022·196(3)·2] Invariant measures and measurable projective factors for actions of higher-rank lattices on manifolds; [2023·197(1)·6] Infinite volume and infinite injectivity radius. [census](../census/001.md)
 - **#2 p-block (Brauer block) of a finite group.** PR [#1775](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1775) (modular characters and blocks).  
   Papers: [2020·192(2)·7] Unitriangular shape of decomposition matrices of unipotent blocks; [2024·200(2)·4] Brauer's Height Zero Conjecture; [2025·201(2)·2] The Alperin--McKay and Brauer's height zero conjecture for the prime 2. [census](../census/002.md)
 - **#3 Defect group of a block.** PR [#1775](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1775) §§6–7.  
   Papers: [2024·200(2)·4] Brauer's Height Zero Conjecture; [2025·201(2)·2] The Alperin--McKay and Brauer's height zero conjecture for the prime 2. [census](../census/003.md)
+- **#4 Parabolic subgroups of a real semisimple Lie group (minimal and standard parabolics).** Code: algebraic parabolics `HopfIdeal.IsParabolic`, `Cocharacter.parabolic`. Partly in code (algebraic-group parabolics); the Lie-group parabolics are PR [#2229](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2229) §3.1, §§4.1–4.5 (standard parabolics, Langlands decompositions, type, comparison with `ℝ`-parabolics), with `P = MAN` also in PR [#1037](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1037) §2.3a.  
+  Papers: [2022·196(3)·1] Zimmer's conjecture: Subexponential growth, measure rigidity, and strong property (T); [2022·196(3)·2] Invariant measures and measurable projective factors for actions of higher-rank lattices on manifolds; [2024·200(3)·1] A general Cayley correspondence and higher rank Teichmüller spaces. [census](../census/004.md)
 - **#5 Infinitesimal character (and Casimir eigenvalue) of a representation of a real reductive group.** Code: `harishChandraIso`, `centralCharacterModules` (semisimple, alg. closed); reductive and group level in PR [#1037](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1037) §2.2. Partly in code (semisimple case over an algebraically closed field); the rest is PR [#1037](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1037) §2.2.  
   Papers: [2024·200(3)·2] Doubling constructions: Global functoriality for non-generic cuspidal representations; [2026·203(3)·3] Quantum variance on quaternion algebras, III. [census](../census/005.md)
 - **#7 Discrete series representations of $\mathrm{GL}_2(\mathbb{R})$.** PR [#1037](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1037) §§2.3–2.6; PR [#931](https://github.com/TauCetiProject/TauCetiRoadmap/pull/931) R16.2.13.  
@@ -117,6 +122,8 @@ A definition appears under every PR that specifies it.
   Papers: [2024·199(2)·6] Canonical representations of surface groups. [census](../census/059.md)
 - **#61 Outer action of the mapping class group on the fundamental group.** PR [#1231](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1231) §5.9; PR [#1169](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1169) (`OuterAut`, Dehn–Nielsen–Baer).  
   Papers: [2024·199(2)·6] Canonical representations of surface groups. [census](../census/061.md)
+- **#62 Riemannian symmetric space of a semisimple Lie group.** PR [#2229](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2229) §§0.1–0.2, §2.2, §§5.2–5.4, §5.6 (Cartan involutions, `G/K` with the Killing metric, distance, maximal compacts, injectivity radius of `Λ\X`); inputs [LieGroups](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/RepresentationTheory/LieGroups/README.md) L7, L9, [RiemannianGeometry](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/RiemannianGeometry/README.md) R1.3, R4.  
+  Papers: [2023·197(1)·6] Infinite volume and infinite injectivity radius. [census](../census/062.md)
 - **#64 Spin$^c$ structure on an oriented manifold.** Code: the group `CliffordAlgebra.spinCGroup`. [HeegaardFloer](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/HeegaardFloer/README.md) §6.2 (3-manifolds, Turaev model); general definition in PR [#936](https://github.com/TauCetiProject/TauCetiRoadmap/pull/936) F4.1. General definition: PR [#936](https://github.com/TauCetiProject/TauCetiRoadmap/pull/936) F4.1. Merged [HeegaardFloer](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/HeegaardFloer/README.md) §6.2 has the 3-manifold case.  
   Papers: [2025·201(1)·1] Grid diagrams and Heegaard Floer invariants. [census](../census/064.md)
 

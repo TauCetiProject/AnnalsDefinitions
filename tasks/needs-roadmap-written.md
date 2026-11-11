@@ -10,21 +10,8 @@ Order: among the new roadmaps, classical ergodic theory, Lorentzian geometry and
 
 ## Extend an existing roadmap or PR
 
-24 definitions.
+21 definitions.
 
-
-### Real semisimple Lie groups and symmetric spaces (after LieGroups Layer 9, or a roadmap of its own)
-
-Sources: Knapp, *Lie Groups Beyond an Introduction*, Ch. VI–VII; Helgason, *Differential Geometry, Lie Groups, and Symmetric Spaces*, Ch. IV–VI. Also consumed by #15, #31, #54, #68.
-
-Restricted roots and real rank at the Lie-algebra level, standard parabolics with Langlands decompositions, Riemannian symmetric spaces. #4's minimal parabolic is in PR [#1037](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1037) §2.3a.
-
-- **#1 Real rank of a semisimple Lie group.** [LieGroups](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/RepresentationTheory/LieGroups/README.md) L7 (Cartan involution), L9 (maximal abelian 𝔞, restricted roots).  
-  Papers: [2021·193(3)·2] Filling functions of arithmetic groups; [2022·196(3)·1] Zimmer's conjecture: Subexponential growth, measure rigidity, and strong property (T); [2022·196(3)·2] Invariant measures and measurable projective factors for actions of higher-rank lattices on manifolds; [2023·197(1)·6] Infinite volume and infinite injectivity radius. [census](../census/001.md)
-- **#4 Parabolic subgroups of a real semisimple Lie group (minimal and standard parabolics).** Code: algebraic parabolics `HopfIdeal.IsParabolic`, `Cocharacter.parabolic`; Lie-group P = MAN in PR [#1037](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1037) §2.3a.  
-  Papers: [2022·196(3)·1] Zimmer's conjecture: Subexponential growth, measure rigidity, and strong property (T); [2022·196(3)·2] Invariant measures and measurable projective factors for actions of higher-rank lattices on manifolds; [2024·200(3)·1] A general Cayley correspondence and higher rank Teichmüller spaces. [census](../census/004.md)
-- **#62 Riemannian symmetric space of a semisimple Lie group.** [LieGroups](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/RepresentationTheory/LieGroups/README.md) L7, L9; [RiemannianGeometry](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/RiemannianGeometry/README.md) R1.3; PR [#871](https://github.com/TauCetiProject/TauCetiRoadmap/pull/871) (G/K as a manifold).  
-  Papers: [2023·197(1)·6] Infinite volume and infinite injectivity radius. [census](../census/062.md)
 
 ### Block theory (extension of PR #1775)
 
@@ -190,7 +177,7 @@ Sources: Guedj–Zeriahi, *Degenerate Complex Monge–Ampère Equations*; Széke
 
 ### Complex hyperbolic geometry and ball quotients
 
-Sources: Goldman, *Complex Hyperbolic Geometry*; Mok, on projective algebraicity of ball quotients; Borel–Ji. Builds on the real semisimple roadmap above.
+Sources: Goldman, *Complex Hyperbolic Geometry*; Mok, on projective algebraicity of ball quotients; Borel–Ji. Builds on PR [#2229](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2229) (RealSemisimpleLieGroups), which specifies `SU(n,1)/S(U(n)×U(1))` as a Riemannian symmetric space, its totally geodesic submanifolds and its quotients by discrete subgroups.
 
 PR [#933](https://github.com/TauCetiProject/TauCetiRoadmap/pull/933) §2.7 specifies arithmetic ball quotients.
 
@@ -261,6 +248,8 @@ Sources: Gromov, *Filling Riemannian Manifolds*; Bridson, *The Geometry of the W
 ### Surface group representations and character varieties
 
 Sources: Goldman, *The Symplectic Nature of Fundamental Groups of Surfaces*; Labourie, *Lectures on Representations of Surface Groups*; Simpson, *Higgs Bundles and Local Systems*.
+
+Cartan involutions and maximal compact subgroups of real reductive groups are in PR [#2229](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2229) Layer 0, §2.2 and §5.4.
 
 - **#54 Character variety of a surface group in a real reductive group.** [LieGroups](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/RepresentationTheory/LieGroups/README.md) L7, L9; PR [#1169](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1169) (PSL₂(ℝ)).  
   Papers: [2024·200(3)·1] A general Cayley correspondence and higher rank Teichmüller spaces. [census](../census/054.md)

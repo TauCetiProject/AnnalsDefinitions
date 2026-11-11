@@ -41,7 +41,7 @@ Papers are grouped by the least-advanced status among their listed definitions (
 
 ## Bottleneck: open roadmap PR
 
-24 papers.
+27 papers.
 
 - <a id="202019113"></a>**[2020·191(1)·3]** Euclidean triangles have no hot spots, Judge, Mondal. https://doi.org/10.4007/annals.2020.191.1.3  
   #34 Neumann eigenvalues and eigenfunctions of the Laplacian on a bounded domain (Roadmap PR)
@@ -59,12 +59,18 @@ Papers are grouped by the least-advanced status among their listed definitions (
   #67 Local components of an automorphic representation (restricted tensor product) (Roadmap PR), #73 Central character of an automorphic representation (Roadmap PR), #83 Schwartz (Hecke) algebra of an adelic reductive group (Roadmap PR), #90 The $\pi$-nearly isotypic cuspidal subspace (Roadmap PR)
 - <a id="202119431"></a>**[2021·194(3)·1]** Polynomial structure of Gromov–Witten potential of quintic 3-folds, Chang, Guo, Li. https://doi.org/10.4007/annals.2021.194.3.1  
   #16 Rational Chow groups of a Deligne--Mumford stack and the degree of zero-cycles (Roadmap PR), #24 Moduli stack of stable maps $\overline{\mathcal{M}}_{g,n}(X,\beta)$ (Roadmap PR), #27 Perfect obstruction theory and virtual fundamental class (Roadmap PR)
+- <a id="202219631"></a>**[2022·196(3)·1]** Zimmer's conjecture: Subexponential growth, measure rigidity, and strong property (T), Brown, Fisher, Hurtado. https://doi.org/10.4007/annals.2022.196.3.1  
+  #1 Real rank of a semisimple Lie group (Roadmap PR), #4 Parabolic subgroups of a real semisimple Lie group (minimal and standard parabolics) (Partly in code)
+- <a id="202219632"></a>**[2022·196(3)·2]** Invariant measures and measurable projective factors for actions of higher-rank lattices on manifolds, Brown, Hertz, Wang. https://doi.org/10.4007/annals.2022.196.3.2  
+  #1 Real rank of a semisimple Lie group (Roadmap PR), #4 Parabolic subgroups of a real semisimple Lie group (minimal and standard parabolics) (Partly in code)
 - <a id="202219634"></a>**[2022·196(3)·4]** One can hear the shape of ellipses of small eccentricity, Hezari, Zelditch. https://doi.org/10.4007/annals.2022.196.3.4  
   #34 Neumann eigenvalues and eigenfunctions of the Laplacian on a bounded domain (Roadmap PR)
 - <a id="202219635"></a>**[2022·196(3)·5]** Prisms and prismatic cohomology, Bhatt, Scholze. https://doi.org/10.4007/annals.2022.196.3.5  
   #81 The prismatic site and prismatic cohomology (Roadmap PR)
 - <a id="202319711"></a>**[2023·197(1)·1]** There is no Enriques surface over the integers, Schröer. https://doi.org/10.4007/annals.2023.197.1.1  
   #19 Enriques surface over an algebraically closed field (Roadmap PR), #20 Families of Enriques surfaces and the moduli stack $\mathscr{M}_{\mathrm{Enr}}$ (Roadmap PR)
+- <a id="202319716"></a>**[2023·197(1)·6]** Infinite volume and infinite injectivity radius, Fraczyk, Gelander. https://doi.org/10.4007/annals.2023.197.1.6  
+  #1 Real rank of a semisimple Lie group (Roadmap PR), #62 Riemannian symmetric space of a semisimple Lie group (Roadmap PR)
 - <a id="202419912"></a>**[2024·199(1)·2]** Purity for flat cohomology, Česnavičius, Scholze. https://doi.org/10.4007/annals.2024.199.1.2  
   #21 Fppf cohomology with supports in a closed subset (Roadmap PR)
 - <a id="202419921"></a>**[2024·199(2)·1]** On the generic part of the cohomology of non-compact unitary Shimura varieties, Caraiani, Scholze. https://doi.org/10.4007/annals.2024.199.2.1  
@@ -94,7 +100,7 @@ Papers are grouped by the least-advanced status among their listed definitions (
 
 ## Bottleneck: prerequisites planned
 
-26 papers.
+23 papers.
 
 - <a id="202019123"></a>**[2020·191(2)·3]** A $k$-linear triangulated category without a model, Rizzardo, Van den Bergh. https://doi.org/10.4007/annals.2020.191.2.3  
   #10 Hochschild--Kostant--Rosenberg antisymmetrisation map (Prerequisites planned)
@@ -105,7 +111,7 @@ Papers are grouped by the least-advanced status among their listed definitions (
 - <a id="202019221"></a>**[2020·192(2)·1]** Subalgebras of simple AF-algebras, Schafhauser. https://doi.org/10.4007/annals.2020.192.2.1  
   #36 Amenable trace on a C\*-algebra (Prerequisites planned)
 - <a id="202119332"></a>**[2021·193(3)·2]** Filling functions of arithmetic groups, Leuzinger, Young. https://doi.org/10.4007/annals.2021.193.3.2  
-  #1 Real rank of a semisimple Lie group (Prerequisites planned), #57 Lipschitz singular chains and their mass (Prerequisites planned)
+  #1 Real rank of a semisimple Lie group (Roadmap PR), #57 Lipschitz singular chains and their mass (Prerequisites planned)
 - <a id="202119411"></a>**[2021·194(1)·1]** Local and global boundary rigidity and the geodesic X-ray transform in the normal gauge, Stefanov, Uhlmann, Vasy. https://doi.org/10.4007/annals.2021.194.1.1  
   #49 Second fundamental form, principal curvatures and mean curvature of a hypersurface (Merged roadmap), #66 Strictly convex boundary of a Riemannian manifold (Prerequisites planned)
 - <a id="202119415"></a>**[2021·194(1)·5]** Spectral interpretations of dynamical degrees and applications, Dang, Favre. https://doi.org/10.4007/annals.2021.194.1.5  
@@ -114,14 +120,8 @@ Papers are grouped by the least-advanced status among their listed definitions (
   #55 Gaussian $q$-cluster (Prerequisites planned)
 - <a id="202219522"></a>**[2022·195(2)·2]** Measures of maximal entropy for surface diffeomorphisms, Buzzi, Crovisier, Sarig. https://doi.org/10.4007/annals.2022.195.2.2  
   #97 Measure of maximal entropy (Prerequisites planned)
-- <a id="202219631"></a>**[2022·196(3)·1]** Zimmer's conjecture: Subexponential growth, measure rigidity, and strong property (T), Brown, Fisher, Hurtado. https://doi.org/10.4007/annals.2022.196.3.1  
-  #1 Real rank of a semisimple Lie group (Prerequisites planned), #4 Parabolic subgroups of a real semisimple Lie group (minimal and standard parabolics) (Partly in code)
-- <a id="202219632"></a>**[2022·196(3)·2]** Invariant measures and measurable projective factors for actions of higher-rank lattices on manifolds, Brown, Hertz, Wang. https://doi.org/10.4007/annals.2022.196.3.2  
-  #1 Real rank of a semisimple Lie group (Prerequisites planned), #4 Parabolic subgroups of a real semisimple Lie group (minimal and standard parabolics) (Partly in code)
 - <a id="202319712"></a>**[2023·197(1)·2]** Smooth mixing Anosov flows in dimension three are exponentially mixing, Tsujii, Zhang. https://doi.org/10.4007/annals.2023.197.1.2  
   #32 The spaces $C^k(M)$ and $C^{k,\alpha}(M)$ on a compact manifold (Merged roadmap), #91 Anosov flow (Prerequisites planned), #96 Equilibrium state (measure) of a Hölder potential (Prerequisites planned)
-- <a id="202319716"></a>**[2023·197(1)·6]** Infinite volume and infinite injectivity radius, Fraczyk, Gelander. https://doi.org/10.4007/annals.2023.197.1.6  
-  #1 Real rank of a semisimple Lie group (Prerequisites planned), #62 Riemannian symmetric space of a semisimple Lie group (Prerequisites planned)
 - <a id="202319734"></a>**[2023·197(3)·4]** Stable minimal hypersurfaces in ℝ^N+1+ℓ with singular set an arbitrary closed K⊂{0}×ℝ^ℓ, Simon. https://doi.org/10.4007/annals.2023.197.3.4  
   #49 Second fundamental form, principal curvatures and mean curvature of a hypersurface (Merged roadmap), #53 Stationary varifold (Prerequisites planned), #65 Strict stability of a minimal cone/hypersurface (Simon's inequality) (Prerequisites planned)
 - <a id="202319812"></a>**[2023·198(1)·2]** Transversality and super-rigidity for multiply covered holomorphic curves, Wendl. https://doi.org/10.4007/annals.2023.198.1.2  
