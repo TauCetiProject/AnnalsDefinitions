@@ -1,6 +1,6 @@
 # Needs roadmap review
 
-Snapshot 2026-11-11 (Tau Ceti `d9fbe7bd6aed`, Mathlib `1b1ccf4b088b`, roadmaps `e416ca165`, 447 open roadmap PRs).
+Snapshot 2026-11-11 (Tau Ceti `a6027b1d24fc`, Mathlib `1b1ccf4b088b`, roadmaps `5f7befb6`, 437 open roadmap PRs).
 
 Every one of the 100 definitions is in exactly one of four files: [ready-to-write-statements.md](ready-to-write-statements.md), [ready-to-formalize-in-tau-ceti.md](ready-to-formalize-in-tau-ceti.md), [needs-roadmap-review.md](needs-roadmap-review.md), [needs-roadmap-written.md](needs-roadmap-written.md). A definition is placed in the furthest-along file whose condition holds for the definition as Kevin Buzzard's text states it; gaps that matter only for a particular paper are noted on the entry.
 

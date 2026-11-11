@@ -1,7 +1,7 @@
 # Merged-roadmap work on the prerequisite chains of the 100 Annals definitions
 
-Specified in a merged roadmap (`TauCetiRoadmap/<Name>/` at roadmap commit e416ca1, 2026-11-11), not
-yet (fully) implemented in Tau Ceti main (d9fbe7b, 2026-11-11), and on the prerequisite chain of at
+Specified in a merged roadmap (`TauCetiRoadmap/<Name>/` at roadmap commit 5f7befb, 2026-11-11), not
+yet (fully) implemented in Tau Ceti main (a6027b1, 2026-11-11), and on the prerequisite chain of at
 least one definition. Each item was checked against the README section, STATUS.md (snapshot date
 given per roadmap; several are stale) and a grep of Tau Ceti code. Item format: status
 (NOT-STARTED / PARTIAL with what exists), ready now (yes / no: needs X), definitions served,
