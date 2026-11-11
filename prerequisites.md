@@ -20,7 +20,7 @@ Counts exclude items found DONE. "Ready now" counts items whose verdict begins "
 | ReductiveGroups | 6 | 5 (3 / 2) | 1 | 1, 4, 11, 23, 68, 79 |
 | RiemannianGeometry | 6 | 6 (5 / 1) | 0 | 31, 49, 52, 62, 65, 66 |
 | EtaleCohomologyFoundations | 5 | 6 (4 / 2) | 2 | 18, 19, 69, 77, 84 |
-| ComplexKahlerGeometry | 4 | 5 (3 / 2) | 2 | 14, 38, 40, 63 |
+| ComplexKahlerGeometry | 4 | 5 (3 / 2) | 1 | 14, 38, 40, 63 |
 | HeegaardFloer | 4 | 6 (3 / 3) | 1 | 56, 60, 63, 64 |
 | ModularCurves | 4 | 2 (1 / 1) | 1 | 25, 26, 69, 71 |
 | SmoothBundlesConnections | 4 | 3 (2 / 1) | 1 | 37, 48, 49, 62 |
@@ -455,8 +455,8 @@ STATUS.md snapshot: 385ec2d 2026-11-06
 - Evidence: README l.1948 "### 5.7 Laplace-type estimates, spectral theory and the real Hodge theorem (K5a)", l.2013 "For every formally self-adjoint nonnegative Laplace-type system P on a compact boundaryless base, build its geometric H² realization", l.2038 "satisfies `LinearPMap.HasCompactResolvent`"; *Needs* l.2075; STATUS "K5a is partial: ... Hodge Laplacian ... chart `C^k` seminorms and the topology on smooth sections ... but not the orientation line, density bundle, bundle distributions or Sobolev scale"
 
 ### §5.3 K5a.SmoothSectionMontel Fréchet topology on smooth sections
-- Status: PARTIAL: `ContMDiffSection.frameTopology` (Geometry/Manifold/VectorBundle/Section/Topology.lean:89) is a locally convex TVS of compact-derivative convergence, with countable seminorms (Section/CountableSeminorms.lean), cover comparison and restriction (Section/FrameCover.lean), Hausdorff, continuous evaluation; works on noncompact bases. Missing: completeness ("completeness is separate", no `CompleteSpace` instance), `MontelSpace` instance, dual = compactly supported distributions
-- Ready now: yes for completeness (no unfinished prerequisite); Montel/dual parts list 5.1 as a need
+- Status: PARTIAL: `ContMDiffSection.frameTopology` (Geometry/Manifold/VectorBundle/Section/Topology.lean:89) is a complete locally convex TVS of compact-derivative convergence (`ContMDiffSection.completeSpace_frameTopology`, Section/Complete.lean, with no compactness or countability hypothesis), with countable seminorms and metrizability (Section/CountableSeminorms.lean), atlas independence (Section/FrameCover.lean), restriction, Hausdorff, and continuous evaluation. Missing: the `MontelSpace` instance and the identification of the dual with compactly supported distributions.
+- Ready now: no for the Montel and dual parts, which list 5.1 as a need.
 - Serves defs: 63
 - Evidence: README l.1620 "### 5.3 The smooth-section Fréchet topology and the Montel property (K5a.SmoothSectionMontel)"; STATUS "chart `C^k` seminorms and the topology on smooth sections"; CountableSeminorms.lean:23 "There is no assertion of completeness"
 
