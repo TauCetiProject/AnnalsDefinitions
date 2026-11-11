@@ -17,7 +17,7 @@ Counts exclude items found DONE. "Ready now" counts items whose verdict begins "
 | ReductiveGroupsPartII | 10 | 4 (2 / 2) | 3 | 11, 13, 23, 67, 68, 73, 82, 83, 88, 90 |
 | RepresentationTheory/LieGroups | 7 | 4 (2 / 2) | 2 | 1, 4, 5, 54, 62, 79, 83 |
 | JacobianChallenge | 6 | 4 (0 / 4) | 0 | 19, 30, 71, 80, 84, 85 |
-| ReductiveGroups | 6 | 4 (3 / 1) | 1 | 1, 4, 11, 23, 68, 79 |
+| ReductiveGroups | 6 | 5 (3 / 2) | 1 | 1, 4, 11, 23, 68, 79 |
 | RiemannianGeometry | 6 | 6 (5 / 1) | 0 | 31, 49, 52, 62, 65, 66 |
 | EtaleCohomologyFoundations | 5 | 6 (4 / 2) | 2 | 18, 19, 69, 77, 84 |
 | ComplexKahlerGeometry | 4 | 5 (3 / 2) | 2 | 14, 38, 40, 63 |
@@ -319,9 +319,15 @@ STATUS.md snapshot: 385ec2d 2026-11-06
 ## TauCetiRoadmap/ReductiveGroups
 STATUS.md snapshot: 7a6772d 2026-11-10
 
+### Layer 5 (solvable groups) Structure of smooth connected solvable groups, G = G_u ⋊ T
+- Status: PARTIAL. Exists: `torus_coinvariants_unipotentRadical` (G/G_u is a torus). Missing: that a maximal torus T meets G_u trivially and maps isomorphically onto G/G_u, the decomposition G = G_u ⋊ T, and conjugacy of subgroups of multiplicative type into T by G_u(k̄) (Milne, Theorem 16.33(b),(d)). STATUS lists Layer 5 as done.
+- Ready now: yes. It is the input that Layer 7 torus conjugacy, and through it the root datum, wait on.
+- Serves defs: 1, 4, 11, 23, 79
+- Evidence: README l.1828 Layer 5 "Solvable groups" bullet; Layer 7 torus conjugacy goes through Borel containment (Borel/Conjugacy/Containment.lean) and then conjugacy of maximal tori inside the solvable Borel.
+
 ### Layer 7 Root datum, relative root system, parabolics P_G(λ) and Levi decompositions
 - Status: PARTIAL. Exists: the parabolic predicates `IsParabolic`/`IsParabolicOverAlgClosed` (Algebra/AlgebraicGroup/Parabolic/Basic.lean); dynamic `parabolicDefiningHopfIdeal`/`leviDefiningHopfIdeal` with `parabolicLeviFppfQuotientIso` (Algebra/AlgebraicGroup/Dynamic/…); GL_n weight parabolics proved parabolic (Algebra/AlgebraicGroup/GeneralLinear/Weight/Parabolic/Borel.lean); torus conjugacy under extra hypotheses (Torus/Conjugation.lean). Missing: `StructureAcceptance.exists_conjugate_eq_of_isMaximalTorus` (unconditional), `exists_levi_complement_of_isParabolic`, `exists_titsSystem_of_isBorel`, P_G(λ) parabolic for general reductive G, the root datum of (G,T), and the relative root system.
-- Ready now: yes for the split root datum and torus-conjugacy items (their inputs, Layers 2-5 and §3A orbits, are done or pinned). The completeness of G/P needs the Layer 3 quotient representability (partial). Bruhat cells need Layer 7C (partial).
+- Ready now: no. Unconditional torus conjugacy needs the structure of smooth connected solvable groups, G = G_u ⋊ T with subgroups of multiplicative type conjugate into T by G_u(k̄) (Milne, Theorem 16.33(b),(d)). The README assigns this to Layer 5's "Solvable groups" bullet, which STATUS lists as done, but Tau Ceti has only `torus_coinvariants_unipotentRadical` (G/G_u is a torus); Borel containment (Borel/Conjugacy/Containment.lean) is in place. The split root datum needs torus conjugacy, then the rank-one subgroups G_α with their coroots (Milne 21.11) and generation of N/T by reflections (Milne 21.37). The roots, pinnings and rational Weyl group exist (Tangent/RootSpace.lean, Pinning/Basic.lean, DiagonalizableGroup/Normalizer/WeylGroup.lean). The completeness of G/P needs the Layer 3 quotient representability (partial). Bruhat cells need Layer 7C (partial).
 - Serves defs: 1, 4, 11, 23, 79
 - Evidence: README l.2253 "## Layer 7: structure theory", l.2286 "**Parabolic subgroup schemes and Levi decompositions.**", l.2335 "**Root datum**… **relative root system** for non-split groups"; STATUS "remaining: unconditional torus conjugacy, root datum, centralizer equals torus, Bruhat and general parabolic Levi theory".
 
