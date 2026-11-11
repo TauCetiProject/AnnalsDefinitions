@@ -60,10 +60,11 @@ A definition appears under every PR that specifies it.
 - ArakelovGeometryAndAbelianHeightsPartII: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/1833: #85
 - PurityForFlatCohomology: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/1840: #21
 - FiniteFlatGroupsAndIntegralPadicHodgeTheoryPartII: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/1843: #21
+- YangMillsConnectionsAndCaloricGauge: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2164: #37, #48
 
 ## By definition
 
-43 definitions.
+45 definitions.
 
 
 ### Algebra, representation theory & homotopy theory
@@ -104,6 +105,11 @@ A definition appears under every PR that specifies it.
   Papers: [2020·191(1)·3] Euclidean triangles have no hot spots; [2022·196(3)·4] One can hear the shape of ellipses of small eccentricity. [census](../census/034.md)
 - **#35 Absolutely continuous spectrum of a self-adjoint operator.** PR [#1027](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1027) UO-C03, on merged [SelfAdjointSpectralTheory](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/OperatorTheory/SelfAdjointSpectralTheory/README.md) SA-E01.  
   Papers: [2026·203(2)·1] Bethe–Sommerfeld Conjecture and absolutely continuous spectrum of multi-dimensional quasi-periodic Schrödinger operators. [census](../census/035.md)
+
+- **#37 Caloric gauge and the manifold of caloric connections.** PR [#2164](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2164) Layer 9 (Yang–Mills heat flow), §§10.2–10.5 (caloric gauge, caloric manifold, tangent spaces).  
+  Papers: [2021·194(2)·1] The threshold conjecture for the energy critical hyperbolic Yang–Mills equation. [census](../census/037.md)
+- **#48 Topological class (instanton number) of a finite-energy connection on $\mathbb{R}^4$.** PR [#2164](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2164) §§5.2–5.5 (good global gauge, `Top(d, G)`), §6.4 (`SU(2)` instanton number). Closed-manifold analogue in PR [#936](https://github.com/TauCetiProject/TauCetiRoadmap/pull/936).  
+  Papers: [2021·194(2)·1] The threshold conjecture for the energy critical hyperbolic Yang–Mills equation. [census](../census/048.md)
 
 ### Geometry & topology
 

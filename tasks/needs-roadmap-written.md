@@ -147,7 +147,7 @@ PR [#1027](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1027) UO-E06 sp
 
 ## New roadmaps
 
-24 definitions.
+22 definitions.
 
 
 ### Lorentzian geometry and causality
@@ -180,15 +180,6 @@ PR [#2134](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2134) (draft) s
   Papers: [2025·201(2)·3] De Rham algebras of closed quasiregularly elliptic manifolds are Euclidean. [census](../census/041.md)
 - **#42 Quasiregularly elliptic manifold.** PR [#2134](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2134) (draft) §§7.1–7.3. Rests on #47.  
   Papers: [2025·201(2)·3] De Rham algebras of closed quasiregularly elliptic manifolds are Euclidean. [census](../census/042.md)
-
-### Low-regularity gauge theory and Yang–Mills flows
-
-Sources: Donaldson–Kronheimer, *The Geometry of Four-Manifolds*; Freed–Uhlenbeck, *Instantons and Four-Manifolds*; Wehrheim, *Uhlenbeck Compactness*. Neighbours: SmoothBundlesConnections, CharacteristicClasses, PR #936.
-
-- **#37 Caloric gauge and the manifold of caloric connections.**  
-  Papers: [2021·194(2)·1] The threshold conjecture for the energy critical hyperbolic Yang–Mills equation. [census](../census/037.md)
-- **#48 Topological class (instanton number) of a finite-energy connection on $\mathbb{R}^4$.** Closed-manifold analogues: [SmoothBundlesConnections](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/SmoothBundlesConnections/README.md) B3–B4, [CharacteristicClasses](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/CharacteristicClasses/README.md) C4, PR [#936](https://github.com/TauCetiProject/TauCetiRoadmap/pull/936).  
-  Papers: [2021·194(2)·1] The threshold conjecture for the energy critical hyperbolic Yang–Mills equation. [census](../census/048.md)
 
 ### Pluripotential theory, complex Monge–Ampère and Hessian equations
 

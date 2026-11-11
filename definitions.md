@@ -7,9 +7,9 @@ Status of each definition against Mathlib, Tau Ceti code, merged roadmaps and op
 | In Tau Ceti | The definition exists in Tau Ceti code, adequately for the cited papers. | 0 |
 | Partly in code | A special case or close variant exists in code, but not what the papers need. | 7 |
 | Merged roadmap | A merged roadmap specifies it as a target; not (fully) implemented. | 9 |
-| Roadmap PR | Only an open roadmap PR specifies it. | 43 |
+| Roadmap PR | Only an open roadmap PR specifies it. | 45 |
 | Prerequisites planned | Not a target anywhere, but its main prerequisites are targets or already exist. | 30 |
-| Unplanned | Neither it nor its main prerequisites are planned. | 11 |
+| Unplanned | Neither it nor its main prerequisites are planned. | 9 |
 
 No definition is in Mathlib in the generality the papers need.
 
@@ -64,7 +64,7 @@ No definition is in Mathlib in the generality the papers need.
 | 34 | Neumann eigenvalues and eigenfunctions of the Laplacian on a bounded domain | Roadmap PR | [review](tasks/needs-roadmap-review.md) | PR [#1614](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1614) Lane G item 32 | [census](census/034.md) |
 | 35 | Absolutely continuous spectrum of a self-adjoint operator | Roadmap PR | [review](tasks/needs-roadmap-review.md) | PR [#1027](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1027) UO-C03, on merged [SelfAdjointSpectralTheory](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/OperatorTheory/SelfAdjointSpectralTheory/README.md) SA-E01 | [census](census/035.md) |
 | 36 | Amenable trace on a C\*-algebra | Prerequisites planned | [write](tasks/needs-roadmap-written.md) | [CStarAlgebras](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/CStarAlgebras/README.md) C4.1, C6, C7.1, C8.3 (c.p.c. maps, nuclearity, quasidiagonality) | [census](census/036.md) |
-| 37 | Caloric gauge and the manifold of caloric connections | Unplanned | [write](tasks/needs-roadmap-written.md) |  | [census](census/037.md) |
+| 37 | Caloric gauge and the manifold of caloric connections | Roadmap PR | [review](tasks/needs-roadmap-review.md) | PR [#2164](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2164) Layer 9, §§10.2–10.5 | [census](census/037.md) |
 | 38 | Fully nonlinear complex Hessian-type equations on a compact Hermitian manifold | Prerequisites planned | [write](tasks/needs-roadmap-written.md) | [ComplexKahlerGeometry](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/ComplexKahlerGeometry/README.md) K1/K2/K5b/K6 (Hermitian and Kähler calculus) | [census](census/038.md) |
 | 39 | Hard sphere dynamics on the torus | Unplanned | [write](tasks/needs-roadmap-written.md) |  | [census](census/039.md) |
 | 40 | The Laplace–Beltrami operator on $L^2$ of a complete Riemannian manifold | Prerequisites planned | [write](tasks/needs-roadmap-written.md) | Code: `laplaceBeltrami`; closed case [ComplexKahlerGeometry](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/ComplexKahlerGeometry/README.md) K5a, [PseudodifferentialOperators](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/PseudodifferentialOperators/README.md) P7; Friedrichs extension PR [#1027](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1027) | [census](census/040.md) |
@@ -75,7 +75,7 @@ No definition is in Mathlib in the generality the papers need.
 | 45 | Schrödinger operator $-\Delta+V$ on $L^2(\mathbb{R}^d)$ | Roadmap PR | [write](tasks/needs-roadmap-written.md) | PR [#1027](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1027) UO-E06 (d = 3); Kato–Rellich in code | [census](census/045.md) |
 | 46 | Schur multiplier on Schatten classes | Prerequisites planned | [write](tasks/needs-roadmap-written.md) | Code: Schatten classes; [CStarAlgebras](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/CStarAlgebras/README.md) C3.2 (completely bounded maps) | [census](census/046.md) |
 | 47 | Sobolev space $W^{1,p}_{\mathrm{loc}}(M,N)$ of maps between Riemannian manifolds | Unplanned | [write](tasks/needs-roadmap-written.md) | Contracted by PR [#2134](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2134) to a nonexistent SobolevMapsBetweenManifolds roadmap | [census](census/047.md) |
-| 48 | Topological class (instanton number) of a finite-energy connection on $\mathbb{R}^4$ | Unplanned | [write](tasks/needs-roadmap-written.md) | Closed-manifold analogues: [SmoothBundlesConnections](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/SmoothBundlesConnections/README.md) B3–B4, [CharacteristicClasses](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/CharacteristicClasses/README.md) C4, PR [#936](https://github.com/TauCetiProject/TauCetiRoadmap/pull/936) | [census](census/048.md) |
+| 48 | Topological class (instanton number) of a finite-energy connection on $\mathbb{R}^4$ | Roadmap PR | [review](tasks/needs-roadmap-review.md) | PR [#2164](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2164) §§5.2–5.5, §6.4; closed-manifold analogue in PR [#936](https://github.com/TauCetiProject/TauCetiRoadmap/pull/936) | [census](census/048.md) |
 
 ## Geometry & topology
 

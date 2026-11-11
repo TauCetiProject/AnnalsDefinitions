@@ -41,7 +41,7 @@ Papers are grouped by the least-advanced status among their listed definitions (
 
 ## Bottleneck: open roadmap PR
 
-23 papers.
+24 papers.
 
 - <a id="202019113"></a>**[2020·191(1)·3]** Euclidean triangles have no hot spots, Judge, Mondal. https://doi.org/10.4007/annals.2020.191.1.3  
   #34 Neumann eigenvalues and eigenfunctions of the Laplacian on a bounded domain (Roadmap PR)
@@ -53,6 +53,8 @@ Papers are grouped by the least-advanced status among their listed definitions (
   #2 p-block (Brauer block) of a finite group (Roadmap PR)
 - <a id="202119334"></a>**[2021·193(3)·4]** Arithmeticity, superrigidity, and totally geodesic submanifolds, Bader, Fisher, Miller, Stover. https://doi.org/10.4007/annals.2021.193.3.4  
   #68 Arithmetic lattice in a semisimple Lie group (Roadmap PR), #79 Minimal parabolic subgroups and the Langlands decomposition (real rank one) (Roadmap PR)
+- <a id="202119421"></a>**[2021·194(2)·1]** The threshold conjecture for the energy critical hyperbolic Yang–Mills equation, Oh, Tataru. https://doi.org/10.4007/annals.2021.194.2.1  
+  #37 Caloric gauge and the manifold of caloric connections (Roadmap PR), #48 Topological class (instanton number) of a finite-energy connection on $\mathbb{R}^4$ (Roadmap PR)
 - <a id="202119425"></a>**[2021·194(2)·5]** Isolation of cuspidal spectrum, with application to the Gan–Gross–Prasad conjecture, Beuzart-Plessis, Liu, Zhang, Zhu. https://doi.org/10.4007/annals.2021.194.2.5  
   #67 Local components of an automorphic representation (restricted tensor product) (Roadmap PR), #73 Central character of an automorphic representation (Roadmap PR), #83 Schwartz (Hecke) algebra of an adelic reductive group (Roadmap PR), #90 The $\pi$-nearly isotypic cuspidal subspace (Roadmap PR)
 - <a id="202119431"></a>**[2021·194(3)·1]** Polynomial structure of Gromov–Witten potential of quintic 3-folds, Chang, Guo, Li. https://doi.org/10.4007/annals.2021.194.3.1  
@@ -149,12 +151,10 @@ Papers are grouped by the least-advanced status among their listed definitions (
 
 ## Bottleneck: unplanned
 
-10 papers.
+9 papers.
 
 - <a id="202119413"></a>**[2021·194(1)·3]** Marginal triviality of the scaling limits of critical 4D Ising and $\lambda\phi_4^4$ models, Aizenman, Duminil-Copin. https://doi.org/10.4007/annals.2021.194.1.3  
   #99 Scaling limit of lattice $\phi^4$ fields (reachable random field) (Unplanned)
-- <a id="202119421"></a>**[2021·194(2)·1]** The threshold conjecture for the energy critical hyperbolic Yang–Mills equation, Oh, Tataru. https://doi.org/10.4007/annals.2021.194.2.1  
-  #37 Caloric gauge and the manifold of caloric connections (Unplanned), #48 Topological class (instanton number) of a finite-energy connection on $\mathbb{R}^4$ (Unplanned)
 - <a id="202319713"></a>**[2023·197(1)·3]** Special subvarieties of non-arithmetic ball quotients and Hodge theory, Baldi, Ullmo. https://doi.org/10.4007/annals.2023.197.1.3  
   #15 Ball quotients as quasi-projective varieties (Prerequisites planned), #31 Totally geodesic subvariety of a ball quotient (Unplanned), #68 Arithmetic lattice in a semisimple Lie group (Roadmap PR)
 - <a id="202319831"></a>**[2023·198(3)·1]** Universality for lozenge tiling local statistics, Aggarwal. https://doi.org/10.4007/annals.2023.198.3.1  
