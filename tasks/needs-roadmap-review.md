@@ -111,7 +111,7 @@ A definition appears under every PR that specifies it.
   Papers: [2024·199(2)·6] Canonical representations of surface groups. [census](../census/059.md)
 - **#61 Outer action of the mapping class group on the fundamental group.** PR [#1231](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1231) §5.9; PR [#1169](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1169) (`OuterAut`, Dehn–Nielsen–Baer).  
   Papers: [2024·199(2)·6] Canonical representations of surface groups. [census](../census/061.md)
-- **#64 Spin$^c$ structure on an oriented manifold.** [HeegaardFloer](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/HeegaardFloer/README.md) §6.2 (3-manifolds, Turaev model); general definition in PR [#936](https://github.com/TauCetiProject/TauCetiRoadmap/pull/936) F4.1. General definition: PR [#936](https://github.com/TauCetiProject/TauCetiRoadmap/pull/936) F4.1. Merged [HeegaardFloer](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/HeegaardFloer/README.md) §6.2 has the 3-manifold case.  
+- **#64 Spin$^c$ structure on an oriented manifold.** Code: the group `CliffordAlgebra.spinCGroup`. [HeegaardFloer](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/HeegaardFloer/README.md) §6.2 (3-manifolds, Turaev model); general definition in PR [#936](https://github.com/TauCetiProject/TauCetiRoadmap/pull/936) F4.1. General definition: PR [#936](https://github.com/TauCetiProject/TauCetiRoadmap/pull/936) F4.1. Merged [HeegaardFloer](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/HeegaardFloer/README.md) §6.2 has the 3-manifold case.  
   Papers: [2025·201(1)·1] Grid diagrams and Heegaard Floer invariants. [census](../census/064.md)
 
 ### Number theory
