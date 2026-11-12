@@ -6,7 +6,7 @@ Every one of the 100 definitions is in exactly one of four files: [ready-to-writ
 
 **Condition:** neither a merged roadmap nor an open PR names the definition as a target (or the ones that do cover only part of it). Something has to be written: a section of an existing roadmap or PR, or a new roadmap. Either way the unit of work is the theory the definition belongs to, not the definition. The groupings are proposals; each census file's "Library-scale gap" describes the theory in more detail.
 
-Order: among the new roadmaps, classical ergodic theory and Lorentzian geometry and causality unblock the most below them. The ergodic-theory roadmap underlies hyperbolic dynamics and billiards, the Lorentzian one underlies hyperbolic PDE, and the Gibbs/DLR formalism serves both lattice spin systems and dimers.
+Order: among the new roadmaps, Lorentzian geometry and causality unblocks the most below it: it underlies hyperbolic PDE. Hyperbolic dynamics and billiards build on open PR [#2231](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2231) (ClassicalErgodicTheory), and the Gibbs/DLR formalism serves both lattice spin systems and dimers.
 
 ## Extend an existing roadmap or PR
 
@@ -134,7 +134,7 @@ PR [#1027](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1027) UO-E06 sp
 
 ## New roadmaps
 
-19 definitions.
+16 definitions.
 
 
 ### Lorentzian geometry and causality
@@ -182,29 +182,16 @@ Sources: Remling, *Spectral Theory of Canonical Systems*; de Branges, *Hilbert S
 - **#44 Scattering functions of a real Dirac system.**  
   Papers: [2024·199(2)·4] Pointwise convergence of the non-linear Fourier transform. [census](../census/044.md)
 
-### Classical ergodic theory: entropy, variational principle, mixing for flows
-
-Sources: Walters, *An Introduction to Ergodic Theory*; Downarowicz, *Entropy in Dynamical Systems*; Cornfeld–Fomin–Sinai. Builds on Mathlib's ergodic theory and `Dynamics.coverEntropy`.
-
-KS entropy is specified in PRs [#851](https://github.com/TauCetiProject/TauCetiRoadmap/pull/851) and [#1335](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1335).
-
-- **#93 Billiard flow in a polygon.**  
-  Papers: [2026·203(3)·1] Weakly mixing polygonal billiards. [census](../census/093.md)
-- **#96 Equilibrium state (measure) of a Hölder potential.** KS entropy in PRs [#851](https://github.com/TauCetiProject/TauCetiRoadmap/pull/851) §4.2, [#1335](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1335); Mathlib `Dynamics.coverEntropy`.  
-  Papers: [2023·197(1)·2] Smooth mixing Anosov flows in dimension three are exponentially mixing. [census](../census/096.md)
-- **#97 Measure of maximal entropy.** KS entropy in PRs [#851](https://github.com/TauCetiProject/TauCetiRoadmap/pull/851) §4.2, [#1335](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1335); Mathlib `Dynamics.coverEntropy`.  
-  Papers: [2022·195(2)·2] Measures of maximal entropy for surface diffeomorphisms. [census](../census/097.md)
-
 ### Uniformly hyperbolic dynamics and thermodynamic formalism
 
-Sources: Katok–Hasselblatt, *Introduction to the Modern Theory of Dynamical Systems*; Fisher–Hasselblatt, *Hyperbolic Flows*; Bowen, *Equilibrium States*. Builds on the ergodic-theory roadmap.
+Sources: Katok–Hasselblatt, *Introduction to the Modern Theory of Dynamical Systems*; Fisher–Hasselblatt, *Hyperbolic Flows*; Bowen, *Equilibrium States*. Builds on PR [#2231](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2231) (ClassicalErgodicTheory), which specifies flow pressure, the variational principle and equilibrium states (#96).
 
 - **#91 Anosov flow.** Code: `flowOf`, continuous distributions, Riemannian metrics.  
   Papers: [2023·197(1)·2] Smooth mixing Anosov flows in dimension three are exponentially mixing. [census](../census/091.md)
 
 ### Billiards and kinetic limits
 
-Sources: Tabachnikov, *Geometry and Billiards*; Chernov–Markarian, *Chaotic Billiards*; Gallagher–Saint-Raymond–Texier, *From Newton to Boltzmann*. Builds on the ergodic-theory roadmap.
+Sources: Tabachnikov, *Geometry and Billiards*; Chernov–Markarian, *Chaotic Billiards*; Gallagher–Saint-Raymond–Texier, *From Newton to Boltzmann*. Builds on PR [#2231](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2231) (ClassicalErgodicTheory), whose Layer 9 constructs polygonal billiard flows with their Liouville measure (#93).
 
 - **#39 Hard sphere dynamics on the torus.**  
   Papers: [2023·198(3)·3] Statistical dynamics of a hard sphere gas: fluctuating Boltzmann equation and large deviations. [census](../census/039.md)

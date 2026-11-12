@@ -7,9 +7,9 @@ Status of each definition against Mathlib, Tau Ceti code, merged roadmaps and op
 | In Tau Ceti | The definition exists in Tau Ceti code, adequately for the cited papers. | 0 |
 | Partly in code | A special case or close variant exists in code, but not what the papers need. | 7 |
 | Merged roadmap | A merged roadmap specifies it as a target; not (fully) implemented. | 9 |
-| Roadmap PR | Only an open roadmap PR specifies it. | 48 |
-| Prerequisites planned | Not a target anywhere, but its main prerequisites are targets or already exist. | 28 |
-| Unplanned | Neither it nor its main prerequisites are planned. | 8 |
+| Roadmap PR | Only an open roadmap PR specifies it. | 51 |
+| Prerequisites planned | Not a target anywhere, but its main prerequisites are targets or already exist. | 26 |
+| Unplanned | Neither it nor its main prerequisites are planned. | 7 |
 
 No definition is in Mathlib in the generality the papers need.
 
@@ -135,11 +135,11 @@ No definition is in Mathlib in the generality the papers need.
 | --- | --- | --- | --- | --- | --- |
 | 91 | Anosov flow | Prerequisites planned | [write](tasks/needs-roadmap-written.md) | Code: `flowOf`, continuous distributions, Riemannian metrics | [census](census/091.md) |
 | 92 | Billiard ball map of a convex billiard table | Merged roadmap | [formalize](tasks/ready-to-formalize-in-tau-ceti.md) | [CotangentLagrangian](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/SymplecticGeometry/CotangentLagrangian/README.md) C3.1 ([SymplecticGeometry](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/SymplecticGeometry/README.md)) | [census](census/092.md) |
-| 93 | Billiard flow in a polygon | Unplanned | [write](tasks/needs-roadmap-written.md) |  | [census](census/093.md) |
+| 93 | Billiard flow in a polygon | Roadmap PR | [review](tasks/needs-roadmap-review.md) | PR [#2231](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2231) §§9.1–9.3 (`billiardFlow`, `liouvilleMeasure`); weak mixing §1.0, §3.2 | [census](census/093.md) |
 | 94 | Borel complete class of countable structures | Prerequisites planned | [write](tasks/needs-roadmap-written.md) | Code: `Setoid.BorelReducible`, `RelationalConfiguration`, `isoSetoid`; PR [#1316](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1316) | [census](census/094.md) |
 | 95 | Dynamical degree of a dominant rational self-map | Prerequisites planned | [write](tasks/needs-roadmap-written.md) | PR [#545](https://github.com/TauCetiProject/TauCetiRoadmap/pull/545) (N¹, nef classes, intersection numbers); Mathlib rational maps | [census](census/095.md) |
-| 96 | Equilibrium state (measure) of a Hölder potential | Prerequisites planned | [write](tasks/needs-roadmap-written.md) | KS entropy in PRs [#851](https://github.com/TauCetiProject/TauCetiRoadmap/pull/851) §4.2, [#1335](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1335); Mathlib `Dynamics.coverEntropy` | [census](census/096.md) |
-| 97 | Measure of maximal entropy | Prerequisites planned | [write](tasks/needs-roadmap-written.md) | KS entropy in PRs [#851](https://github.com/TauCetiProject/TauCetiRoadmap/pull/851) §4.2, [#1335](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1335); Mathlib `Dynamics.coverEntropy` | [census](census/097.md) |
+| 96 | Equilibrium state (measure) of a Hölder potential | Roadmap PR | [review](tasks/needs-roadmap-review.md) | PR [#2231](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2231) §§5.4–5.5 (pressure), §§7.1, 7.3, §8.1 `IsEquilibriumState`, `IsFlowEquilibriumState`; KS entropy in PRs [#851](https://github.com/TauCetiProject/TauCetiRoadmap/pull/851) §4.2, [#1335](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1335); Mathlib `Dynamics.coverEntropy` | [census](census/096.md) |
+| 97 | Measure of maximal entropy | Roadmap PR | [review](tasks/needs-roadmap-review.md) | PR [#2231](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2231) §7.2, §8.1 `IsMeasureOfMaximalEntropy`, §8.2; KS entropy in PRs [#851](https://github.com/TauCetiProject/TauCetiRoadmap/pull/851) §4.2, [#1335](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1335); Mathlib `Dynamics.coverEntropy` | [census](census/097.md) |
 | 98 | Polish space of countable structures $\mathrm{Mod}_L(\omega)$ | Partly in code | [review](tasks/needs-roadmap-review.md) | Code: `RelationalConfiguration L ℕ` (relational languages); rest in PR [#1316](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1316) | [census](census/098.md) |
 | 99 | Scaling limit of lattice $\phi^4$ fields (reachable random field) | Unplanned | [write](tasks/needs-roadmap-written.md) | Ingredients in Mathlib (product measures, densities, convergence in distribution) | [census](census/099.md) |
 | 100 | Translation-invariant ergodic Gibbs measure on lozenge tilings of given slope | Unplanned | [write](tasks/needs-roadmap-written.md) | Ingredients in Mathlib (perfect matchings, conditional expectation, ergodicity) | [census](census/100.md) |

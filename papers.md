@@ -41,7 +41,7 @@ Papers are grouped by the least-advanced status among their listed definitions (
 
 ## Bottleneck: open roadmap PR
 
-28 papers.
+30 papers.
 
 - <a id="202019113"></a>**[2020·191(1)·3]** Euclidean triangles have no hot spots, Judge, Mondal. https://doi.org/10.4007/annals.2020.191.1.3  
   #34 Neumann eigenvalues and eigenfunctions of the Laplacian on a bounded domain (Roadmap PR)
@@ -59,6 +59,8 @@ Papers are grouped by the least-advanced status among their listed definitions (
   #67 Local components of an automorphic representation (restricted tensor product) (Roadmap PR), #73 Central character of an automorphic representation (Roadmap PR), #83 Schwartz (Hecke) algebra of an adelic reductive group (Roadmap PR), #90 The $\pi$-nearly isotypic cuspidal subspace (Roadmap PR)
 - <a id="202119431"></a>**[2021·194(3)·1]** Polynomial structure of Gromov–Witten potential of quintic 3-folds, Chang, Guo, Li. https://doi.org/10.4007/annals.2021.194.3.1  
   #16 Rational Chow groups of a Deligne--Mumford stack and the degree of zero-cycles (Roadmap PR), #24 Moduli stack of stable maps $\overline{\mathcal{M}}_{g,n}(X,\beta)$ (Roadmap PR), #27 Perfect obstruction theory and virtual fundamental class (Roadmap PR)
+- <a id="202219522"></a>**[2022·195(2)·2]** Measures of maximal entropy for surface diffeomorphisms, Buzzi, Crovisier, Sarig. https://doi.org/10.4007/annals.2022.195.2.2  
+  #97 Measure of maximal entropy (Roadmap PR)
 - <a id="202219631"></a>**[2022·196(3)·1]** Zimmer's conjecture: Subexponential growth, measure rigidity, and strong property (T), Brown, Fisher, Hurtado. https://doi.org/10.4007/annals.2022.196.3.1  
   #1 Real rank of a semisimple Lie group (Roadmap PR), #4 Parabolic subgroups of a real semisimple Lie group (minimal and standard parabolics) (Partly in code)
 - <a id="202219632"></a>**[2022·196(3)·2]** Invariant measures and measurable projective factors for actions of higher-rank lattices on manifolds, Brown, Hertz, Wang. https://doi.org/10.4007/annals.2022.196.3.2  
@@ -97,12 +99,14 @@ Papers are grouped by the least-advanced status among their listed definitions (
   #7 Discrete series representations of $\mathrm{GL}_2(\mathbb{R})$ (Roadmap PR), #67 Local components of an automorphic representation (restricted tensor product) (Roadmap PR), #72 CM automorphic representation (Roadmap PR), #86 Symmetric power of a Weil--Deligne representation (Roadmap PR)
 - <a id="202620321"></a>**[2026·203(2)·1]** Bethe–Sommerfeld Conjecture and absolutely continuous spectrum of multi-dimensional quasi-periodic Schrödinger operators, Karpeshina, Parnovski, Shterenberg. https://doi.org/10.4007/annals.2026.203.2.1  
   #35 Absolutely continuous spectrum of a self-adjoint operator (Roadmap PR), #45 Schrödinger operator $-\Delta+V$ on $L^2(\mathbb{R}^d)$ (Roadmap PR)
+- <a id="202620331"></a>**[2026·203(3)·1]** Weakly mixing polygonal billiards, Chaika, Forni. https://doi.org/10.4007/annals.2026.203.3.1  
+  #93 Billiard flow in a polygon (Roadmap PR)
 - <a id="202620333"></a>**[2026·203(3)·3]** Quantum variance on quaternion algebras, III, Nelson. https://doi.org/10.4007/annals.2026.203.3.3  
   #5 Infinitesimal character (and Casimir eigenvalue) of a representation of a real reductive group (Partly in code), #7 Discrete series representations of $\mathrm{GL}_2(\mathbb{R})$ (Roadmap PR)
 
 ## Bottleneck: prerequisites planned
 
-23 papers.
+22 papers.
 
 - <a id="202019123"></a>**[2020·191(2)·3]** A $k$-linear triangulated category without a model, Rizzardo, Van den Bergh. https://doi.org/10.4007/annals.2020.191.2.3  
   #10 Hochschild--Kostant--Rosenberg antisymmetrisation map (Prerequisites planned)
@@ -120,10 +124,8 @@ Papers are grouped by the least-advanced status among their listed definitions (
   #95 Dynamical degree of a dominant rational self-map (Prerequisites planned)
 - <a id="202219512"></a>**[2022·195(1)·2]** The Gaussian Double-Bubble and Multi-Bubble Conjectures, Milman, Neeman. https://doi.org/10.4007/annals.2022.195.1.2  
   #55 Gaussian $q$-cluster (Prerequisites planned)
-- <a id="202219522"></a>**[2022·195(2)·2]** Measures of maximal entropy for surface diffeomorphisms, Buzzi, Crovisier, Sarig. https://doi.org/10.4007/annals.2022.195.2.2  
-  #97 Measure of maximal entropy (Prerequisites planned)
 - <a id="202319712"></a>**[2023·197(1)·2]** Smooth mixing Anosov flows in dimension three are exponentially mixing, Tsujii, Zhang. https://doi.org/10.4007/annals.2023.197.1.2  
-  #32 The spaces $C^k(M)$ and $C^{k,\alpha}(M)$ on a compact manifold (Merged roadmap), #91 Anosov flow (Prerequisites planned), #96 Equilibrium state (measure) of a Hölder potential (Prerequisites planned)
+  #32 The spaces $C^k(M)$ and $C^{k,\alpha}(M)$ on a compact manifold (Merged roadmap), #91 Anosov flow (Prerequisites planned), #96 Equilibrium state (measure) of a Hölder potential (Roadmap PR)
 - <a id="202319734"></a>**[2023·197(3)·4]** Stable minimal hypersurfaces in ℝ^N+1+ℓ with singular set an arbitrary closed K⊂{0}×ℝ^ℓ, Simon. https://doi.org/10.4007/annals.2023.197.3.4  
   #49 Second fundamental form, principal curvatures and mean curvature of a hypersurface (Merged roadmap), #53 Stationary varifold (Prerequisites planned), #65 Strict stability of a minimal cone/hypersurface (Simon's inequality) (Prerequisites planned)
 - <a id="202319812"></a>**[2023·198(1)·2]** Transversality and super-rigidity for multiply covered holomorphic curves, Wendl. https://doi.org/10.4007/annals.2023.198.1.2  
@@ -153,7 +155,7 @@ Papers are grouped by the least-advanced status among their listed definitions (
 
 ## Bottleneck: unplanned
 
-8 papers.
+7 papers.
 
 - <a id="202119413"></a>**[2021·194(1)·3]** Marginal triviality of the scaling limits of critical 4D Ising and $\lambda\phi_4^4$ models, Aizenman, Duminil-Copin. https://doi.org/10.4007/annals.2021.194.1.3  
   #99 Scaling limit of lattice $\phi^4$ fields (reachable random field) (Unplanned)
@@ -169,5 +171,3 @@ Papers are grouped by the least-advanced status among their listed definitions (
   #33 Domain of dependence and development of initial data for the compressible Euler equations (Unplanned), #50 Lorentzian manifold, time orientation and spacetime (Partly in code), #51 Null (characteristic) hypersurface of a Lorentzian manifold (Prerequisites planned)
 - <a id="202520223"></a>**[2025·202(2)·3]** On the stability of multi-dimensional rarefaction waves II: existence of solutions and applications to the Riemann problem, Luo, Yu. https://doi.org/10.4007/annals.2025.202.2.3  
   #33 Domain of dependence and development of initial data for the compressible Euler equations (Unplanned), #50 Lorentzian manifold, time orientation and spacetime (Partly in code), #51 Null (characteristic) hypersurface of a Lorentzian manifold (Prerequisites planned)
-- <a id="202620331"></a>**[2026·203(3)·1]** Weakly mixing polygonal billiards, Chaika, Forni. https://doi.org/10.4007/annals.2026.203.3.1  
-  #93 Billiard flow in a polygon (Unplanned)

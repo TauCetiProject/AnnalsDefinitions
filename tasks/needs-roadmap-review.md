@@ -64,10 +64,11 @@ A definition appears under every PR that specifies it.
 - feat: add the RealSemisimpleLieGroups roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2229: #1, #4, #62
 - QuasiregularMaps: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2134: #41, #42
 - SobolevMapsBetweenManifolds: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2230: #41, #42, #47
+- Add classical ergodic theory, entropy and flows roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2231: #93, #96, #97
 
 ## By definition
 
-51 definitions.
+54 definitions.
 
 
 ### Algebra, representation theory & homotopy theory
@@ -188,5 +189,11 @@ A definition appears under every PR that specifies it.
 
 ### Probability, combinatorics, dynamics & logic
 
+- **#93 Billiard flow in a polygon.** PR [#2231](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2231) §9.1 (`PolygonalDomain`, holes allowed), §9.2 (`billiardPhaseSpace`, collisions, null `billiardSingularSet`), §9.3 (`billiardFlow`, invariant `liouvilleMeasure`); weak mixing of real flows §1.0, §3.2.  
+  Papers: [2026·203(3)·1] Weakly mixing polygonal billiards. [census](../census/093.md)
+- **#96 Equilibrium state (measure) of a Hölder potential.** PR [#2231](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2231) §5.4 `topologicalPressure`, §5.5 `flowTopologicalPressure` (`P_g(F) = P_{g¹}(F₁)`), §6.4 (Abramov), §§7.1, 7.3 (variational principles), §8.1 `IsEquilibriumState`, `IsFlowEquilibriumState`, §8.2; KS entropy from PRs [#851](https://github.com/TauCetiProject/TauCetiRoadmap/pull/851) §4.2 and [#1335](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1335) §§2.6–2.7; Mathlib `Dynamics.coverEntropy`. The paper also needs Anosov flows (#91) and the Bowen–Ruelle theorem, which no roadmap plans.  
+  Papers: [2023·197(1)·2] Smooth mixing Anosov flows in dimension three are exponentially mixing. [census](../census/096.md)
+- **#97 Measure of maximal entropy.** PR [#2231](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2231) §7.2 (variational principle), §6.2 (Jacobs, upper semicontinuity for expansive maps), §8.1 `IsMeasureOfMaximalEntropy`, §8.2 (convexity, ergodic extreme points, existence); KS entropy from PRs [#851](https://github.com/TauCetiProject/TauCetiRoadmap/pull/851) §4.2 and [#1335](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1335) §§2.6–2.7; Mathlib `Dynamics.coverEntropy`.  
+  Papers: [2022·195(2)·2] Measures of maximal entropy for surface diffeomorphisms. [census](../census/097.md)
 - **#98 Polish space of countable structures $\mathrm{Mod}_L(\omega)$.** Code: `RelationalConfiguration L ℕ` (relational languages); rest in PR [#1316](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1316). Partly in code (relational languages); function symbols and the rest of the theory are PR [#1316](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1316).  
   Papers: [2024·199(3)·4] Torsion-free abelian groups are Borel complete. [census](../census/098.md)
