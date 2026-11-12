@@ -106,7 +106,7 @@ Papers are grouped by the least-advanced status among their listed definitions (
 
 ## Bottleneck: prerequisites planned
 
-22 papers.
+23 papers.
 
 - <a id="202019123"></a>**[2020·191(2)·3]** A $k$-linear triangulated category without a model, Rizzardo, Van den Bergh. https://doi.org/10.4007/annals.2020.191.2.3  
   #10 Hochschild--Kostant--Rosenberg antisymmetrisation map (Prerequisites planned)
@@ -126,6 +126,8 @@ Papers are grouped by the least-advanced status among their listed definitions (
   #55 Gaussian $q$-cluster (Prerequisites planned)
 - <a id="202319712"></a>**[2023·197(1)·2]** Smooth mixing Anosov flows in dimension three are exponentially mixing, Tsujii, Zhang. https://doi.org/10.4007/annals.2023.197.1.2  
   #32 The spaces $C^k(M)$ and $C^{k,\alpha}(M)$ on a compact manifold (Merged roadmap), #91 Anosov flow (Prerequisites planned), #96 Equilibrium state (measure) of a Hölder potential (Roadmap PR)
+- <a id="202319713"></a>**[2023·197(1)·3]** Special subvarieties of non-arithmetic ball quotients and Hodge theory, Baldi, Ullmo. https://doi.org/10.4007/annals.2023.197.1.3  
+  #15 Ball quotients as quasi-projective varieties (Prerequisites planned), #31 Totally geodesic subvariety of a ball quotient (Prerequisites planned), #68 Arithmetic lattice in a semisimple Lie group (Roadmap PR)
 - <a id="202319734"></a>**[2023·197(3)·4]** Stable minimal hypersurfaces in ℝ^N+1+ℓ with singular set an arbitrary closed K⊂{0}×ℝ^ℓ, Simon. https://doi.org/10.4007/annals.2023.197.3.4  
   #49 Second fundamental form, principal curvatures and mean curvature of a hypersurface (Merged roadmap), #53 Stationary varifold (Prerequisites planned), #65 Strict stability of a minimal cone/hypersurface (Simon's inequality) (Prerequisites planned)
 - <a id="202319812"></a>**[2023·198(1)·2]** Transversality and super-rigidity for multiply covered holomorphic curves, Wendl. https://doi.org/10.4007/annals.2023.198.1.2  
@@ -155,12 +157,10 @@ Papers are grouped by the least-advanced status among their listed definitions (
 
 ## Bottleneck: unplanned
 
-7 papers.
+6 papers.
 
 - <a id="202119413"></a>**[2021·194(1)·3]** Marginal triviality of the scaling limits of critical 4D Ising and $\lambda\phi_4^4$ models, Aizenman, Duminil-Copin. https://doi.org/10.4007/annals.2021.194.1.3  
   #99 Scaling limit of lattice $\phi^4$ fields (reachable random field) (Unplanned)
-- <a id="202319713"></a>**[2023·197(1)·3]** Special subvarieties of non-arithmetic ball quotients and Hodge theory, Baldi, Ullmo. https://doi.org/10.4007/annals.2023.197.1.3  
-  #15 Ball quotients as quasi-projective varieties (Prerequisites planned), #31 Totally geodesic subvariety of a ball quotient (Unplanned), #68 Arithmetic lattice in a semisimple Lie group (Roadmap PR)
 - <a id="202319831"></a>**[2023·198(3)·1]** Universality for lozenge tiling local statistics, Aggarwal. https://doi.org/10.4007/annals.2023.198.3.1  
   #100 Translation-invariant ergodic Gibbs measure on lozenge tilings of given slope (Unplanned)
 - <a id="202319833"></a>**[2023·198(3)·3]** Statistical dynamics of a hard sphere gas: fluctuating Boltzmann equation and large deviations, Bodineau, Gallagher, Saint-Raymond, Sergio. https://doi.org/10.4007/annals.2023.198.3.3  

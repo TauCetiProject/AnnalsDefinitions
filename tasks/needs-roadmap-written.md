@@ -141,9 +141,9 @@ PR [#1027](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1027) UO-E06 sp
 
 Sources: Taylor, *PDE III*, Ch. 16; Majda, *Compressible Fluid Flow and Systems of Conservation Laws*; Bär–Ginoux–Pfäffle, *Wave Equations on Lorentzian Manifolds*. Neighbours: PDE, LocalVariationalFieldTheory.
 
-Builds on PR [#2232](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2232) (LorentzianGeometry), which specifies #50, #51, Lipschitz causal curves (§C2.2) and domains of dependence and Cauchy horizons for smooth spacetimes without boundary (§C6.2).
+Builds on PR [#2232](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2232) (LorentzianGeometry), which specifies #50, #51, the acoustical metric on `ℝ × Σ` (§C1.3), domains of dependence inside arbitrary subsets with boundary for continuous metrics (§C6.6) and Cauchy horizons of `C¹` metrics (§C6.7), and names this roadmap as the owner of the Euler equations, their states, developments and maximal developments.
 
-- **#33 Domain of dependence and development of initial data for the compressible Euler equations.** Lorentzian inputs in PR [#2232](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2232) §C2.2, §C3.2, §C6.2 (`D^±` for smooth spacetimes).  
+- **#33 Domain of dependence and development of initial data for the compressible Euler equations.** Lorentzian side in PR [#2232](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2232) §C1.3 (acoustical metric), §C6.6 (`D^+_D(S)` in subsets, 33.1–33.2), §C6.7 (`C¹` Cauchy horizons and characteristic boundaries on open sets); developments, Proposition 33.4 and `D_max` remain.  
   Papers: [2025·202(2)·2] On the stability of multi-dimensional rarefaction waves I: the energy estimates; [2025·202(2)·3] On the stability of multi-dimensional rarefaction waves II: existence of solutions and applications to the Riemann problem. [census](../census/033.md)
 
 ### Pluripotential theory, complex Monge–Ampère and Hessian equations
@@ -155,13 +155,13 @@ Sources: Guedj–Zeriahi, *Degenerate Complex Monge–Ampère Equations*; Széke
 
 ### Complex hyperbolic geometry and ball quotients
 
-Sources: Goldman, *Complex Hyperbolic Geometry*; Mok, on projective algebraicity of ball quotients; Borel–Ji. Builds on PR [#2229](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2229) (RealSemisimpleLieGroups), which specifies `SU(n,1)/S(U(n)×U(1))` as a Riemannian symmetric space, its totally geodesic submanifolds and its quotients by discrete subgroups.
+Sources: Goldman, *Complex Hyperbolic Geometry*; Mok, on projective algebraicity of ball quotients; Borel–Ji. Builds on PR [#2229](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2229) (RealSemisimpleLieGroups), whose §5.7 specifies complex hyperbolic space `PU(1,n)/K` in the ball model with its invariant Kähler metric and its complex and totally real totally geodesic submanifolds (Proposition 31.3), and whose §5.6 treats quotients by discrete subgroups; it leaves Selberg's lemma, non-arithmetic ball quotients and their Siu–Yau–Mok compactification outside. Lattices and arithmetic lattices are PR [#792](https://github.com/TauCetiProject/TauCetiRoadmap/pull/792).
 
 PR [#933](https://github.com/TauCetiProject/TauCetiRoadmap/pull/933) §2.7 specifies arithmetic ball quotients.
 
-- **#15 Ball quotients as quasi-projective varieties.** PR [#933](https://github.com/TauCetiProject/TauCetiRoadmap/pull/933) §2.7 (arithmetic quotients); analytification PR [#848](https://github.com/TauCetiProject/TauCetiRoadmap/pull/848); Hermitian domains PR [#1038](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1038).  
+- **#15 Ball quotients as quasi-projective varieties.** Ball and `PU(1,n)` in PR [#2229](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2229) §5.7; PR [#933](https://github.com/TauCetiProject/TauCetiRoadmap/pull/933) §2.7 (arithmetic quotients); analytification PR [#848](https://github.com/TauCetiProject/TauCetiRoadmap/pull/848); Hermitian domains PR [#1038](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1038).  
   Papers: [2023·197(1)·3] Special subvarieties of non-arithmetic ball quotients and Hodge theory. [census](../census/015.md)
-- **#31 Totally geodesic subvariety of a ball quotient.** [RiemannianGeometry](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/RiemannianGeometry/README.md) R5a (total geodesicity).  
+- **#31 Totally geodesic subvariety of a ball quotient.** [RiemannianGeometry](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/RiemannianGeometry/README.md) R5a (total geodesicity); ball model and Proposition 31.3 in PR [#2229](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2229) §5.7.  
   Papers: [2023·197(1)·3] Special subvarieties of non-arithmetic ball quotients and Hodge theory. [census](../census/031.md)
 
 ### Canonical systems and nonlinear Fourier analysis
@@ -175,16 +175,16 @@ Sources: Remling, *Spectral Theory of Canonical Systems*; de Branges, *Hilbert S
 
 ### Uniformly hyperbolic dynamics and thermodynamic formalism
 
-Sources: Katok–Hasselblatt, *Introduction to the Modern Theory of Dynamical Systems*; Fisher–Hasselblatt, *Hyperbolic Flows*; Bowen, *Equilibrium States*. Builds on PR [#2231](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2231) (ClassicalErgodicTheory), which specifies flow pressure, the variational principle and equilibrium states (#96).
+Sources: Katok–Hasselblatt, *Introduction to the Modern Theory of Dynamical Systems*; Fisher–Hasselblatt, *Hyperbolic Flows*; Bowen, *Equilibrium States*. Builds on PR [#2231](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2231) (ClassicalErgodicTheory), which specifies flow pressure, the variational principle, equilibrium states (#96), exponential mixing (§3.6), and Bowen's uniqueness theorem for expansive flows with specification and for suspension flows over subshifts of finite type (§§8.4–8.6); it names Anosov and Axiom A dynamics as outside it, consuming those sections.
 
-- **#91 Anosov flow.** Code: `flowOf`, continuous distributions, Riemannian metrics.  
+- **#91 Anosov flow.** Code: `flowOf`, continuous distributions, Riemannian metrics; exponential mixing in PR [#2231](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2231) §3.6.  
   Papers: [2023·197(1)·2] Smooth mixing Anosov flows in dimension three are exponentially mixing. [census](../census/091.md)
 
 ### Billiards and kinetic limits
 
-Sources: Tabachnikov, *Geometry and Billiards*; Chernov–Markarian, *Chaotic Billiards*; Gallagher–Saint-Raymond–Texier, *From Newton to Boltzmann*. Builds on PR [#2231](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2231) (ClassicalErgodicTheory), whose Layer 9 constructs polygonal billiard flows with their Liouville measure (#93).
+Sources: Tabachnikov, *Geometry and Billiards*; Chernov–Markarian, *Chaotic Billiards*; Gallagher–Saint-Raymond–Texier, *From Newton to Boltzmann*. Builds on PR [#2231](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2231) (ClassicalErgodicTheory), whose Layer 9 constructs polygonal billiard flows with their Liouville measure (#93) and whose §3.5 specifies flows defined off a null set, their realization from an almost-everywhere group law, disjoint unions and transport of densities; it names the hard-sphere flow as outside it, consuming §3.5.
 
-- **#39 Hard sphere dynamics on the torus.**  
+- **#39 Hard sphere dynamics on the torus.** Almost-everywhere flows in PR [#2231](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2231) §3.5.  
   Papers: [2023·198(3)·3] Statistical dynamics of a hard sphere gas: fluctuating Boltzmann equation and large deviations. [census](../census/039.md)
 
 ### Classical statistical mechanics: Gibbs measures, lattice spin systems, dimers
@@ -214,9 +214,9 @@ Sources: Gromov, *Filling Riemannian Manifolds*; Bridson, *The Geometry of the W
 
 Sources: Goldman, *The Symplectic Nature of Fundamental Groups of Surfaces*; Labourie, *Lectures on Representations of Surface Groups*; Simpson, *Higgs Bundles and Local Systems*.
 
-Cartan involutions and maximal compact subgroups of real reductive groups are in PR [#2229](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2229) Layer 0, §2.2 and §5.4.
+Cartan involutions and maximal compact subgroups of real reductive groups are in PR [#2229](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2229) Layer 0, §2.2 and §5.4, and real forms of complex reductive groups with their Cartan involutions (Definition 54.1) in its §2.5; it names representation and character varieties of surface groups as outside it.
 
-- **#54 Character variety of a surface group in a real reductive group.** [LieGroups](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/RepresentationTheory/LieGroups/README.md) L7, L9; PR [#1169](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1169) (PSL₂(ℝ)).  
+- **#54 Character variety of a surface group in a real reductive group.** [LieGroups](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/RepresentationTheory/LieGroups/README.md) L7, L9; real forms and Cartan involutions in PR [#2229](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2229) §2.5; PR [#1169](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1169) (PSL₂(ℝ)).  
   Papers: [2024·200(3)·1] A general Cayley correspondence and higher rank Teichmüller spaces. [census](../census/054.md)
 
 ### Degree growth of rational maps
