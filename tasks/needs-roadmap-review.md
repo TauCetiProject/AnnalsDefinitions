@@ -62,10 +62,12 @@ A definition appears under every PR that specifies it.
 - FiniteFlatGroupsAndIntegralPadicHodgeTheoryPartII: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/1843: #21
 - YangMillsConnectionsAndCaloricGauge: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2164: #37, #48
 - feat: add the RealSemisimpleLieGroups roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2229: #1, #4, #62
+- QuasiregularMaps: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2134: #41, #42
+- SobolevMapsBetweenManifolds: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2230: #41, #42, #47
 
 ## By definition
 
-48 definitions.
+51 definitions.
 
 
 ### Algebra, representation theory & homotopy theory
@@ -113,6 +115,12 @@ A definition appears under every PR that specifies it.
 
 - **#37 Caloric gauge and the manifold of caloric connections.** PR [#2164](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2164) Layer 9 (Yang–Mills heat flow), §§10.2–10.5 (caloric gauge, caloric manifold, tangent spaces).  
   Papers: [2021·194(2)·1] The threshold conjecture for the energy critical hyperbolic Yang–Mills equation. [census](../census/037.md)
+- **#41 Quasiregular map between Riemannian manifolds.** PR [#2134](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2134) (draft) §§2.1–2.3 (`K`-quasiregular maps, outer distortion), on the Sobolev class `W^{1,n}_loc(M,N)`, `Df`, `‖Df‖` and `J_f` of its supplier PR [#2230](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2230) §§4.2–4.3, §5.1, §§6.1–6.3 (#47).  
+  Papers: [2025·201(2)·3] De Rham algebras of closed quasiregularly elliptic manifolds are Euclidean. [census](../census/041.md)
+- **#42 Quasiregularly elliptic manifold.** PR [#2134](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2134) (draft) §§7.1–7.3, on #41 and the Sobolev class of PR [#2230](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2230).  
+  Papers: [2025·201(2)·3] De Rham algebras of closed quasiregularly elliptic manifolds are Euclidean. [census](../census/042.md)
+- **#47 Sobolev space $W^{1,p}_{\mathrm{loc}}(M,N)$ of maps between Riemannian manifolds.** PR [#2230](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2230) §§1.2, 2.1–2.2 (Proposition 47.1), §4.2 `IsSobolevMap` (chart independence), §4.3 `weakMfderiv`, §5.1 `‖Df‖`, §§6.1–6.3 `J_f` and Hadamard, §9.1 (Nash-embedding characterization); PR [#2134](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2134) (draft) contracts against these sections.  
+  Papers: [2025·201(2)·3] De Rham algebras of closed quasiregularly elliptic manifolds are Euclidean. [census](../census/047.md)
 - **#48 Topological class (instanton number) of a finite-energy connection on $\mathbb{R}^4$.** PR [#2164](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2164) §§5.2–5.5 (good global gauge, `Top(d, G)`), §6.4 (`SU(2)` instanton number). Closed-manifold analogue in PR [#936](https://github.com/TauCetiProject/TauCetiRoadmap/pull/936).  
   Papers: [2021·194(2)·1] The threshold conjecture for the energy critical hyperbolic Yang–Mills equation. [census](../census/048.md)
 

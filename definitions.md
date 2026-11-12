@@ -7,9 +7,9 @@ Status of each definition against Mathlib, Tau Ceti code, merged roadmaps and op
 | In Tau Ceti | The definition exists in Tau Ceti code, adequately for the cited papers. | 0 |
 | Partly in code | A special case or close variant exists in code, but not what the papers need. | 7 |
 | Merged roadmap | A merged roadmap specifies it as a target; not (fully) implemented. | 9 |
-| Roadmap PR | Only an open roadmap PR specifies it. | 47 |
+| Roadmap PR | Only an open roadmap PR specifies it. | 48 |
 | Prerequisites planned | Not a target anywhere, but its main prerequisites are targets or already exist. | 28 |
-| Unplanned | Neither it nor its main prerequisites are planned. | 9 |
+| Unplanned | Neither it nor its main prerequisites are planned. | 8 |
 
 No definition is in Mathlib in the generality the papers need.
 
@@ -68,13 +68,13 @@ No definition is in Mathlib in the generality the papers need.
 | 38 | Fully nonlinear complex Hessian-type equations on a compact Hermitian manifold | Prerequisites planned | [write](tasks/needs-roadmap-written.md) | [ComplexKahlerGeometry](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/ComplexKahlerGeometry/README.md) K1/K2/K5b/K6 (Hermitian and Kähler calculus) | [census](census/038.md) |
 | 39 | Hard sphere dynamics on the torus | Unplanned | [write](tasks/needs-roadmap-written.md) |  | [census](census/039.md) |
 | 40 | The Laplace–Beltrami operator on $L^2$ of a complete Riemannian manifold | Prerequisites planned | [write](tasks/needs-roadmap-written.md) | Code: `laplaceBeltrami`; closed case [ComplexKahlerGeometry](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/ComplexKahlerGeometry/README.md) K5a, [PseudodifferentialOperators](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/PseudodifferentialOperators/README.md) P7; Friedrichs extension PR [#1027](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1027) | [census](census/040.md) |
-| 41 | Quasiregular map between Riemannian manifolds | Roadmap PR | [write](tasks/needs-roadmap-written.md) | PR [#2134](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2134) (draft) §§2.1–2.3 | [census](census/041.md) |
-| 42 | Quasiregularly elliptic manifold | Roadmap PR | [write](tasks/needs-roadmap-written.md) | PR [#2134](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2134) (draft) §§7.1–7.3 | [census](census/042.md) |
+| 41 | Quasiregular map between Riemannian manifolds | Roadmap PR | [review](tasks/needs-roadmap-review.md) | PR [#2134](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2134) (draft) §§2.1–2.3; Sobolev class PR [#2230](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2230) §§4.2–4.3, 5.1, 6.1–6.3 | [census](census/041.md) |
+| 42 | Quasiregularly elliptic manifold | Roadmap PR | [review](tasks/needs-roadmap-review.md) | PR [#2134](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2134) (draft) §§7.1–7.3; Sobolev class PR [#2230](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2230) | [census](census/042.md) |
 | 43 | SU(1,1) non-linear Fourier transform of an $L^2$ function on the half-line | Unplanned | [write](tasks/needs-roadmap-written.md) |  | [census](census/043.md) |
 | 44 | Scattering functions of a real Dirac system | Unplanned | [write](tasks/needs-roadmap-written.md) |  | [census](census/044.md) |
 | 45 | Schrödinger operator $-\Delta+V$ on $L^2(\mathbb{R}^d)$ | Roadmap PR | [write](tasks/needs-roadmap-written.md) | PR [#1027](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1027) UO-E06 (d = 3); Kato–Rellich in code | [census](census/045.md) |
 | 46 | Schur multiplier on Schatten classes | Prerequisites planned | [write](tasks/needs-roadmap-written.md) | Code: Schatten classes; [CStarAlgebras](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/CStarAlgebras/README.md) C3.2 (completely bounded maps) | [census](census/046.md) |
-| 47 | Sobolev space $W^{1,p}_{\mathrm{loc}}(M,N)$ of maps between Riemannian manifolds | Unplanned | [write](tasks/needs-roadmap-written.md) | Contracted by PR [#2134](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2134) to a nonexistent SobolevMapsBetweenManifolds roadmap | [census](census/047.md) |
+| 47 | Sobolev space $W^{1,p}_{\mathrm{loc}}(M,N)$ of maps between Riemannian manifolds | Roadmap PR | [review](tasks/needs-roadmap-review.md) | PR [#2230](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2230) §4.2 `IsSobolevMap`, §4.3 `weakMfderiv`, §5.1, §6.2, §9.1; consumed by PR [#2134](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2134) | [census](census/047.md) |
 | 48 | Topological class (instanton number) of a finite-energy connection on $\mathbb{R}^4$ | Roadmap PR | [review](tasks/needs-roadmap-review.md) | PR [#2164](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2164) §§5.2–5.5, §6.4; closed-manifold analogue in PR [#936](https://github.com/TauCetiProject/TauCetiRoadmap/pull/936) | [census](census/048.md) |
 
 ## Geometry & topology

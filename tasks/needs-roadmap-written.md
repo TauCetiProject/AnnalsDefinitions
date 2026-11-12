@@ -6,7 +6,7 @@ Every one of the 100 definitions is in exactly one of four files: [ready-to-writ
 
 **Condition:** neither a merged roadmap nor an open PR names the definition as a target (or the ones that do cover only part of it). Something has to be written: a section of an existing roadmap or PR, or a new roadmap. Either way the unit of work is the theory the definition belongs to, not the definition. The groupings are proposals; each census file's "Library-scale gap" describes the theory in more detail.
 
-Order: among the new roadmaps, classical ergodic theory, Lorentzian geometry and causality, and Sobolev maps between manifolds unblock the most below them. The ergodic-theory roadmap underlies hyperbolic dynamics and billiards, the Lorentzian one underlies hyperbolic PDE, and the Gibbs/DLR formalism serves both lattice spin systems and dimers.
+Order: among the new roadmaps, classical ergodic theory and Lorentzian geometry and causality unblock the most below them. The ergodic-theory roadmap underlies hyperbolic dynamics and billiards, the Lorentzian one underlies hyperbolic PDE, and the Gibbs/DLR formalism serves both lattice spin systems and dimers.
 
 ## Extend an existing roadmap or PR
 
@@ -134,7 +134,7 @@ PR [#1027](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1027) UO-E06 sp
 
 ## New roadmaps
 
-22 definitions.
+19 definitions.
 
 
 ### Lorentzian geometry and causality
@@ -154,19 +154,6 @@ Needs #50, #51.
 
 - **#33 Domain of dependence and development of initial data for the compressible Euler equations.**  
   Papers: [2025·202(2)·2] On the stability of multi-dimensional rarefaction waves I: the energy estimates; [2025·202(2)·3] On the stability of multi-dimensional rarefaction waves II: existence of solutions and applications to the Riemann problem. [census](../census/033.md)
-
-### Sobolev maps between manifolds and quasiregular maps
-
-Sources: Ziemer, *Weakly Differentiable Functions*; Iwaniec–Martin, *Geometric Function Theory and Non-linear Analysis*. Neighbour: PDE.
-
-PR [#2134](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2134) (draft) specifies quasiregular maps (#41, #42) on top of #47, and contracts against this roadmap for #47.
-
-- **#47 Sobolev space $W^{1,p}_{\mathrm{loc}}(M,N)$ of maps between Riemannian manifolds.** Contracted by PR [#2134](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2134) to a nonexistent SobolevMapsBetweenManifolds roadmap.  
-  Papers: [2025·201(2)·3] De Rham algebras of closed quasiregularly elliptic manifolds are Euclidean. [census](../census/047.md)
-- **#41 Quasiregular map between Riemannian manifolds.** PR [#2134](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2134) (draft) §§2.1–2.3. Rests on #47.  
-  Papers: [2025·201(2)·3] De Rham algebras of closed quasiregularly elliptic manifolds are Euclidean. [census](../census/041.md)
-- **#42 Quasiregularly elliptic manifold.** PR [#2134](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2134) (draft) §§7.1–7.3. Rests on #47.  
-  Papers: [2025·201(2)·3] De Rham algebras of closed quasiregularly elliptic manifolds are Euclidean. [census](../census/042.md)
 
 ### Pluripotential theory, complex Monge–Ampère and Hessian equations
 

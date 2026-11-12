@@ -41,7 +41,7 @@ Papers are grouped by the least-advanced status among their listed definitions (
 
 ## Bottleneck: open roadmap PR
 
-27 papers.
+28 papers.
 
 - <a id="202019113"></a>**[2020·191(1)·3]** Euclidean triangles have no hot spots, Judge, Mondal. https://doi.org/10.4007/annals.2020.191.1.3  
   #34 Neumann eigenvalues and eigenfunctions of the Laplacian on a bounded domain (Roadmap PR)
@@ -81,6 +81,8 @@ Papers are grouped by the least-advanced status among their listed definitions (
   #64 Spin$^c$ structure on an oriented manifold (Roadmap PR)
 - <a id="202520112"></a>**[2025·201(1)·2]** Galois sections and p-adic period mappings, Betts, Stix. https://doi.org/10.4007/annals.2025.201.1.2  
   #84 Selmer sections and the localisation map (Roadmap PR)
+- <a id="202520123"></a>**[2025·201(2)·3]** De Rham algebras of closed quasiregularly elliptic manifolds are Euclidean, Heikkilä, Pankka. https://doi.org/10.4007/annals.2025.201.2.3  
+  #41 Quasiregular map between Riemannian manifolds (Roadmap PR), #42 Quasiregularly elliptic manifold (Roadmap PR), #47 Sobolev space $W^{1,p}_{\mathrm{loc}}(M,N)$ of maps between Riemannian manifolds (Roadmap PR)
 - <a id="202520211"></a>**[2025·202(1)·1]** Eisenstein–Kronecker classes, integrality of critical values of Hecke $L$-functions and $p$-adic interpolation, Kings, Sprang. https://doi.org/10.4007/annals.2025.202.1.1  
   #70 Abelian scheme with complex multiplication by $\mathcal{O}_L$ of CM type $\Sigma$ (Roadmap PR), #74 Complex CM periods of a CM abelian scheme (Roadmap PR), #75 Critical infinity types $\mathrm{Crit}_L(\Gamma)$ and the attached CM type (Roadmap PR)
 - <a id="202520231"></a>**[2025·202(3)·1]** The Shafarevich conjecture for hypersurfaces in abelian varieties, Lawrence, Sawin. https://doi.org/10.4007/annals.2025.202.3.1  
@@ -151,7 +153,7 @@ Papers are grouped by the least-advanced status among their listed definitions (
 
 ## Bottleneck: unplanned
 
-9 papers.
+8 papers.
 
 - <a id="202119413"></a>**[2021·194(1)·3]** Marginal triviality of the scaling limits of critical 4D Ising and $\lambda\phi_4^4$ models, Aizenman, Duminil-Copin. https://doi.org/10.4007/annals.2021.194.1.3  
   #99 Scaling limit of lattice $\phi^4$ fields (reachable random field) (Unplanned)
@@ -163,8 +165,6 @@ Papers are grouped by the least-advanced status among their listed definitions (
   #39 Hard sphere dynamics on the torus (Unplanned)
 - <a id="202419924"></a>**[2024·199(2)·4]** Pointwise convergence of the non-linear Fourier transform, Poltoratski. https://doi.org/10.4007/annals.2024.199.2.4  
   #43 SU(1,1) non-linear Fourier transform of an $L^2$ function on the half-line (Unplanned), #44 Scattering functions of a real Dirac system (Unplanned)
-- <a id="202520123"></a>**[2025·201(2)·3]** De Rham algebras of closed quasiregularly elliptic manifolds are Euclidean, Heikkilä, Pankka. https://doi.org/10.4007/annals.2025.201.2.3  
-  #41 Quasiregular map between Riemannian manifolds (Roadmap PR), #42 Quasiregularly elliptic manifold (Roadmap PR), #47 Sobolev space $W^{1,p}_{\mathrm{loc}}(M,N)$ of maps between Riemannian manifolds (Unplanned)
 - <a id="202520222"></a>**[2025·202(2)·2]** On the stability of multi-dimensional rarefaction waves I: the energy estimates, Luo, Yu. https://doi.org/10.4007/annals.2025.202.2.2  
   #33 Domain of dependence and development of initial data for the compressible Euler equations (Unplanned), #50 Lorentzian manifold, time orientation and spacetime (Partly in code), #51 Null (characteristic) hypersurface of a Lorentzian manifold (Prerequisites planned)
 - <a id="202520223"></a>**[2025·202(2)·3]** On the stability of multi-dimensional rarefaction waves II: existence of solutions and applications to the Riemann problem, Luo, Yu. https://doi.org/10.4007/annals.2025.202.2.3  
