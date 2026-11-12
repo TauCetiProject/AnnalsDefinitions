@@ -6,7 +6,7 @@ Every one of the 100 definitions is in exactly one of four files: [ready-to-writ
 
 **Condition:** neither a merged roadmap nor an open PR names the definition as a target (or the ones that do cover only part of it). Something has to be written: a section of an existing roadmap or PR, or a new roadmap. Either way the unit of work is the theory the definition belongs to, not the definition. The groupings are proposals; each census file's "Library-scale gap" describes the theory in more detail.
 
-Order: among the new roadmaps, Lorentzian geometry and causality unblocks the most below it: it underlies hyperbolic PDE. Hyperbolic dynamics and billiards build on open PR [#2231](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2231) (ClassicalErgodicTheory), and the Gibbs/DLR formalism serves both lattice spin systems and dimers.
+Order: hyperbolic PDE builds on open PR [#2232](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2232) (LorentzianGeometry), hyperbolic dynamics and billiards build on open PR [#2231](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2231) (ClassicalErgodicTheory), and the Gibbs/DLR formalism serves both lattice spin systems and dimers.
 
 ## Extend an existing roadmap or PR
 
@@ -134,25 +134,16 @@ PR [#1027](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1027) UO-E06 sp
 
 ## New roadmaps
 
-16 definitions.
+14 definitions.
 
-
-### Lorentzian geometry and causality
-
-Sources: O'Neill, *Semi-Riemannian Geometry*; Beem–Ehrlich–Easley, *Global Lorentzian Geometry*; Hawking–Ellis. Neighbours: RiemannianGeometry, Completed/HopfRinow.
-
-- **#50 Lorentzian manifold, time orientation and spacetime.** Code: `ContMDiffNondegenerateMetric` and its Levi-Civita connection ([Completed/HopfRinow](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/Completed/HopfRinow/README.md) L1).  
-  Papers: [2023·198(1)·3] Naked singularities for the Einstein vacuum equations: The exterior solution; [2025·201(3)·3] Naked singularity censoring with anisotropic apparent horizon; [2025·202(2)·1] The interior of dynamical vacuum black holes I: The $C^0$-stability of the Kerr Cauchy horizon; [2025·202(2)·2] On the stability of multi-dimensional rarefaction waves I: the energy estimates; [2025·202(2)·3] On the stability of multi-dimensional rarefaction waves II: existence of solutions and applications to the Riemann problem. [census](../census/050.md)
-- **#51 Null (characteristic) hypersurface of a Lorentzian manifold.** [Completed/HopfRinow](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/Completed/HopfRinow/README.md) L1 (metric, connection); needs #50.  
-  Papers: [2025·202(2)·2] On the stability of multi-dimensional rarefaction waves I: the energy estimates; [2025·202(2)·3] On the stability of multi-dimensional rarefaction waves II: existence of solutions and applications to the Riemann problem. [census](../census/051.md)
 
 ### Hyperbolic PDE: energy methods, symmetric hyperbolic systems, domains of dependence
 
 Sources: Taylor, *PDE III*, Ch. 16; Majda, *Compressible Fluid Flow and Systems of Conservation Laws*; Bär–Ginoux–Pfäffle, *Wave Equations on Lorentzian Manifolds*. Neighbours: PDE, LocalVariationalFieldTheory.
 
-Needs #50, #51.
+Builds on PR [#2232](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2232) (LorentzianGeometry), which specifies #50, #51, Lipschitz causal curves (§C2.2) and domains of dependence and Cauchy horizons for smooth spacetimes without boundary (§C6.2).
 
-- **#33 Domain of dependence and development of initial data for the compressible Euler equations.**  
+- **#33 Domain of dependence and development of initial data for the compressible Euler equations.** Lorentzian inputs in PR [#2232](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2232) §C2.2, §C3.2, §C6.2 (`D^±` for smooth spacetimes).  
   Papers: [2025·202(2)·2] On the stability of multi-dimensional rarefaction waves I: the energy estimates; [2025·202(2)·3] On the stability of multi-dimensional rarefaction waves II: existence of solutions and applications to the Riemann problem. [census](../census/033.md)
 
 ### Pluripotential theory, complex Monge–Ampère and Hessian equations

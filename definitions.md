@@ -7,8 +7,8 @@ Status of each definition against Mathlib, Tau Ceti code, merged roadmaps and op
 | In Tau Ceti | The definition exists in Tau Ceti code, adequately for the cited papers. | 0 |
 | Partly in code | A special case or close variant exists in code, but not what the papers need. | 7 |
 | Merged roadmap | A merged roadmap specifies it as a target; not (fully) implemented. | 9 |
-| Roadmap PR | Only an open roadmap PR specifies it. | 51 |
-| Prerequisites planned | Not a target anywhere, but its main prerequisites are targets or already exist. | 26 |
+| Roadmap PR | Only an open roadmap PR specifies it. | 52 |
+| Prerequisites planned | Not a target anywhere, but its main prerequisites are targets or already exist. | 25 |
 | Unplanned | Neither it nor its main prerequisites are planned. | 7 |
 
 No definition is in Mathlib in the generality the papers need.
@@ -60,7 +60,7 @@ No definition is in Mathlib in the generality the papers need.
 | # | Definition | Status | File | Where | Evidence |
 | --- | --- | --- | --- | --- | --- |
 | 32 | The spaces $C^k(M)$ and $C^{k,\alpha}(M)$ on a compact manifold | Merged roadmap | [formalize](tasks/ready-to-formalize-in-tau-ceti.md) | Code: C^k(M) Banach space, Hölder spaces on metric spaces; C^{k,α}(M) in [PseudodifferentialOperators](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/PseudodifferentialOperators/README.md) §5.4 | [census](census/032.md) |
-| 33 | Domain of dependence and development of initial data for the compressible Euler equations | Unplanned | [write](tasks/needs-roadmap-written.md) |  | [census](census/033.md) |
+| 33 | Domain of dependence and development of initial data for the compressible Euler equations | Unplanned | [write](tasks/needs-roadmap-written.md) | Lorentzian inputs in PR [#2232](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2232) §C2.2 (Lipschitz causal curves), §C3.2, §C6.2 (`D^±` for smooth spacetimes) | [census](census/033.md) |
 | 34 | Neumann eigenvalues and eigenfunctions of the Laplacian on a bounded domain | Roadmap PR | [review](tasks/needs-roadmap-review.md) | PR [#1614](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1614) Lane G item 32 | [census](census/034.md) |
 | 35 | Absolutely continuous spectrum of a self-adjoint operator | Roadmap PR | [review](tasks/needs-roadmap-review.md) | PR [#1027](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1027) UO-C03, on merged [SelfAdjointSpectralTheory](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/OperatorTheory/SelfAdjointSpectralTheory/README.md) SA-E01 | [census](census/035.md) |
 | 36 | Amenable trace on a C\*-algebra | Prerequisites planned | [write](tasks/needs-roadmap-written.md) | [CStarAlgebras](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/CStarAlgebras/README.md) C4.1, C6, C7.1, C8.3 (c.p.c. maps, nuclearity, quasidiagonality) | [census](census/036.md) |
@@ -82,8 +82,8 @@ No definition is in Mathlib in the generality the papers need.
 | # | Definition | Status | File | Where | Evidence |
 | --- | --- | --- | --- | --- | --- |
 | 49 | Second fundamental form, principal curvatures and mean curvature of a hypersurface | Merged roadmap | [formalize](tasks/ready-to-formalize-in-tau-ceti.md) | [RiemannianGeometry](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/RiemannianGeometry/README.md) R5a, R5a.2 (Euclidean case in code) | [census](census/049.md) |
-| 50 | Lorentzian manifold, time orientation and spacetime | Partly in code | [write](tasks/needs-roadmap-written.md) | Code: `ContMDiffNondegenerateMetric` and its Levi-Civita connection ([Completed/HopfRinow](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/Completed/HopfRinow/README.md) L1) | [census](census/050.md) |
-| 51 | Null (characteristic) hypersurface of a Lorentzian manifold | Prerequisites planned | [write](tasks/needs-roadmap-written.md) | [Completed/HopfRinow](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/Completed/HopfRinow/README.md) L1 (metric, connection); needs #50 | [census](census/051.md) |
+| 50 | Lorentzian manifold, time orientation and spacetime | Partly in code | [review](tasks/needs-roadmap-review.md) | Code: `ContMDiffNondegenerateMetric` and its Levi-Civita connection ([Completed/HopfRinow](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/Completed/HopfRinow/README.md) L1); full definition in PR [#2232](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2232) §§C0.1–C0.2, F1.2–F1.3, F1.7, C1.1, C2.1–C2.2 | [census](census/050.md) |
+| 51 | Null (characteristic) hypersurface of a Lorentzian manifold | Roadmap PR | [review](tasks/needs-roadmap-review.md) | PR [#2232](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2232) §C0.3, §C3.2 (optical functions), §C3.3 (null generators) | [census](census/051.md) |
 | 52 | Minimal hypersurface in a Riemannian manifold | Merged roadmap | [formalize](tasks/ready-to-formalize-in-tau-ceti.md) | [RiemannianGeometry](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/RiemannianGeometry/README.md) R5a.2, R5b | [census](census/052.md) |
 | 53 | Stationary varifold | Prerequisites planned | [write](tasks/needs-roadmap-written.md) | [GeometricCurrents](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/GeometricCurrents/README.md) G6 (varifolds induced by currents) | [census](census/053.md) |
 | 54 | Character variety of a surface group in a real reductive group | Prerequisites planned | [write](tasks/needs-roadmap-written.md) | [LieGroups](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/RepresentationTheory/LieGroups/README.md) L7, L9; PR [#1169](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1169) (PSL₂(ℝ)) | [census](census/054.md) |

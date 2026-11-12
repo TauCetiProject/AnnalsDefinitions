@@ -65,10 +65,11 @@ A definition appears under every PR that specifies it.
 - QuasiregularMaps: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2134: #41, #42
 - SobolevMapsBetweenManifolds: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2230: #41, #42, #47
 - Add classical ergodic theory, entropy and flows roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2231: #93, #96, #97
+- Add semi-Riemannian foundations and Lorentzian causality roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2232: #50, #51
 
 ## By definition
 
-54 definitions.
+56 definitions.
 
 
 ### Algebra, representation theory & homotopy theory
@@ -127,6 +128,10 @@ A definition appears under every PR that specifies it.
 
 ### Geometry & topology
 
+- **#50 Lorentzian manifold, time orientation and spacetime.** Code: `ContMDiffNondegenerateMetric` and its Levi-Civita connection ([Completed/HopfRinow](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/Completed/HopfRinow/README.md) L1). Partly in code (smooth nondegenerate metrics of any signature); Lorentzian scalar products and time cones, `C^k` and Hölder Lorentzian metrics on manifolds with boundary or corners, time orientations, causal curves and extensions are PR [#2232](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2232) §§C0.1–C0.2, §§F1.2–F1.3, §C1.1, §§C2.1–C2.2, §F1.7.  
+  Papers: [2023·198(1)·3] Naked singularities for the Einstein vacuum equations: The exterior solution; [2025·201(3)·3] Naked singularity censoring with anisotropic apparent horizon; [2025·202(2)·1] The interior of dynamical vacuum black holes I: The $C^0$-stability of the Kerr Cauchy horizon; [2025·202(2)·2] On the stability of multi-dimensional rarefaction waves I: the energy estimates; [2025·202(2)·3] On the stability of multi-dimensional rarefaction waves II: existence of solutions and applications to the Riemann problem. [census](../census/050.md)
+- **#51 Null (characteristic) hypersurface of a Lorentzian manifold.** PR [#2232](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2232) §C0.3 (causal type of hyperplanes), §C3.2 (null hypersurfaces, null normals, optical functions, eikonal equation), §C3.3 (null generators).  
+  Papers: [2025·202(2)·2] On the stability of multi-dimensional rarefaction waves I: the energy estimates; [2025·202(2)·3] On the stability of multi-dimensional rarefaction waves II: existence of solutions and applications to the Riemann problem. [census](../census/051.md)
 - **#59 Mapping class group of a punctured surface.** PR [#1231](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1231) §5.9; PRs [#1169](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1169), [#1728](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1728), [#271](https://github.com/TauCetiProject/TauCetiRoadmap/pull/271); merged [GeometricTopology](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/GeometricTopology/README.md) 1.7.2 (compact case).  
   Papers: [2024·199(2)·6] Canonical representations of surface groups. [census](../census/059.md)
 - **#61 Outer action of the mapping class group on the fundamental group.** PR [#1231](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1231) §5.9; PR [#1169](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1169) (`OuterAut`, Dehn–Nielsen–Baer).  
