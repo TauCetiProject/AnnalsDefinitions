@@ -19,6 +19,6 @@ Every one of the 100 definitions is in exactly one of four files: [ready-to-writ
 
 1 paper all of whose listed definitions are here.
 
-- [2024·200(1)·6] On $L^\infty$ estimates for fully non-linear partial differential equations (Guo, Phong), https://doi.org/10.4007/annals.2024.200.1.6: #14. The paper's equations are fully nonlinear elliptic equations on compact Kähler (and Hermitian) manifolds; check that the statement needs no further notions before formalizing it.
+- [2024·200(1)·6] On $L^\infty$ estimates for fully non-linear partial differential equations (Guo, Phong), https://doi.org/10.4007/annals.2024.200.1.6: #14. Theorem 1 (the `L^∞` bound for `C²` solutions of `f(λ[h_φ]) = e^F` on a compact Hermitian manifold) also needs two notions not in code, both small and definable inline over Tau Ceti: the eigenvalue vector `λ[h_φ]` of `ω + i∂∂̄φ` relative to `ω`, and the admissible pair `(f, Γ)` ([census 014](../census/014.md), [census 038](../census/038.md)). The rest is `TauCeti.manifoldLeviForm` (`i∂∂̄φ` for `C²` `φ`), `SmoothTwoForm.liouvilleMeasure` and `SmoothAlmostComplexStructure.ofComplexManifold`. Venue: [lean-eval](https://github.com/leanprover/lean-eval), which depends on Tau Ceti, once its stable Tau Ceti pin includes `liouvilleMeasure` and `ofComplexManifold` (its rc pin does); formal-conjectures depends only on Mathlib and is not a fit.
 
 The closest further definitions are nine with a special case or close variant in code (#4, #5, #6, #11, #12, #32, #50, #92, #98); each is filed according to where the rest of it is specified.
