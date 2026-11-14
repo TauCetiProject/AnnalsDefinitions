@@ -1,6 +1,6 @@
 # Needs roadmap review
 
-Snapshot 2026-11-11 (Tau Ceti `a6027b1d24fc`, Mathlib `1b1ccf4b088b`, roadmaps `5f7befb6`, 437 open roadmap PRs).
+Snapshot 2026-11-14 (Tau Ceti `c56184862`, Mathlib `e8ba86fa9744`, roadmaps `e1cd6a508`, 467 open roadmap PRs).
 
 Every one of the 100 definitions is in exactly one of four files: [ready-to-write-statements.md](ready-to-write-statements.md), [ready-to-formalize-in-tau-ceti.md](ready-to-formalize-in-tau-ceti.md), [needs-roadmap-review.md](needs-roadmap-review.md), [needs-roadmap-written.md](needs-roadmap-written.md). A definition is placed in the furthest-along file whose condition holds for the definition as Kevin Buzzard's text states it; gaps that matter only for a particular paper are noted on the entry.
 
@@ -14,14 +14,11 @@ A definition appears under every PR that specifies it.
 - Roadmap: GL₂ automorphic representations and transfer, https://github.com/TauCetiProject/TauCetiRoadmap/pull/931: #7, #72, #76
 - Roadmap: complex Shimura varieties and canonical models, https://github.com/TauCetiProject/TauCetiRoadmap/pull/933: #13, #70, #89
 - AutomorphicPadicLFunctionsPartII: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/1543: #70, #74, #75
-- Roadmap: smooth representations of local groups (depends on #785), https://github.com/TauCetiProject/TauCetiRoadmap/pull/1688: #67, #73, #86
-- Roadmap: adelic algebraic groups (depends on #785), https://github.com/TauCetiProject/TauCetiRoadmap/pull/792: #67, #68
 - Abelian schemes and arithmetic moduli (the Jacobian challenge, part II), https://github.com/TauCetiProject/TauCetiRoadmap/pull/849: #12, #78
 - Néron models and semistable abelian varieties, https://github.com/TauCetiProject/TauCetiRoadmap/pull/852: #78, #85
-- Add unbounded-operator spectral, extension and form theory roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/1027: #35
 - Shimura data, Hermitian domains and adelic level structures, https://github.com/TauCetiProject/TauCetiRoadmap/pull/1038: #13, #23
 - Teichmüller geometry: marked surfaces, finite actions and generic lattices, https://github.com/TauCetiProject/TauCetiRoadmap/pull/1169: #59, #61
-- Mordell finiteness by the Lawrence–Venkatesh method, https://github.com/TauCetiProject/TauCetiRoadmap/pull/1231: #59, #61
+- Mordell finiteness by the Lawrence–Venkatesh method, https://github.com/TauCetiProject/TauCetiRoadmap/pull/1231: #58, #59, #61
 - Roadmap: complex multiplication and explicit reciprocity, https://github.com/TauCetiProject/TauCetiRoadmap/pull/1254: #70, #74
 - EnriquesSurfacesAndIntegralNonexistence: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/1488: #19, #20
 - AutomorphicSpectralTheoryPartII: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/1761: #83, #90
@@ -63,13 +60,17 @@ A definition appears under every PR that specifies it.
 - YangMillsConnectionsAndCaloricGauge: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2164: #37, #48
 - feat: add the RealSemisimpleLieGroups roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2229: #1, #4, #62
 - QuasiregularMaps: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2134: #41, #42
-- SobolevMapsBetweenManifolds: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2230: #41, #42, #47
 - Add classical ergodic theory, entropy and flows roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2231: #93, #96, #97
 - Add semi-Riemannian foundations and Lorentzian causality roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2232: #50, #51
+- MathematicalBilliards: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2255: #93
+- AmenableTracesOnCStarAlgebras: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2260: #36
+- InverseGaloisAndArithmeticFundamentalGroupsPartII: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2263: #59
+- MappingClassGroupsAndCanonicalRepresentations: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2266: #58, #59, #61
+- GaloisActionOnEtaleCohomology: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2271: #22
 
 ## By definition
 
-56 definitions.
+55 definitions.
 
 
 ### Algebra, representation theory & homotopy theory
@@ -82,7 +83,7 @@ A definition appears under every PR that specifies it.
   Papers: [2024·200(2)·4] Brauer's Height Zero Conjecture; [2025·201(2)·2] The Alperin--McKay and Brauer's height zero conjecture for the prime 2. [census](../census/003.md)
 - **#4 Parabolic subgroups of a real semisimple Lie group (minimal and standard parabolics).** Code: algebraic parabolics `HopfIdeal.IsParabolic`, `Cocharacter.parabolic`. Partly in code (algebraic-group parabolics); the Lie-group parabolics are PR [#2229](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2229) §3.1, §§4.1–4.5 (standard parabolics, Langlands decompositions, type, comparison with `ℝ`-parabolics, complex-group `P_s`, parabolics of a real form `G^τ` as `G^τ ∩ Q`), with `P = MAN` also in PR [#1037](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1037) §2.3a.  
   Papers: [2022·196(3)·1] Zimmer's conjecture: Subexponential growth, measure rigidity, and strong property (T); [2022·196(3)·2] Invariant measures and measurable projective factors for actions of higher-rank lattices on manifolds; [2024·200(3)·1] A general Cayley correspondence and higher rank Teichmüller spaces. [census](../census/004.md)
-- **#5 Infinitesimal character (and Casimir eigenvalue) of a representation of a real reductive group.** Code: `harishChandraIso`, `centralCharacterModules` (semisimple, alg. closed); reductive and group level in PR [#1037](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1037) §2.2. Partly in code (semisimple case over an algebraically closed field); the rest is PR [#1037](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1037) §2.2.  
+- **#5 Infinitesimal character (and Casimir eigenvalue) of a representation of a real reductive group.** Code: `harishChandraIso`, `centralCharacterModules`, `UniversalEnvelopingAlgebra.centralCharacter` (semisimple, alg. closed); the reductive Harish-Chandra isomorphism in merged [LieHighestWeight](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/RepresentationTheory/LieHighestWeight/README.md) §9.2; the group level in PR [#1037](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1037) §2.2.  
   Papers: [2024·200(3)·2] Doubling constructions: Global functoriality for non-generic cuspidal representations; [2026·203(3)·3] Quantum variance on quaternion algebras, III. [census](../census/005.md)
 - **#7 Discrete series representations of $\mathrm{GL}_2(\mathbb{R})$.** PR [#1037](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1037) §§2.3–2.6; PR [#931](https://github.com/TauCetiProject/TauCetiRoadmap/pull/931) R16.2.13.  
   Papers: [2026·203(1)·4] Symmetric power functoriality for Hilbert modular forms; [2026·203(3)·3] Quantum variance on quaternion algebras, III. [census](../census/007.md)
@@ -101,6 +102,8 @@ A definition appears under every PR that specifies it.
   Papers: [2023·197(1)·1] There is no Enriques surface over the integers. [census](../census/020.md)
 - **#21 Fppf cohomology with supports in a closed subset.** PR [#1840](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1840) §0.2; PRs [#879](https://github.com/TauCetiProject/TauCetiRoadmap/pull/879), [#1843](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1843).  
   Papers: [2024·199(1)·2] Purity for flat cohomology. [census](../census/021.md)
+- **#22 Galois action on the étale cohomology of the geometric fibre.** PR [#2271](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2271) Layer 0 (`C` and `G_K`), §§1.1–1.3 (the action ρ(σ) = c_σ ∘ σ_X^*), §§2.1, 2.3, Layer 3; scheme case [EtaleCohomologyFoundations](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/EtaleCohomologyFoundations/README.md) §F.4.6; rigid étale sheaf theory in PR [#875](https://github.com/TauCetiProject/TauCetiRoadmap/pull/875).  
+  Papers: [2025·201(3)·2] Mod-$p$ Poincaré Duality in $p$-adic analytic geometry. [census](../census/022.md)
 - **#23 Hodge-generic abelian variety.** PR [#1038](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1038) §1.5 `hodgeGeneric`.  
   Papers: [2020·191(2)·7] Abelian varieties isogenous to no Jacobian. [census](../census/023.md)
 - **#24 Moduli stack of stable maps $\overline{\mathcal{M}}_{g,n}(X,\beta)$.** PR [#1998](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1998) Layer 3 `MbarMap`; PR [#990](https://github.com/TauCetiProject/TauCetiRoadmap/pull/990); [StableReduction](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/StableReduction/README.md) L10–11 (single stable maps).  
@@ -112,17 +115,15 @@ A definition appears under every PR that specifies it.
 
 - **#34 Neumann eigenvalues and eigenfunctions of the Laplacian on a bounded domain.** PR [#1614](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1614) Lane G item 32. PR [#1614](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1614) is an older branch of the [PDE](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/PDE/README.md) roadmap and may need rebasing.  
   Papers: [2020·191(1)·3] Euclidean triangles have no hot spots; [2022·196(3)·4] One can hear the shape of ellipses of small eccentricity. [census](../census/034.md)
-- **#35 Absolutely continuous spectrum of a self-adjoint operator.** PR [#1027](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1027) UO-C03, on merged [SelfAdjointSpectralTheory](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/OperatorTheory/SelfAdjointSpectralTheory/README.md) SA-E01.  
-  Papers: [2026·203(2)·1] Bethe–Sommerfeld Conjecture and absolutely continuous spectrum of multi-dimensional quasi-periodic Schrödinger operators. [census](../census/035.md)
 
+- **#36 Amenable trace on a C\*-algebra.** PR [#2260](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2260) §1.1 (tracial states), §1.5 (`tr_k`, 2-norm), §3.1 (`IsAmenableTrace`, `AdmitsFaithfulAmenableTrace`), §3.2, §3.4, §§4.1–4.4 (hypertraces, Connes–Kirchberg), §§5.3–5.4 (nuclear and exact cases), §8.5; consumes merged [CStarAlgebras](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/CStarAlgebras/README.md) C2.1, C4–C8 and [VonNeumannAlgebras](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/VonNeumannAlgebras/README.md) V13.  
+  Papers: [2020·192(2)·1] Subalgebras of simple AF-algebras. [census](../census/036.md)
 - **#37 Caloric gauge and the manifold of caloric connections.** PR [#2164](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2164) Layer 9 (Yang–Mills heat flow), §§10.2–10.5 (caloric gauge, caloric manifold, tangent spaces).  
   Papers: [2021·194(2)·1] The threshold conjecture for the energy critical hyperbolic Yang–Mills equation. [census](../census/037.md)
-- **#41 Quasiregular map between Riemannian manifolds.** PR [#2134](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2134) (draft) §§2.1–2.3 (`K`-quasiregular maps, outer distortion), on the Sobolev class `W^{1,n}_loc(M,N)`, `Df`, `‖Df‖` and `J_f` of its supplier PR [#2230](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2230) §§4.2–4.3, §5.1, §§6.1–6.3 (#47).  
+- **#41 Quasiregular map between Riemannian manifolds.** PR [#2134](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2134) (draft) §§2.1–2.3 (`K`-quasiregular maps, outer distortion), on the Sobolev class `W^{1,n}_loc(M,N)`, `Df`, `‖Df‖` and `J_f` of merged [SobolevMapsBetweenManifolds](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/SobolevMapsBetweenManifolds/README.md) §§4.2–4.3, §5.1, §§6.1–6.3 (#47).  
   Papers: [2025·201(2)·3] De Rham algebras of closed quasiregularly elliptic manifolds are Euclidean. [census](../census/041.md)
-- **#42 Quasiregularly elliptic manifold.** PR [#2134](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2134) (draft) §§7.1–7.3, on #41 and the Sobolev class of PR [#2230](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2230).  
+- **#42 Quasiregularly elliptic manifold.** PR [#2134](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2134) (draft) §§7.1–7.3, on #41 and the Sobolev class of merged [SobolevMapsBetweenManifolds](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/SobolevMapsBetweenManifolds/README.md).  
   Papers: [2025·201(2)·3] De Rham algebras of closed quasiregularly elliptic manifolds are Euclidean. [census](../census/042.md)
-- **#47 Sobolev space $W^{1,p}_{\mathrm{loc}}(M,N)$ of maps between Riemannian manifolds.** PR [#2230](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2230) §§1.2, 2.1–2.2 (Proposition 47.1), §4.2 `IsSobolevMap` (chart independence), §4.3 `weakMfderiv`, §5.1 `‖Df‖`, §§6.1–6.3 `J_f` and Hadamard, §9.1 (Nash-embedding characterization); PR [#2134](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2134) (draft) contracts against these sections.  
-  Papers: [2025·201(2)·3] De Rham algebras of closed quasiregularly elliptic manifolds are Euclidean. [census](../census/047.md)
 - **#48 Topological class (instanton number) of a finite-energy connection on $\mathbb{R}^4$.** PR [#2164](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2164) §§5.2–5.5 (good global gauge, `Top(d, G)`), §6.4 (`SU(2)` instanton number). Closed-manifold analogue in PR [#936](https://github.com/TauCetiProject/TauCetiRoadmap/pull/936).  
   Papers: [2021·194(2)·1] The threshold conjecture for the energy critical hyperbolic Yang–Mills equation. [census](../census/048.md)
 
@@ -132,9 +133,11 @@ A definition appears under every PR that specifies it.
   Papers: [2023·198(1)·3] Naked singularities for the Einstein vacuum equations: The exterior solution; [2025·201(3)·3] Naked singularity censoring with anisotropic apparent horizon; [2025·202(2)·1] The interior of dynamical vacuum black holes I: The $C^0$-stability of the Kerr Cauchy horizon; [2025·202(2)·2] On the stability of multi-dimensional rarefaction waves I: the energy estimates; [2025·202(2)·3] On the stability of multi-dimensional rarefaction waves II: existence of solutions and applications to the Riemann problem. [census](../census/050.md)
 - **#51 Null (characteristic) hypersurface of a Lorentzian manifold.** PR [#2232](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2232) §C0.3 (causal type of hyperplanes), §C3.2 (null hypersurfaces, null normals, optical functions, eikonal equation), §C3.3 (null generators).  
   Papers: [2025·202(2)·2] On the stability of multi-dimensional rarefaction waves I: the energy estimates; [2025·202(2)·3] On the stability of multi-dimensional rarefaction waves II: existence of solutions and applications to the Riemann problem. [census](../census/051.md)
-- **#59 Mapping class group of a punctured surface.** PR [#1231](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1231) §5.9; PRs [#1169](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1169), [#1728](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1728), [#271](https://github.com/TauCetiProject/TauCetiRoadmap/pull/271); merged [GeometricTopology](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/GeometricTopology/README.md) 1.7.2 (compact case).  
+- **#58 MCG-finite representation of a surface group.** PR [#2266](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2266) §2.1 (`HasFiniteConjugacyOrbitUnder`, MCG-finite), §0.2 (PMod and its based action on π₁); PR [#1231](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1231) §5.9 (Mod(S)).  
+  Papers: [2024·199(2)·6] Canonical representations of surface groups. [census](../census/058.md)
+- **#59 Mapping class group of a punctured surface.** PR [#1231](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1231) §5.9; PRs [#1169](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1169), [#1728](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1728), [#271](https://github.com/TauCetiProject/TauCetiRoadmap/pull/271); merged [GeometricTopology](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/GeometricTopology/README.md) 1.7.2 (compact case); PR [#2266](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2266) §0.2 (PMod); PR [#2263](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2263) §2.1 (marked disc).  
   Papers: [2024·199(2)·6] Canonical representations of surface groups. [census](../census/059.md)
-- **#61 Outer action of the mapping class group on the fundamental group.** PR [#1231](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1231) §5.9; PR [#1169](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1169) (`OuterAut`, Dehn–Nielsen–Baer).  
+- **#61 Outer action of the mapping class group on the fundamental group.** PR [#1231](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1231) §5.9; PR [#1169](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1169) (`OuterAut`, Dehn–Nielsen–Baer); PR [#2266](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2266) §§0.1–0.2 (based and outer action of PMod, `pureMappingClassAut`).  
   Papers: [2024·199(2)·6] Canonical representations of surface groups. [census](../census/061.md)
 - **#62 Riemannian symmetric space of a semisimple Lie group.** PR [#2229](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2229) §§0.1–0.2, §2.2, §§5.2–5.4, §5.6 (Cartan involutions, `G/K` with the Killing metric, distance, maximal compacts, injectivity radius of `Λ\X`); inputs [LieGroups](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/RepresentationTheory/LieGroups/README.md) L7, L9, [RiemannianGeometry](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/RiemannianGeometry/README.md) R1.3, R4.  
   Papers: [2023·197(1)·6] Infinite volume and infinite injectivity radius. [census](../census/062.md)
@@ -143,10 +146,8 @@ A definition appears under every PR that specifies it.
 
 ### Number theory
 
-- **#67 Local components of an automorphic representation (restricted tensor product).** PR [#1037](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1037) §§3.4–3.5; PRs [#1688](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1688), [#792](https://github.com/TauCetiProject/TauCetiRoadmap/pull/792), [#871](https://github.com/TauCetiProject/TauCetiRoadmap/pull/871).  
+- **#67 Local components of an automorphic representation (restricted tensor product).** PR [#1037](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1037) §§3.4–3.5; PR [#871](https://github.com/TauCetiProject/TauCetiRoadmap/pull/871); prerequisites in merged [SmoothRepresentationsOfLocalGroups](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/SmoothRepresentationsOfLocalGroups/README.md) and [AdelicAlgebraicGroups](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/AdelicAlgebraicGroups/README.md).  
   Papers: [2020·191(2)·1] A converse to a theorem of Gross, Zagier, and Kolyvagin; [2021·194(2)·5] Isolation of cuspidal spectrum, with application to the Gan–Gross–Prasad conjecture; [2024·200(3)·2] Doubling constructions: Global functoriality for non-generic cuspidal representations; [2026·203(1)·4] Symmetric power functoriality for Hilbert modular forms. [census](../census/067.md)
-- **#68 Arithmetic lattice in a semisimple Lie group.** PR [#792](https://github.com/TauCetiProject/TauCetiRoadmap/pull/792); Mathlib `Subgroup.IsArithmetic` (GL₂(ℝ)).  
-  Papers: [2021·193(3)·4] Arithmeticity, superrigidity, and totally geodesic submanifolds; [2023·197(1)·3] Special subvarieties of non-arithmetic ball quotients and Hodge theory. [census](../census/068.md)
 - **#69 Galois representation attached to a cuspidal Hecke eigenform.** PR [#928](https://github.com/TauCetiProject/TauCetiRoadmap/pull/928) §6.2; PR [#1007](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1007) §§1.5, 1.7.  
   Papers: [2020·191(2)·1] A converse to a theorem of Gross, Zagier, and Kolyvagin; [2026·203(1)·3] On locally analytic vectors of the completed cohomology of modular curves II. [census](../census/069.md)
 - **#70 Abelian scheme with complex multiplication by $\mathcal{O}_L$ of CM type $\Sigma$.** PR [#1254](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1254) §1.2; PR [#1543](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1543) §0.2; PR [#933](https://github.com/TauCetiProject/TauCetiRoadmap/pull/933) §5.1.  
@@ -155,7 +156,7 @@ A definition appears under every PR that specifies it.
   Papers: [2020·191(2)·1] A converse to a theorem of Gross, Zagier, and Kolyvagin. [census](../census/071.md)
 - **#72 CM automorphic representation.** PR [#931](https://github.com/TauCetiProject/TauCetiRoadmap/pull/931) R16.4.6; PR [#1037](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1037) §3.2.  
   Papers: [2026·203(1)·4] Symmetric power functoriality for Hilbert modular forms. [census](../census/072.md)
-- **#73 Central character of an automorphic representation.** PR [#1037](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1037) §3.2; PR [#1688](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1688) SR.0.4.  
+- **#73 Central character of an automorphic representation.** PR [#1037](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1037) §3.2 (global, 73.3(a)); the local central character (73.3(c)) is a target of merged [SmoothRepresentationsOfLocalGroups](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/SmoothRepresentationsOfLocalGroups/README.md) SR.3a.1.  
   Papers: [2021·194(2)·5] Isolation of cuspidal spectrum, with application to the Gan–Gross–Prasad conjecture; [2024·200(3)·2] Doubling constructions: Global functoriality for non-generic cuspidal representations. [census](../census/073.md)
 - **#74 Complex CM periods of a CM abelian scheme.** PR [#1543](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1543) §5.1; PR [#1254](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1254) §1.2.  
   Papers: [2025·202(1)·1] Eisenstein–Kronecker classes, integrality of critical values of Hecke $L$-functions and $p$-adic interpolation. [census](../census/074.md)
@@ -181,8 +182,6 @@ A definition appears under every PR that specifies it.
   Papers: [2025·201(1)·2] Galois sections and p-adic period mappings. [census](../census/084.md)
 - **#85 Stable Faltings height of an abelian variety.** PR [#1000](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1000) §§1.3, 2.1, 3.1, 3.4; PR [#1833](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1833) §13.1; PR [#852](https://github.com/TauCetiProject/TauCetiRoadmap/pull/852).  
   Papers: [2026·203(1)·2] Arithmetic bigness and a uniform Bogomolov-type result. [census](../census/085.md)
-- **#86 Symmetric power of a Weil--Deligne representation.** PR [#1688](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1688) SR.5.2.  
-  Papers: [2026·203(1)·4] Symmetric power functoriality for Hilbert modular forms. [census](../census/086.md)
 - **#87 Tate--Shafarevich group of an abelian variety over a number field.** PR [#869](https://github.com/TauCetiProject/TauCetiRoadmap/pull/869) §2.12a (code has elliptic-curve `sha`).  
   Papers: [2020·191(2)·1] A converse to a theorem of Gross, Zagier, and Kolyvagin. [census](../census/087.md)
 - **#88 Weak functorial transfer to $\mathrm{GL}_N$.** PR [#1756](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1756) §10.1; PR [#1180](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1180) §1.6.  
@@ -194,7 +193,7 @@ A definition appears under every PR that specifies it.
 
 ### Probability, combinatorics, dynamics & logic
 
-- **#93 Billiard flow in a polygon.** PR [#2231](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2231) §9.1 (`PolygonalDomain`, holes allowed), §9.2 (`billiardPhaseSpace`, collisions, null `billiardSingularSet`), §9.3 (`billiardFlow`, invariant `liouvilleMeasure`); weak mixing of real flows §1.0, §3.2.  
+- **#93 Billiard flow in a polygon.** PR [#2231](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2231) §9.1 (`PolygonalDomain`, holes allowed), §9.2 (`billiardPhaseSpace`, collisions, null `billiardSingularSet`), §9.3 (`billiardFlow`, invariant `liouvilleMeasure`); weak mixing of real flows §1.0, §3.2; also PR [#2255](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2255) §§7.1–8.3 (polygonal table, phase space, singular set, flow, Liouville measure), Layer 12 (weak mixing), Layers 9–11 (rational tables, Katok–Zemlyakov unfolding).  
   Papers: [2026·203(3)·1] Weakly mixing polygonal billiards. [census](../census/093.md)
 - **#96 Equilibrium state (measure) of a Hölder potential.** PR [#2231](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2231) §5.4 `topologicalPressure`, §5.5 `flowTopologicalPressure` (`P_g(F) = P_{g¹}(F₁)`), §6.4 (Abramov), §§7.1, 7.3 (variational principles), §8.1 `IsEquilibriumState`, `IsFlowEquilibriumState` (with agreement with the finite-entropy formulation), §8.2, §§8.4–8.6 (Bowen's uniqueness theorem under specification, SFTs and their suspension flows, Ruelle–Perron–Frobenius); KS entropy §4.0; Mathlib `Dynamics.coverEntropy`. The paper also needs Anosov flows (#91) and their reduction to §§8.4–8.5 for the Bowen–Ruelle theorem, which PR #2231 names outside it and no roadmap plans.  
   Papers: [2023·197(1)·2] Smooth mixing Anosov flows in dimension three are exponentially mixing. [census](../census/096.md)

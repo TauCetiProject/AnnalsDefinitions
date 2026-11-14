@@ -1,6 +1,6 @@
 # Needs roadmap written
 
-Snapshot 2026-11-11 (Tau Ceti `a6027b1d24fc`, Mathlib `1b1ccf4b088b`, roadmaps `5f7befb6`, 437 open roadmap PRs).
+Snapshot 2026-11-14 (Tau Ceti `c56184862`, Mathlib `e8ba86fa9744`, roadmaps `e1cd6a508`, 467 open roadmap PRs).
 
 Every one of the 100 definitions is in exactly one of four files: [ready-to-write-statements.md](ready-to-write-statements.md), [ready-to-formalize-in-tau-ceti.md](ready-to-formalize-in-tau-ceti.md), [needs-roadmap-review.md](needs-roadmap-review.md), [needs-roadmap-written.md](needs-roadmap-written.md). A definition is placed in the furthest-along file whose condition holds for the definition as Kevin Buzzard's text states it; gaps that matter only for a particular paper are noted on the entry.
 
@@ -10,7 +10,7 @@ Order: hyperbolic PDE builds on open PR [#2232](https://github.com/TauCetiProjec
 
 ## Extend an existing roadmap or PR
 
-21 definitions.
+18 definitions.
 
 
 ### Block theory (extension of PR #1775)
@@ -65,19 +65,11 @@ Residual gerbes after §1.20; cohomologically affine morphisms and good moduli s
 - **#26 Normalized Nash blowup.** = #25 then Mathlib `Scheme.Hom.normalization`.  
   Papers: [2026·203(2)·7] Nash blowup fails to resolve singularities in dimensions four and higher. [census](../census/026.md)
 
-### Rigid étale cohomology (section of PR #875)
-
-Sources: Huber, *Étale Cohomology of Rigid Analytic Varieties and Adic Spaces*, §§2.6, 3.1.
-
-- **#22 Galois action on the étale cohomology of the geometric fibre.** Scheme case [EtaleCohomologyFoundations](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/EtaleCohomologyFoundations/README.md) §F.4.6; rigid étale cohomology PR [#875](https://github.com/TauCetiProject/TauCetiRoadmap/pull/875).  
-  Papers: [2025·201(3)·2] Mod-$p$ Poincaré Duality in $p$-adic analytic geometry. [census](../census/022.md)
 
 ### Operator algebras (CStarAlgebras; beside OperatorIdeals)
 
 Sources: Brown–Ozawa, *C\*-Algebras and Finite-Dimensional Approximations*, Ch. 6; Pisier, *Similarity Problems and Completely Bounded Maps*, Ch. 5.
 
-- **#36 Amenable trace on a C\*-algebra.** [CStarAlgebras](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/CStarAlgebras/README.md) C4.1, C6, C7.1, C8.3 (c.p.c. maps, nuclearity, quasidiagonality).  
-  Papers: [2020·192(2)·1] Subalgebras of simple AF-algebras. [census](../census/036.md)
 - **#46 Schur multiplier on Schatten classes.** Code: Schatten classes; [CStarAlgebras](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/CStarAlgebras/README.md) C3.2 (completely bounded maps).  
   Papers: [2023·198(3)·5] Schur multipliers in Schatten-von Neumann classes. [census](../census/046.md)
 
@@ -85,7 +77,7 @@ Sources: Brown–Ozawa, *C\*-Algebras and Finite-Dimensional Approximations*, Ch
 
 Sources: Simon, *Introduction to Geometric Measure Theory*; Grigor'yan, *Heat Kernel and Analysis on Manifolds*, Ch. 11; Paternain–Salo–Uhlmann, *Geometric Inverse Problems*, Ch. 3.
 
-- **#40 The Laplace–Beltrami operator on $L^2$ of a complete Riemannian manifold.** Code: `laplaceBeltrami`; closed case [ComplexKahlerGeometry](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/ComplexKahlerGeometry/README.md) K5a, [PseudodifferentialOperators](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/PseudodifferentialOperators/README.md) P7; Friedrichs extension PR [#1027](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1027).  
+- **#40 The Laplace–Beltrami operator on $L^2$ of a complete Riemannian manifold.** Code: `laplaceBeltrami`; closed case [ComplexKahlerGeometry](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/ComplexKahlerGeometry/README.md) K5a, [PseudodifferentialOperators](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/PseudodifferentialOperators/README.md) P7, RiemannianGeometry R5c; Friedrichs extension and essential spectrum [UnboundedOperators](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/OperatorTheory/UnboundedOperators/README.md) UO-D06, UO-C02.  
   Papers: [2023·198(2)·6] Near optimal spectral gaps for hyperbolic surfaces. [census](../census/040.md)
 - **#53 Stationary varifold.** [GeometricCurrents](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/GeometricCurrents/README.md) G6 (varifolds induced by currents).  
   Papers: [2023·197(3)·4] Stable minimal hypersurfaces in ℝ^N+1+ℓ with singular set an arbitrary closed K⊂{0}×ℝ^ℓ; [2023·198(3)·2] Regularity of minimal surfaces near quadratic cones. [census](../census/053.md)
@@ -105,14 +97,6 @@ Sources: McDuff–Salamon, *J-holomorphic Curves and Symplectic Topology*, Ch. 3
 - **#60 Normal Cauchy–Riemann operator of a J-holomorphic curve.** [TaubesGromov](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/TaubesGromov/README.md) TG1, [HeegaardFloer](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/HeegaardFloer/README.md) F2.6e (embedded case).  
   Papers: [2023·198(1)·2] Transversality and super-rigidity for multiply covered holomorphic curves. [census](../census/060.md)
 
-### Mapping class groups (after PR #1231)
-
-Sources: Farb–Margalit, *A Primer on Mapping Class Groups*.
-
-Needs #59 and #61, both in open PRs.
-
-- **#58 MCG-finite representation of a surface group.** PR [#1231](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1231) §5.9 (Mod(S) action on representations).  
-  Papers: [2024·199(2)·6] Canonical representations of surface groups. [census](../census/058.md)
 
 ### Borel reducibility of countable structures (sequel to BorelEquivalenceRelations and PR #1316)
 
@@ -123,13 +107,13 @@ Needs #98.
 - **#94 Borel complete class of countable structures.** Code: `Setoid.BorelReducible`, `RelationalConfiguration`, `isoSetoid`; PR [#1316](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1316).  
   Papers: [2024·199(3)·4] Torsion-free abelian groups are Borel complete. [census](../census/094.md)
 
-### Unbounded operators (amend PR #1027)
+### Unbounded operators (extend merged UnboundedOperators §5.7 to ℝ^d)
 
 Sources: Reed–Simon, *Methods of Modern Mathematical Physics* II, §X.2; Kato, *Perturbation Theory for Linear Operators*, §V.4.
 
-PR [#1027](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1027) UO-E06 specifies −Δ + V on L²(ℝ³); the definition is for all d.
+Merged [UnboundedOperators](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/OperatorTheory/UnboundedOperators/README.md) UO-E06 specifies −Δ + V on L²(ℝ³) and is not extended to ℝⁿ; the definition is for all d.
 
-- **#45 Schrödinger operator $-\Delta+V$ on $L^2(\mathbb{R}^d)$.** PR [#1027](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1027) UO-E06 (d = 3); Kato–Rellich in code.  
+- **#45 Schrödinger operator $-\Delta+V$ on $L^2(\mathbb{R}^d)$.** [UnboundedOperators](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/OperatorTheory/UnboundedOperators/README.md) UO-E06 (d = 3), UO-A07 (maximal multipliers); Kato–Rellich in code.  
   Papers: [2026·203(2)·1] Bethe–Sommerfeld Conjecture and absolutely continuous spectrum of multi-dimensional quasi-periodic Schrödinger operators. [census](../census/045.md)
 
 ## New roadmaps
@@ -155,7 +139,7 @@ Sources: Guedj–Zeriahi, *Degenerate Complex Monge–Ampère Equations*; Széke
 
 ### Complex hyperbolic geometry and ball quotients
 
-Sources: Goldman, *Complex Hyperbolic Geometry*; Mok, on projective algebraicity of ball quotients; Borel–Ji. Builds on PR [#2229](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2229) (RealSemisimpleLieGroups), whose §5.7 specifies complex hyperbolic space `PU(1,n)/K` in the ball model with its invariant Kähler metric and its complex and totally real totally geodesic submanifolds (Proposition 31.3), and whose §5.6 treats quotients by discrete subgroups; it leaves Selberg's lemma, non-arithmetic ball quotients and their Siu–Yau–Mok compactification outside. Lattices and arithmetic lattices are PR [#792](https://github.com/TauCetiProject/TauCetiRoadmap/pull/792).
+Sources: Goldman, *Complex Hyperbolic Geometry*; Mok, on projective algebraicity of ball quotients; Borel–Ji. Builds on PR [#2229](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2229) (RealSemisimpleLieGroups), whose §5.7 specifies complex hyperbolic space `PU(1,n)/K` in the ball model with its invariant Kähler metric and its complex and totally real totally geodesic submanifolds (Proposition 31.3), and whose §5.6 treats quotients by discrete subgroups; it leaves Selberg's lemma, non-arithmetic ball quotients and their Siu–Yau–Mok compactification outside. Lattices and arithmetic lattices are merged [AdelicAlgebraicGroups](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/AdelicAlgebraicGroups/README.md) AA.3.4.
 
 PR [#933](https://github.com/TauCetiProject/TauCetiRoadmap/pull/933) §2.7 specifies arithmetic ball quotients.
 
@@ -216,7 +200,7 @@ Sources: Goldman, *The Symplectic Nature of Fundamental Groups of Surfaces*; Lab
 
 Cartan involutions and maximal compact subgroups of real reductive groups are in PR [#2229](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2229) Layer 0, §2.2 and §5.4, and real forms of complex reductive groups with their Cartan involutions (Definition 54.1) in its §2.5; it names representation and character varieties of surface groups as outside it.
 
-- **#54 Character variety of a surface group in a real reductive group.** [LieGroups](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/RepresentationTheory/LieGroups/README.md) L7, L9; real forms and Cartan involutions in PR [#2229](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2229) §2.5; PR [#1169](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1169) (PSL₂(ℝ)).  
+- **#54 Character variety of a surface group in a real reductive group.** [LieGroups](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/RepresentationTheory/LieGroups/README.md) L7, L9; real forms and Cartan involutions in PR [#2229](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2229) §2.5; PR [#1169](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1169) (PSL₂(ℝ)); complex GL_r character varieties in PR [#2266](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2266) §1.4.  
   Papers: [2024·200(3)·1] A general Cayley correspondence and higher rank Teichmüller spaces. [census](../census/054.md)
 
 ### Degree growth of rational maps
