@@ -19,10 +19,15 @@ README.md          this file
 AGENTS.md          instructions for agents working from or on this repository
 tasks/             what to do next, one file per kind of work; together they partition the 100
 definitions.md     all 100 in one table
+roadmaps.md        the roadmaps the census cites, each with a short description and its definitions
+roadmap-descriptions.md
+                   the descriptions that roadmaps.md shows, one entry per roadmap
 prerequisites.md   merged-roadmap work on the path to the definitions
 papers.md          the Annals papers and the definitions each needs
 census/NNN.md      the evidence, one file per definition
 sources/           Kevin Buzzard's definition texts (markdown and PDF)
+scripts/           the scripts that generate roadmaps.md and docs/index.html
+docs/index.html    definitions.md and roadmaps.md as one web page
 ```
 
 ### `tasks/`
@@ -43,6 +48,16 @@ paper are noted on the entry.
 - [definitions.md](definitions.md) has one row per definition: a finer status (in code, partly in
   code, merged roadmap, roadmap PR, prerequisites planned, unplanned), the `tasks/` file it is in,
   and where in Mathlib, Tau Ceti or the roadmaps it lives.
+- [roadmaps.md](roadmaps.md) lists the roadmaps and roadmap PRs that the census cites, merged
+  roadmaps first. Each has a short description of what it contains and the definitions that cite
+  it, with the sections cited. `python3 scripts/build_roadmaps.py` generates it from
+  definitions.md, the census files and [roadmap-descriptions.md](roadmap-descriptions.md), which
+  holds the descriptions; with `--check` it reports a stale file or a cited roadmap without a
+  description.
+- [docs/index.html](docs/index.html) shows definitions.md and roadmaps.md as one web page, by
+  definition and by roadmap, with filters by text, area and status. `python3 scripts/build_site.py`
+  generates it (`--check` reports a stale page), and GitHub Pages can serve it from the `docs/`
+  folder.
 - [prerequisites.md](prerequisites.md) lists the items that merged roadmaps specify, that Tau Ceti
   has not yet implemented, and that lie on the prerequisite chain of at least one definition. Each
   item gives its status, whether it can start now, and the definitions it serves.
