@@ -1247,7 +1247,7 @@ STATUS.md snapshot: ad0502e 2026-11-16 (umbrella OperatorTheory/STATUS.md, gener
 Umbrella OperatorTheory/STATUS.md ad0502e 2026-11-16 lists all six UnboundedOperators layers as untouched; Tau Ceti checked at 91942aa9f, 2026-11-19. Only the scalar-measure step of UO-C03 and the real-scalar case of the UO-D06 representation theorem are in code (below): grep for `exists_spectralType_decomposition`, `essentialSpectrum`, `discreteSpectrum`, `existsUnique_maximal_multiplier`, `friedrichs` in TauCeti: no hits.
 
 ### UO-A01 (§1.1) Unbounded spectral integral
-- Status: NOT-STARTED. Inputs present: `TauCeti.ProjValMeasure` with integral and diagonal measures (Analysis/InnerProductSpace/ProjValMeasure/, BorelCalculus/DiagonalMeasure.lean).
+- Status: NOT-STARTED. Inputs present: `TauCeti.ProjValMeasure` with integral and diagonal measures (Analysis/InnerProductSpace/ProjValMeasure/, BorelCalculus/DiagonalMeasure.lean). Open Tau Ceti PRs https://github.com/TauCetiProject/TauCeti/pull/43205 and https://github.com/TauCetiProject/TauCeti/pull/40748 each implement `ProjValMeasure.spectralIntegral` with `existsUnique_spectralIntegral` (§§1.1–1.2); they duplicate each other.
 - Ready now: partly: the PVM-side construction uses only Tau Ceti's `ProjValMeasure` API; the cited HilbertModules H6 graph-closure API is not started (Mathlib's `LinearPMap.closure` covers the Hilbert-space case).
 - Serves defs: 35
 - Evidence: README l.241 "### 1.1 Spectral-integral domain and action (UO-A01)", *Needs* l.245 "Tau Ceti's `TauCeti.ProjValMeasure` API ...; HilbertModules H6 graph closure".
