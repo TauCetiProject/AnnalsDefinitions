@@ -37,13 +37,14 @@ A definition appears under every PR that specifies it.
 - SchattenClassesAndSchurMultipliers: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2421: #46
 - DynamicalDegreesOfRationalMaps: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2431: #95
 - ConstructiveFieldTheoryPhi4: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2432: #99
+- VirtualFundamentalClassPartII: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2446: #16
 - HochschildHomologyAndHKR: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2447: #10
 - HardSphereDynamicsAndKineticLimits: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2448: #39
 - ModularityAndLanglandsExtensionsPartII: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2449: #72
 
 ## By definition
 
-33 definitions.
+34 definitions.
 
 
 ### Algebra, representation theory & homotopy theory
@@ -57,6 +58,8 @@ A definition appears under every PR that specifies it.
 
 ### Algebraic geometry
 
+- **#16 Rational Chow groups of a Deligne--Mumford stack and the degree of zero-cycles.** PR [#2446](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2446) §2.2 (rational Chow groups of DM stacks that need not be separated), §5.2 (the moduli-space comparison 16.4(b)), §5.4 (`∫[𝒢_x] = [κ(x):k]/|Aut(x̄)|` of 16.5 on proper stacks), on [StackPointsAndResidualGerbes](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/StackPointsAndResidualGerbes/README.md) §§1.3, 3.3, 5.3. Integral closed substacks, the cycles of 16.1, are defined in no merged roadmap; PR #2446 states them as `gap:closed-substacks-of-stacks` without owning them, and does not define 16.5's cycle-level `deg` on non-proper stacks. The separated case is merged [VirtualFundamentalClass](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/VirtualFundamentalClass/README.md) §2.1 (Vistoli's rational Chow groups of separated DM stacks, degree of proper zero-cycles with the stabilizer weight), §2.2 (proper pushforward), §7.7 (degree by pushforward to `Spec k`), after §§0.2–0.3 (stack dimension) on [SchemeAndStackFoundations](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/SchemeAndStackFoundations/README.md) Layer 1 and §5.1; it covers the paper's proper stacks over `ℂ`. Closed and reduced closed substacks are StackPointsAndResidualGerbes §§0.3–0.5.  
+  Papers: [2021·194(3)·1] Polynomial structure of Gromov–Witten potential of quintic 3-folds. [census](../census/016.md)
 - **#20 Families of Enriques surfaces and the moduli stack $\mathscr{M}_{\mathrm{Enr}}$.** PR [#1488](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1488) §2.1; [SchemeAndStackFoundations](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/SchemeAndStackFoundations/README.md) §§1.2–1.9 (algebraic spaces), with §2.1's cohomological *Needs* §§2.2–2.4, 2.6, 2.11, 2.15, 2.20, 2.22 and §4.1. The Enriques condition (#19) is merged [WeilConjectures](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/WeilConjectures/README.md) §7.12; merged [EnriquesSurfaces](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/EnriquesSurfaces/README.md) has no families over a base. That geometric fibres are schemes, and the stack property of `M_Enr`, have no target.  
   Papers: [2023·197(1)·1] There is no Enriques surface over the integers. [census](../census/020.md)
 - **#21 Fppf cohomology with supports in a closed subset.** PR [#1840](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1840) §0.2; PR [#1843](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1843); fppf cohomology on the affine site in PR [#2272](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2272) §2.0. Finite flat group schemes are merged [FiniteFlatGroupsAndIntegralPadicHodgeTheory](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/FiniteFlatGroupsAndIntegralPadicHodgeTheory/README.md). Site-general relative cohomology `CategoryTheory.Sheaf.relativeH'` with its long exact sequence is in Tau Ceti (`TauCeti/CategoryTheory/Sites/SheafCohomology/Relative.lean`), giving 21.1–21.2 on any site with sheafification of abelian sheaves at its morphism universe; the big fppf site of `Scheme.{u}` lacks it at the universe `u`.  

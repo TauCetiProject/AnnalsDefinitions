@@ -10,7 +10,7 @@ Order: the extensions are independent of one another. The one new roadmap, filli
 
 ## Extend an existing roadmap or PR
 
-5 definitions.
+6 definitions.
 
 
 ### Classical split groups (ReductiveGroups or ChevalleyGroups)

@@ -34,7 +34,8 @@ docs/index.html    definitions.md and roadmaps.md as one web page
 
 Every definition is in exactly one of these four files: the furthest-along one whose condition
 holds for the definition as Kevin Buzzard's text states it. Gaps that matter only for a particular
-paper are noted on the entry.
+paper are noted on the entry. For ready-to-formalize, a merged roadmap must specify every numbered
+definition of the entry at the stated generality; missing propositions are noted on the entry.
 
 | File | Condition |
 | --- | --- |

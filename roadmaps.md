@@ -1109,7 +1109,7 @@ Builds the theory of k-dimensional varifolds on open subsets of a Riemannian man
 
 Carries out the construction of Behrend and Fantechi: the intrinsic normal cone of a Deligne–Mumford stack, obstruction theories, and the virtual fundamental class of a perfect obstruction theory with a global resolution, shown to be independent of all choices. Along the way it builds rational Chow groups, Gysin maps and degrees of zero-cycles for separated Deligne–Mumford stacks, and a relative version of the class.
 
-- [#16 Rational Chow groups of a Deligne--Mumford stack and the degree of zero-cycles](census/016.md): §§2.1–2.2, 7.7 (rational Chow groups of separated DM stacks, degree)
+- [#16 Rational Chow groups of a Deligne--Mumford stack and the degree of zero-cycles](census/016.md): §§2.1–2.2, 7.7 (rational Chow groups of separated DM stacks, degree on proper stacks)
 - [#27 Perfect obstruction theory and virtual fundamental class](census/027.md): Layers 4–7, §§9.1–9.2
 
 ### [VonNeumannAlgebras](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/VonNeumannAlgebras/README.md)
@@ -1913,7 +1913,7 @@ Develops the twisted automorphic descent of Jiang and Zhang for special orthogon
 
 Extends the Chow theory of Deligne–Mumford stacks to integral coefficients and to stacks that need not be separated, with the intersection ring of a smooth stack, the comparison with the moduli space, and the degree of the residual gerbe at a closed point. It defines the virtual class without the resolution property, proves deformation invariance of virtual counts, and constructs the perfect obstruction theory of spaces of maps from curves.
 
-- [#16 Rational Chow groups of a Deligne--Mumford stack and the degree of zero-cycles](census/016.md): §§2.2, 5.4
+- [#16 Rational Chow groups of a Deligne--Mumford stack and the degree of zero-cycles](census/016.md): §§2.2, 5.2, 5.4
 - [#27 Perfect obstruction theory and virtual fundamental class](census/027.md): Layer 9 (ownership unresolved); §6.2
 - Also cited in the evidence for [#24 Moduli stack of stable maps $\overline{\mathcal{M}}_{g,n}(X,\beta)$](census/024.md), [#29 Residual gerbe at a point of an algebraic stack](census/029.md).
 
