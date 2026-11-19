@@ -1,6 +1,6 @@
 # Needs roadmap written
 
-Snapshot 2026-11-18 (Tau Ceti `08ee34499`, Mathlib `048fffa1dbcd`, roadmaps `ca7079b65`, 392 open roadmap PRs).
+Snapshot 2026-11-19 (Tau Ceti `91942aa9f`, Mathlib `048fffa1dbcd`, roadmaps `890b66de0`, 350 open roadmap PRs).
 
 Every one of the 100 definitions is in exactly one of four files: [ready-to-write-statements.md](ready-to-write-statements.md), [ready-to-formalize-in-tau-ceti.md](ready-to-formalize-in-tau-ceti.md), [needs-roadmap-review.md](needs-roadmap-review.md), [needs-roadmap-written.md](needs-roadmap-written.md). A definition is placed in the furthest-along file whose condition holds for the definition as Kevin Buzzard's text states it; gaps that matter only for a particular paper are noted on the entry.
 
@@ -17,7 +17,7 @@ Order: the extensions are independent of one another. The one new roadmap, filli
 
 Sources: Knus–Merkurjev–Rost–Tignol, *The Book of Involutions*, §§12–13, 23.
 
-- **#11 Split classical groups $\mathrm{Sp}_{2n}$, $\mathrm{SO}_l$ and general spin groups $\mathrm{GSpin}_l$.** Code: `Sp₂ₘ` pinned group scheme, `SOₙ` of the identity form; GSpin in PR [#1756](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1756) §0.0.  
+- **#11 Split classical groups $\mathrm{Sp}_{2n}$, $\mathrm{SO}_l$ and general spin groups $\mathrm{GSpin}_l$.** Code: `Sp₂ₘ` pinned group scheme, `SOₙ` of the identity form. Merged [AutomorphicLFunctionsAndLocalFactorsPartII](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/AutomorphicLFunctionsAndLocalFactorsPartII/README.md) §0.0 constructs `GSpin_c` over characteristic-0 fields with a pinned root datum, without Definition 11.2's root datum, the spinor norm `ν` or the sequence `1 → G_m → GSpin → SO → 1`, and needs MetaplecticAutomorphicForms §3.2a from open PR [#1063](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1063); §0.3 fixes pinnings of split `Sp_c`, `SO_c`, `GSpin_c`. Missing: the split `SO_l` of `J_l` as a pinned group and GSpin over a general base.  
   Papers: [2024·200(3)·2] Doubling constructions: Global functoriality for non-generic cuspidal representations. [census](../census/011.md)
 
 ### Stacks and moduli (SchemeAndStackFoundations)
@@ -42,7 +42,7 @@ Merged [Varifolds](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/Ta
 
 Sources: McDuff–Salamon, *J-holomorphic Curves and Symplectic Topology*, Ch. 3; Wendl, *Automatic transversality and orbifolds of punctured holomorphic curves in dimension four* (Comment. Math. Helv. 85 (2010)), §3.3.
 
-- **#60 Normal Cauchy–Riemann operator of a J-holomorphic curve.** [TaubesGromov](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/TaubesGromov/README.md) TG1, [HeegaardFloer](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/HeegaardFloer/README.md) F2.6e (embedded case); finite critical sets in HeegaardFloer F2.2a and [AnalyticStableMaps](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/AnalyticStableMaps/README.md) §0.4. Code: the local normal linearization, covariant under target and source coordinate changes. Missing: the generalised normal bundle through critical points.  
+- **#60 Normal Cauchy–Riemann operator of a J-holomorphic curve.** [TaubesGromov](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/TaubesGromov/README.md) TG1, [HeegaardFloer](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/HeegaardFloer/README.md) F2.6e (embedded case); finite critical sets in HeegaardFloer F2.2a and [AnalyticStableMaps](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/AnalyticStableMaps/README.md) §0.4. Code: the local normal linearization, covariant under target and source coordinate changes, with its elliptic real CR symbol, and isolated point preimages of J-curves. Missing: the generalised normal bundle through critical points.  
   Papers: [2023·198(1)·2] Transversality and super-rigidity for multiply covered holomorphic curves. [census](../census/060.md)
 
 ### Characteristic data for compressible Euler (Part II of PR #2442)
@@ -68,4 +68,4 @@ Sources: Gromov, *Filling Riemannian Manifolds*; Bridson, *The Geometry of the W
 
 ## Beyond the 100
 
-The cited papers also need theory that is not among the 100 definitions and that no roadmap plans: Deligne–Lusztig theory of finite reductive groups (for #2's and #8's papers; Digne–Michel, *Representations of Finite Groups of Lie Type*), algebraic toric varieties over an arbitrary field (#26), Margulis superrigidity (#68), Sen theory and locally analytic vectors (#77), and torus and cosection localization of virtual classes (#27). The census files record these under "Library-scale gap".
+The cited papers also need theory that is not among the 100 definitions and that no roadmap plans: Deligne–Lusztig theory of finite reductive groups (for #2's and #8's papers; Digne–Michel, *Representations of Finite Groups of Lie Type*), algebraic toric varieties over an arbitrary field (#26), Margulis superrigidity (#68), Sen theory (#77), and torus and cosection localization of virtual classes (#27). The census files record these under "Library-scale gap".
