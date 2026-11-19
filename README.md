@@ -77,7 +77,8 @@ definition of the entry at the stated generality; missing propositions are noted
   [`astra_definitions_100_v2.pdf`](sources/astra_definitions_100_v2.pdf), as attached to the Zulip
   thread above. Definition
   numbers, and references such as "Definition 56.3", are that document's. Its texts were drafted by
-  AI agents and have not been reviewed by a human.
+  AI agents and have not been reviewed by a human. Known errors in them are in
+  [`sources/errata.md`](sources/errata.md).
 - **Papers.** The definition texts cite Annals papers as [year, volume(issue), no. n], resolved here
   to titles through Crossref. Only the papers named in each definition's "use in the Annals papers"
   remarks are linked, 71 in all. The full definition-to-paper map (`definitions_100_v2.md`) is not
