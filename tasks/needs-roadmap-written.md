@@ -68,4 +68,4 @@ Sources: Gromov, *Filling Riemannian Manifolds*; Bridson, *The Geometry of the W
 
 ## Beyond the 100
 
-The cited papers also need theory that is not among the 100 definitions and that no roadmap plans: Deligne–Lusztig theory of finite reductive groups (for #2's and #8's papers; Digne–Michel, *Representations of Finite Groups of Lie Type*), algebraic toric varieties (#26), Margulis superrigidity (#68), Sen theory and locally analytic vectors (#77), and torus and cosection localization of virtual classes (#27). The census files record these under "Library-scale gap".
+The cited papers also need theory that is not among the 100 definitions and that no roadmap plans: Deligne–Lusztig theory of finite reductive groups (for #2's and #8's papers; Digne–Michel, *Representations of Finite Groups of Lie Type*), algebraic toric varieties over an arbitrary field (#26), Margulis superrigidity (#68), Sen theory and locally analytic vectors (#77), and torus and cosection localization of virtual classes (#27). The census files record these under "Library-scale gap".
