@@ -186,6 +186,12 @@ Title: Ball quotients and complex hyperbolic lattices
 
 Studies the complex ball as the symmetric space of PU(1,n) and the lattices in this group, arithmetic or not: cusps, finite generation, Selberg's lemma, and the quotient of the ball as a normal complex space. It constructs the toroidal and minimal compactifications and proves that the minimal compactification is a normal projective variety, so that every ball quotient is quasi-projective, and that the quotient by a torsion-free lattice has a unique algebraic structure; in the arithmetic case it compares with the Baily–Borel compactification. It ends with totally geodesic and special subvarieties.
 
+## BianchiModularForms
+Title: Bianchi modular forms
+PR: #1719
+
+Builds weight-two Bianchi modular forms for GL₂ over an imaginary quadratic field, both as harmonic cuspidal 1-forms on hyperbolic three-space and as cuspidal group cohomology, proves the Eichler–Shimura–Harder comparison, and develops the arithmetic invariants the LMFDB displays: Hecke operators at all primes, newforms, base change from classical forms, CM forms and their inducing characters.
+
 ## BochnerSpaces
 Title: Bochner spaces
 PR: #2249
@@ -311,12 +317,6 @@ Develops the structure and representation theory of C\*-algebras, operator space
 Title: Classification of AF and purely infinite simple C\*-algebras
 
 Develops two classification theories for C\*-algebras: AF algebras by their scaled ordered K₀-group, and Kirchberg algebras, the separable nuclear purely infinite simple ones, by KK-equivalence. Main results are Elliott's classification of AF algebras with the range of the invariant, Glimm's classification of UHF algebras, Kirchberg's embedding of exact algebras into O₂, the absorption theorems for O₂ and O∞, Phillips's homomorphism theorem, and the Kirchberg–Phillips classification with its K-theoretic form under the universal coefficient theorem.
-
-## CyclicHomologyLieHomologyAndQuasiFreeAlgebras
-Title: Cyclic homology, Lie algebra homology of matrices and quasi-free algebras
-PR: #2037
-
-Develops classical theorems relating cyclic homology to Lie algebras, derivations and nilpotent extensions, noncommutative smoothness and rings without unit. Main results are Connes' description of cyclic homology as Tor over the cyclic category, the Loday–Quillen–Tsygan theorem on the homology of the Lie algebra of matrices in characteristic zero, Goodwillie's theorems on periodic cyclic homology, the Cuntz–Quillen theory of quasi-free algebras with the X-complex and excision, and Wodzicki's H-unitality with the Suslin–Wodzicki rational excision theorem.
 
 ## CyclotomicClassGroupsAndStickelberger
 Title: Cyclotomic class groups and Stickelberger theory
@@ -465,12 +465,6 @@ PR: #1739
 
 Studies sections of the fundamental exact sequence of a variety over a number field by means of p-adic period maps. It defines Selmer sections and their localisation maps and proves, for a smooth projective curve of genus at least two over a number field with no CM subfield, that only finitely many local points at each finite place arise from Selmer sections.
 
-## GanGrossPrasadUnitaryGroups
-Title: Unitary Bessel models and the Gan–Gross–Prasad period formula
-PR: #1404
-
-Develops the restriction problem for unitary groups through Bessel models, from relative Hermitian geometry and local representation theory to automorphic periods. Main results are multiplicity one in every relevant odd codimension, the tempered local Gan–Gross–Prasad theorem for nonsplit unitary groups with its epsilon-factor description, nonvanishing of global periods in codimension one including endoscopic cases, and the Tamagawa-normalized identity between Bessel periods and L-values. The fixed-pair global statement in arbitrary odd codimension and a split archimedean prediction are formulated as statements only.
-
 ## GaugeQuiltFieldTheory
 Title: Connected symplectic gauge field theory and quilted sewing
 
@@ -500,6 +494,12 @@ Builds the geometric topology of manifolds from the smooth level upwards: manifo
 Title: Geometry of numbers, quadratic forms and homogeneous arithmetic
 
 Develops the geometry of numbers and the arithmetic of integral quadratic and hermitian lattices: covolumes and successive minima, genera and spinor genera, representation densities and the mass of a genus, and Siegel's mean value theorem. It includes the homogeneous dynamics behind Margulis's theorem on values of indefinite quadratic forms and Duke's equidistribution theorem, with the entropy of measure-preserving maps, as well as LLL-reduced bases and the hermitian K-theory of exact categories.
+
+## GibbsMeasuresAndTheIsingModel
+Title: Gibbs measures and the Ising model
+PR: #2976
+
+Builds the theory of infinite-volume Gibbs measures of lattice spin systems with a finite single-site space: existence by compactness, extremal Gibbs measures as the tail-trivial ones, and Dobrushin's uniqueness criterion. It applies this to the nearest-neighbour Ising model on the integer lattice, with the plus and minus states, uniqueness in one dimension and at high temperature, and spontaneous magnetization in two dimensions by Peierls' argument.
 
 ## GL2AutomorphicRepresentationsAndTransfer
 Title: GL₂ automorphic representations and transfer
@@ -574,6 +574,12 @@ Title: Hyperbolic dynamics and thermodynamic formalism
 PR: #2441
 
 Builds the theory of uniformly hyperbolic diffeomorphisms and flows on manifolds: hyperbolic sets and Anosov systems, stable and unstable manifolds, local product structure, expansivity and specification. It joins this to the thermodynamic formalism, proving that a Hölder potential on a basic set has exactly one equilibrium state (the theorems of Bowen and of Bowen and Ruelle), the uniqueness of the measure of maximal entropy, and the description of the SRB measure of a hyperbolic attractor of a flow.
+
+## IgusaVarietiesAndTorsionConcentration
+Title: Igusa varieties, compactified period fibres and torsion concentration
+PR: #1090
+
+Proves Koshikawa's vanishing theorem for unitary Shimura varieties: at a prime split completely in the CM field, with hyperspecial level, localization at a generic maximal ideal of the spherical Hecke algebra confines mod-ℓ cohomology to one side of the middle degree, with integral and boundary consequences (Caraiani–Newton in the form needed when `F⁺ = ℚ`). The route is Mantovan's filtration through Igusa varieties and local Shimura varieties, Koshikawa's semiperversity theorem for the local factor, and partial toroidal and minimal compactifications of central leaves and Igusa varieties identified with the fibres of the Hodge–Tate period map. Layer 0 sets up the quasi-split unitary similitude datum over a CM field with a self-dual lattice, its Hecke algebras, `p`-divisible groups with extra structure, Rapoport–Zink spaces and central leaves.
 
 ## IgusaVarietiesAndTorsionConcentrationPartII
 Title: Igusa varieties and torsion concentration, Part II: compact unitary Shimura varieties
@@ -653,6 +659,12 @@ Title: Anabelian geometry of p-adic local fields
 PR: #1811
 
 Proves Mochizuki's theorem that isomorphisms between finite extensions of ℚₚ correspond bijectively to outer isomorphisms of their absolute Galois groups preserving the upper ramification filtrations, together with Hyeon's refinement for m-step solvable quotients. The proof recovers from the filtered Galois group, one at a time, the numerical invariants of the field, the cyclotomic character, inertia, the additive and integral structure of the field, Hodge–Tate weights and uniformizing characters, and then glues the resulting field isomorphisms.
+
+## LocalAnabelianGeometryPartII
+Title: Local anabelian geometry, Part II: Abrashkin's theorems
+PR: #2867
+
+Proves Abrashkin's theorems that a nonarchimedean local field of residue characteristic p, of characteristic 0 or p, is determined by the maximal pro-p quotient of its absolute Galois group together with its upper ramification filtration. Every isomorphism of these filtered groups is conjugation by a unique isomorphism of the maximal p-extensions carrying one base field to the other, for every prime p, including p = 2.
 
 ## LocalFiniteGroupTheory
 Title: Local analysis of finite groups
@@ -1208,12 +1220,37 @@ Title: GeometricTopology: revision
 
 Revises the merged roadmap GeometricTopology, described under its own entry; it adds no roadmap.
 
-## #1807
-Title: Revision of several merged roadmaps
-
-Revises several merged roadmaps, ComplexKahlerGeometry among them, to remove circular dependencies between roadmaps; it adds no roadmap.
-
 ## #1854
 Title: BanachSpaceTheory, MorseNovikov, SelfAdjointSpectralTheory: revision
 
 Revises the merged roadmaps BanachSpaceTheory, MorseNovikov and OperatorTheory/SelfAdjointSpectralTheory to remove circular dependencies between roadmaps; it adds no roadmap.
+
+## #2489
+Title: SchemeAndStackFoundations: cohomologically affine morphisms
+
+Extends the merged roadmap SchemeAndStackFoundations with a section on cohomologically affine morphisms of algebraic stacks (quasi-compact, quasi-separated, with exact quasi-coherent pushforward) and linearly reductive group schemes over a base, with flat base change, Serre's affineness criterion and the comparison with complete reducibility of comodules over a field; it adds no roadmap.
+
+## #2490
+Title: GeometricCurrents: Lipschitz chains in metric spaces, mass and filling volume
+
+Extends the merged roadmap GeometricCurrents, on integral currents and minimizing hypersurfaces in Riemannian manifolds, with Lipschitz singular chains in an arbitrary metric space, the mass of a chain measured with Hausdorff measure counted with multiplicity, the area formula on Riemannian manifolds, and the filling volume of a cycle and the filling volume function of a space.
+
+## #2491
+Title: MinimalSurfaces: stability across a singular set and strict stability
+
+Extends the merged roadmap RiemannianGeometry/MinimalSurfaces with item 7.8: stability and weighted strict stability of a smooth hypersurface tested by ambient functions that cross the singular set of its closure, the reduction of strict stability to a weighted Hardy-type inequality, and the criterion that a minimal cone is strictly stable exactly when the lowest eigenvalue of its link satisfies λ₁ + ((n−2)/2)² > 0, following Simon's papers on stable minimal hypersurfaces with prescribed singular sets.
+
+## #2529
+Title: AnalyticStableMaps: the normal Cauchy–Riemann operator
+
+Extends the merged roadmap AnalyticStableMaps, on moduli spaces of stable pseudoholomorphic maps, with the generalized tangent and normal bundles of a nonconstant closed pseudoholomorphic curve through its critical points, the normal Cauchy–Riemann operator with its Fredholm theory and index, its behaviour under branched covers, and Wendl's notion of a super-rigid curve.
+
+## #2531
+Title: SchemeAndStackFoundations: quasi-affine descent, quasi-finite spaces and fppf cohomology with supports
+
+Extends the merged roadmap SchemeAndStackFoundations with effective fppf descent of affine, quasi-affine and separated locally quasi-finite morphisms, separated locally quasi-finite algebraic spaces over a scheme, and cohomology on the big fppf site with coefficients in the larger universe, including fppf cohomology with supports in a closed subset with its long exact sequence and excision; it adds no roadmap.
+
+## #2536
+Title: ComplexKahlerGeometry: soft-sheaf acyclicity from SmoothBundlesConnections, Čech refinement maps from Tau Ceti
+
+Revises the merged roadmap ComplexKahlerGeometry so that the acyclicity of soft sheaves is taken from SmoothBundlesConnections B6.1 and the Čech refinement maps from existing Tau Ceti code, rather than restated; it adds no roadmap.
