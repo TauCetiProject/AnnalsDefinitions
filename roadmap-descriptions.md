@@ -992,6 +992,16 @@ Title: Clifford algebras, the Pin and Spin groups, and spin representations
 
 Develops Clifford algebras of quadratic spaces, the Pin and Spin double covers of orthogonal groups, and spin and half-spin representations, over the complex numbers and for real forms. Main results are a criterion for Clifford algebra automorphisms to come from isometries, highest-weight descriptions of the spin and half-spin representations, the vector representation in dimension six as an exterior square, comparisons of real and complex spin groups, triality for Spin₈, and Kostant's isotypy theorem and ρ-decomposition for the Clifford algebra of a semisimple Lie algebra.
 
+## RiemannHypothesisForDirichletLFunctions/FiniteReductiveGroups
+Title: Finite reductive groups and the characters of GL_n(F_q)
+
+Builds the complex character theory of the finite groups of rational points of connected reductive groups over finite fields: Harish-Chandra induction and series, Gelfand–Graev representations, and Deligne–Lusztig induction through ℓ-adic cohomology, with the inner product formula, Green functions and Lusztig series. For GL_n it gives Green's classification of the irreducible characters, Shintani descent in prime degree, and the depth-zero supercuspidal representations of p-adic GL_n.
+
+## RiemannHypothesisForDirichletLFunctions/HermitianFormsAndLattices
+Title: Hermitian forms and lattices
+
+Develops the arithmetic of Hermitian and skew-Hermitian forms over quadratic étale algebras and of their lattices: unitary group schemes and their reductive structure, Witt theory and the local and global classification of Hermitian spaces, and Hermitian lattices over rings of integers with their duals, integral models, genera, class sets and masses. Its main results are the Tamagawa number two of unitary groups, the mass formula, Siegel's main theorem and Hermitian theta series of definite lattices.
+
 ## RiemannianGeometry
 Title: Curvature, Jacobi fields, submanifolds, and Bochner geometry
 

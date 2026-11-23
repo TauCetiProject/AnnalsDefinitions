@@ -1,6 +1,6 @@
 # Needs roadmap written
 
-Snapshot 2026-11-23 (Tau Ceti `43e15f746`, Mathlib `31ce06eaadf4`, roadmaps `886c89ef3`, 496 open roadmap PRs).
+Snapshot 2026-11-23 (Tau Ceti `fb3fbc9f0`, Mathlib `31ce06eaadf4`, roadmaps `f83a3b8cc`, 497 open roadmap PRs).
 
 Every one of the 100 definitions is in exactly one of four files: [ready-to-write-statements.md](ready-to-write-statements.md), [ready-to-formalize-in-tau-ceti.md](ready-to-formalize-in-tau-ceti.md), [needs-roadmap-review.md](needs-roadmap-review.md), [needs-roadmap-written.md](needs-roadmap-written.md). A definition is placed in the furthest-along file whose condition holds for the definition as Kevin Buzzard's text states it; gaps that matter only for a particular paper are noted on the entry.
 
@@ -10,4 +10,4 @@ No definition is in this file: each of the 100 is specified by a merged roadmap 
 
 ## Beyond the 100
 
-The cited papers also need theory that is not among the 100 definitions and that no roadmap plans: Deligne–Lusztig theory of finite reductive groups (for #2's and #8's papers; Digne–Michel, *Representations of Finite Groups of Lie Type*), algebraic toric varieties over an arbitrary field (#26), Margulis superrigidity (#68), Sen theory (#77), torus and cosection localization of virtual classes (#27), and the regularity theory of singular minimal hypersurfaces beyond strict stability (Hardt–Simon foliations, uniqueness of tangent cones; #65). The census files record these under "Library-scale gap".
+The cited papers also need theory that is not among the 100 definitions and that no roadmap plans: the classification of unipotent characters beyond type A, Lusztig's Jordan decomposition and the ℓ-modular theory of finite reductive groups (for #2's paper; Geck–Malle, *The Character Theory of Finite Groups of Lie Type*), algebraic toric varieties over an arbitrary field (#26), Margulis superrigidity (#68), Sen theory (#77), torus and cosection localization of virtual classes (#27), and the regularity theory of singular minimal hypersurfaces beyond strict stability (Hardt–Simon foliations, uniqueness of tangent cones; #65). Deligne–Lusztig induction and Green functions, which #2's and #8's papers also need, are planned in merged [RiemannHypothesisForDirichletLFunctions/FiniteReductiveGroups](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/RiemannHypothesisForDirichletLFunctions/FiniteReductiveGroups/README.md). The census files record these under "Library-scale gap".
