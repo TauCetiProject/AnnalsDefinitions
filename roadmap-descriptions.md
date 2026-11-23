@@ -575,6 +575,12 @@ PR: #2447
 
 Builds Hochschild homology and cohomology of an associative algebra over a commutative ring with coefficients in a bimodule: the complexes and their normalisation, the low degrees, the bar resolution with the comparison to Ext and Tor, and the cup product. Its main result is the cohomological Hochschild–Kostant–Rosenberg theorem, which identifies the Hochschild cohomology of an algebra that is smooth and projective over the base ring with its polyvector fields; polynomial algebras are computed by the Koszul resolution.
 
+## HolderMapsBetweenManifolds
+Title: Hölder maps between manifolds and Hölder diffeomorphism groups
+PR: #3015
+
+Defines maps of class C^{k,α} between smooth manifolds, possibly with boundary and corners, by the Hölder regularity of their coordinate representatives, and proves that the class does not depend on the charts, is closed under composition and has tangent maps one order lower. It builds the group of C^{k,α} diffeomorphisms with its inverse function theorems and topologies, showing that the C^{k,α} topology does not make it a topological group while the topology of convergence in every lower Hölder exponent does. On a compact manifold it develops the Banach spaces C^{k,α}(M), their inclusions, the comparison with Hölder continuity for a Riemannian distance, pullback and smoothing.
+
 ## HyperbolicDynamicsAndThermodynamicFormalism
 Title: Hyperbolic dynamics and thermodynamic formalism
 PR: #2441
