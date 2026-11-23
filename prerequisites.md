@@ -1752,7 +1752,7 @@ No STATUS.md (README last changed at roadmap 8c5685f0e, 2026-11-20; Tau Ceti che
 
 ### §§2.1–2.2 Vistoli's rational Chow groups of separated DM stacks, degree of proper zero-cycles, flat pullback and proper pushforward
 - Status: NOT-STARTED
-- Ready now: no: §2.1 needs §§0.2–0.3 (not started) and SSF §5.1 (partial: `Chow.ChowGroup` in code); §2.2 needs §2.1 and SSF Layer 5 (§5.2 partial). §2.1's cycles are "on integral closed substacks", which no merged roadmap defines (PR #2446's `gap:closed-substacks-of-stacks`; closed and reduced closed substacks are StackPointsAndResidualGerbes §§0.3–0.5, not started)
+- Ready now: no: §2.1 needs §§0.2–0.3 (not started) and SSF §5.1 (partial: `Chow.ChowGroup` in code); §2.2 needs §2.1 and SSF Layer 5 (§5.2 partial). §2.1's cycles are "on integral closed substacks", which no merged roadmap defines (PR #2446 §1.0 defines them; closed and reduced closed substacks are StackPointsAndResidualGerbes §§0.3–0.5, not started)
 - Serves defs: 16 (target: 16.1–16.3, degree of 16.6), 27
 - Evidence: README l.383 "## Layer 2: rational Chow theory and Gysin maps for Deligne–Mumford stacks"; l.388 "### 2.1 Rational Chow groups" (l.390 "Build Vistoli's dimension-graded rational Chow groups for separated Deligne–Mumford stacks ..."; l.406 API "Compute degrees of proper zero-cycles, with the generic stabilizer weight"; Needs l.408); l.416 "### 2.2 Chow operations" (Needs l.431).
 

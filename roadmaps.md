@@ -1730,7 +1730,7 @@ A first part sets up semi-Riemannian foundations: scalar products of any signatu
 
 Builds the theory behind the theorem of Landesman and Litt: a representation of the fundamental group of a punctured surface of genus g, of rank r with r² < g + 1, whose conjugacy class has finite orbit under the mapping class group has finite image. It develops pure mapping class groups acting on surface groups, representation schemes, versal families of pointed curves, and the Hodge theory of unitary local systems on families of punctured curves.
 
-- [#58 MCG-finite representation of a surface group](census/058.md): §2.1 (MCG-finite), §0.2 (PMod and its action on π₁)
+- [#58 MCG-finite representation of a surface group](census/058.md): §2.1 (MCG-finite, with the `Mod(g, n)` orbit form and base-point independence), §0.2 (PMod, its action on π₁, Dehn–Nielsen–Baer)
 - [#59 Mapping class group of a punctured surface](census/059.md): §0.2 (PMod)
 - [#61 Outer action of the mapping class group on the fundamental group](census/061.md): §§0.1–0.2 (based and outer action of PMod)
 - Also cited in the evidence for [#54 Character variety of a surface group in a real reductive group](census/054.md).
@@ -1949,7 +1949,7 @@ Develops the twisted automorphic descent of Jiang and Zhang for special orthogon
 
 Extends the Chow theory of Deligne–Mumford stacks to integral coefficients and to stacks that need not be separated, with the intersection ring of a smooth stack, the comparison with the moduli space, and the degree of the residual gerbe at a closed point. It defines the virtual class without the resolution property, proves deformation invariance of virtual counts, and constructs the perfect obstruction theory of spaces of maps from curves.
 
-- [#16 Rational Chow groups of a Deligne--Mumford stack and the degree of zero-cycles](census/016.md): §§2.2, 5.2, 5.4
+- [#16 Rational Chow groups of a Deligne--Mumford stack and the degree of zero-cycles](census/016.md): §§1.0, 2.2, 5.2, 5.4
 - [#27 Perfect obstruction theory and virtual fundamental class](census/027.md): Layer 9 (ownership unresolved); §6.2
 - Also cited in the evidence for [#24 Moduli stack of stable maps $\overline{\mathcal{M}}_{g,n}(X,\beta)$](census/024.md), [#29 Residual gerbe at a point of an algebraic stack](census/029.md).
 
