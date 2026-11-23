@@ -6,19 +6,12 @@ Every one of the 100 definitions is in exactly one of four files: [ready-to-writ
 
 **Condition:** neither a merged roadmap nor an open PR names the definition as a target (or the ones that do cover only part of it). Something has to be written: a section of an existing roadmap or PR, or a new roadmap. Either way the unit of work is the theory the definition belongs to, not the definition. The groupings are proposals; each census file's "Library-scale gap" describes the theory in more detail.
 
-Order: the two extensions are independent of one another. No new roadmap is needed for any of the 100.
+No new roadmap is needed for any of the 100.
 
 ## Extend an existing roadmap or PR
 
-2 definitions.
+1 definition.
 
-
-### Classical split groups (ReductiveGroups or ChevalleyGroups)
-
-Sources: Knus–Merkurjev–Rost–Tignol, *The Book of Involutions*, §§12–13, 23.
-
-- **#11 Split classical groups $\mathrm{Sp}_{2n}$, $\mathrm{SO}_l$ and general spin groups $\mathrm{GSpin}_l$.** Code: `Sp₂ₘ` pinned group scheme, `SOₙ` of the identity form. Merged [AutomorphicLFunctionsAndLocalFactorsPartII](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/AutomorphicLFunctionsAndLocalFactorsPartII/README.md) §0.0 constructs `GSpin_c` over characteristic-0 fields with a pinned root datum, without Definition 11.2's root datum, the spinor norm `ν` or the sequence `1 → G_m → GSpin → SO → 1`; its input MetaplecticAutomorphicForms §3.2a is merged; §0.3 fixes pinnings of split `Sp_c`, `SO_c`, `GSpin_c`. Open Tau Ceti PR https://git.taucetiproject.org/TauCetiProject/TauCeti/pulls/2348 constructs the group of points `GSpin(Q)` with `e₀∨` and the exact sequence on points over a field. Missing: the split `SO_l` of `J_l` as a pinned group and GSpin as a group scheme over a general base.  
-  Papers: [2024·200(3)·2] Doubling constructions: Global functoriality for non-generic cuspidal representations. [census](../census/011.md)
 
 ### Characteristic data for compressible Euler (Part II of PR #2442)
 

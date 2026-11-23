@@ -13,7 +13,7 @@ Counts exclude items found DONE. "Ready now" counts items whose verdict begins "
 
 | Roadmap | # defs served | Items (not-started / partial) | Ready now | Definitions served |
 |---|---|---|---|---|
-| SchemeAndStackFoundations | 16 | 34 (17 / 17) | 11 | 16, 17, 19, 20, 21, 24, 25, 26, 27, 28, 29, 30, 71, 80, 84, 85 |
+| SchemeAndStackFoundations | 17 | 34 (17 / 17) | 11 | 11, 16, 17, 19, 20, 21, 24, 25, 26, 27, 28, 29, 30, 71, 80, 84, 85 |
 | AutomorphicFormsOnReductiveGroups | 13 | 7 (4 / 3) | 4 | 1, 4, 5, 7, 67, 72, 73, 76, 79, 83, 86, 88, 90 |
 | ArithmeticLocallySymmetricSpaces | 12 | 3 (2 / 1) | 0 | 1, 4, 7, 62, 67, 72, 73, 76, 77, 79, 88, 90 |
 | AbelianSchemesAndArithmeticModuli | 11 | 6 (5 / 1) | 1 | 12, 13, 23, 70, 71, 74, 78, 80, 85, 87, 89 |
@@ -25,7 +25,7 @@ Counts exclude items found DONE. "Ready now" counts items whose verdict begins "
 | RealSemisimpleLieGroups | 7 | 5 (4 / 1) | 2 | 1, 4, 15, 31, 54, 62, 79 |
 | ShimuraVarieties | 7 | 5 (3 / 2) | 3 | 13, 15, 23, 31, 70, 75, 89 |
 | JacobianChallenge | 6 | 4 (0 / 4) | 1 | 19, 30, 71, 80, 84, 85 |
-| ReductiveGroups | 6 | 5 (3 / 2) | 1 | 1, 4, 11, 23, 68, 79 |
+| ReductiveGroups | 6 | 6 (3 / 3) | 2 | 1, 4, 11, 23, 68, 79 |
 | SmoothBundlesConnections | 6 | 3 (2 / 1) | 1 | 15, 31, 37, 48, 49, 62 |
 | SmoothRepresentationsOfLocalGroups | 6 | 5 (2 / 3) | 3 | 67, 73, 83, 86, 88, 90 |
 | EtaleCohomologyFoundations | 5 | 7 (5 / 2) | 2 | 18, 19, 69, 77, 84 |
@@ -56,7 +56,6 @@ Counts exclude items found DONE. "Ready now" counts items whose verdict begins "
 | ArakelovGeometryAndAbelianHeightsPartII | 2 | 2 (2 / 0) | 0 | 80, 85 |
 | ArithmeticGaloisRepresentations | 2 | 3 (1 / 2) | 3 | 69, 89 |
 | AutomorphicLFunctionsAndLocalFactors | 2 | 3 (3 / 0) | 0 | 72, 88 |
-| AutomorphicLFunctionsAndLocalFactorsPartII | 2 | 1 (1 / 0) | 0 | 11, 88 |
 | BallQuotientsAndComplexHyperbolicLattices | 2 | 3 (3 / 0) | 0 | 15, 31 |
 | CharacteristicClasses | 2 | 2 (2 / 0) | 0 | 37, 48 |
 | ComplexKahlerGeometry | 2 | 4 (2 / 2) | 1 | 38, 40 |
@@ -69,7 +68,6 @@ Counts exclude items found DONE. "Ready now" counts items whose verdict begins "
 | GeometricTopology | 2 | 3 (1 / 2) | 0 | 59, 66 |
 | IntegralHeckeAndGaloisDeterminants | 2 | 1 (0 / 1) | 0 | 69, 88 |
 | MathematicalBilliards | 2 | 5 (5 / 0) | 4 | 92, 93 |
-| MetaplecticAutomorphicForms | 2 | 1 (1 / 0) | 0 | 11, 88 |
 | ModularCharactersAndBlocksPartII | 2 | 5 (4 / 1) | 2 | 8, 9 |
 | NashBlowups | 2 | 12 (9 / 3) | 3 | 25, 26 |
 | NoncompactQuantumSymmetry | 2 | 1 (1 / 0) | 0 | 1, 4 |
@@ -88,6 +86,7 @@ Counts exclude items found DONE. "Ready now" counts items whose verdict begins "
 | AmenableTracesOnCStarAlgebras | 1 | 7 (5 / 2) | 4 | 36 |
 | AnabelianGeometryAndNonabelianChabauty | 1 | 1 (1 / 0) | 0 | 84 |
 | ArithmeticGaloisDuality | 1 | 1 (1 / 0) | 1 | 87 |
+| AutomorphicLFunctionsAndLocalFactorsPartII | 1 | 1 (1 / 0) | 0 | 88 |
 | AutomorphicSpectralTheory | 1 | 1 (0 / 1) | 1 | 43 |
 | CompletedCohomologyAndLocalGlobalCompatibility | 1 | 1 (1 / 0) | 0 | 77 |
 | CompletedCohomologyPartII | 1 | 4 (4 / 0) | 0 | 77 |
@@ -110,6 +109,7 @@ Counts exclude items found DONE. "Ready now" counts items whose verdict begins "
 | HeightsRationalPointsAndObstructions | 1 | 4 (4 / 0) | 2 | 80 |
 | IgusaVarietiesAndTorsionConcentration | 1 | 1 (1 / 0) | 0 | 82 |
 | KTheoryFiniteLocalFields | 1 | 1 (1 / 0) | 0 | 10 |
+| MetaplecticAutomorphicForms | 1 | 1 (1 / 0) | 0 | 88 |
 | NoncommutativeIntegration | 1 | 1 (1 / 0) | 0 | 46 |
 | PerfectoidSpaces | 1 | 1 (0 / 1) | 0 | 81 |
 | PrismaticCohomology | 1 | 2 (2 / 0) | 0 | 81 |
@@ -197,6 +197,10 @@ Distinct definitions served: 91. Items: see per-roadmap sections.
   also need SobolevMapsBetweenManifolds §§4.2–4.3, §5.1 and §§6.2–6.3 (def 47).
 - The Néron–Tate height (def 80) follows HeightsRationalPointsAndObstructions §§0.1–0.8 and §0.18
   (ready, open PRs), then §0.19, which needs AbelianSchemesAndArithmeticModuli A1.4–A1.5.
+- ReductiveGroups §§9B.5–9B.8 (def 11) define the classical group schemes, which can start now on
+  `TauCeti.ConstantForm` and the Clifford API; their comparisons with pinned models wait on
+  Layer 9's uniform pinned construction and §§9B.1–9B.3, and the Dickson invariant and smoothness
+  on LefschetzPencilsAndVanishingCycles §§2.1–2.2 and DeformationAndDerivedPatchingAlgebra §3.3.
 
 ## TauCetiRoadmap/SchemeAndStackFoundations
 STATUS.md snapshot: 16ab02b6d 2026-11-20, generated against Tau Ceti b235000 (Tau Ceti checked at b958110baf, 2026-11-22)
@@ -387,10 +391,10 @@ STATUS.md snapshot: 16ab02b6d 2026-11-20, generated against Tau Ceti b235000 (Ta
 - Serves defs: 20
 - Evidence: README l.4206 "### 2.3 Torsors and the first cohomology: the carrier of torsor classes" ("compatible with `map`, `pullback` and `connecting`").
 
-### §2.11 Hilbert 90 for schemes, Kummer and Artin–Schreier sequences, finite pushforward (cited for 20)
+### §2.11 Hilbert 90 for schemes, Kummer and Artin–Schreier sequences, finite pushforward (cited for 11, 20)
 - Status: PARTIAL: two inputs are in code. For `n` invertible on `S`, the Kummer sequence on the big étale site (Stacks 03PL): `AlgebraicGeometry.Scheme.exists_etale_cover_pow_eq`, `isLocallySurjective_powHom`, `epi_sheafPushforwardContinuous_map_powHom` (AlgebraicGeometry/Sites/Big/Kummer.lean), with `𝔾_m` as a sheaf of groups `Scheme.GmGrp` (Sites/Big/GmGrp.lean). The injective half of `hilbert90`: the frame torsor `Scheme.Modules.frameTorsor` of an invertible sheaf and the injective map `TauCeti.AlgebraicGeometry.LineBundleClass.frameTorsorClass` from line bundle classes to `𝔾_m`-torsor classes (`frameTorsorClass_injective`, LineBundle/FrameTorsor.lean). Missing: surjectivity in `hilbert90` (it needs effective descent of invertible sheaves) and the comparison of the Zariski, étale and fppf `H¹(𝔾_m)`, `fppf_kummer_sequence` for every `n`, `artinSchreier_sequence`, `finite_pushforward_exact`. Other inputs in code: Kummer covers (AlgebraicGeometry/FiniteEtale/Kummer.lean), `Algebra/CharP/ArtinSchreier.lean`, Galois `TauCeti.hilbert90` (FieldTheory/GaloisCohomology/Hilbert90.lean).
 - Ready now: no: needs §2.9 (partial, in STATUS's Layer 2 remaining list) and §2.10 (partial; no `epsilonFppfEtale`); `hilbert90` surjectivity also needs §1.1's effective descent
-- Serves defs: 20
+- Serves defs: 11 (through ReductiveGroups §9B.7, surjectivity of `GSpin(F) → SO(F)`), 20
 - Evidence: README l.4707 "### 2.11 Hilbert 90, the Kummer and Artin–Schreier sequences, finite pushforward" (*Needs:* §2.1, §2.9, §2.10; Tau Ceti `LineBundleClass`); grep `fppf_kummer|artinSchreier_sequence|finite_pushforward_exact` in TauCeti/ empty.
 
 ### §2.15 étale cohomology: Gabber, fields, limits, Hochschild–Serre (cited for 20)
@@ -768,11 +772,17 @@ STATUS.md snapshot: 38bee4a 2026-11-19, generated against Tau Ceti bf5b062 (Tau 
 - Serves defs: 1, 4, 11, 23, 79
 - Evidence: README l.3336 "## Layer 7b: algebraic parabolics and Levi intersections" (l.3376 "consuming Layer 7's Bruhat decomposition, common-torus theorem"; Dependencies l.3412); STATUS Layer 7b "untouched"; grep `exists_levi_complement_of_isParabolic|exists_titsSystem_of_isBorel` empty.
 
-### Layer 9D Isomorphism and existence theorems: split reductive groups ↔ root data
-- Status: NOT-STARTED for the isomorphism and existence theorems. Related pieces exist: pinning transport across isomorphisms (Algebra/AlgebraicGroup/Pinning/Isomorphism.lean) and the Chevalley carriers, including Algebra/AlgebraicGroup/Chevalley/Orthogonal.lean, the Bruhat decomposition, Tits system and Weyl quotient of Chevalley data, and the integral Chevalley Lie algebra `RootPairing.ChevalleyLieAlgebra`.
-- Ready now: no: needs the Layer 7 root datum, Layer 8 split data over general bases (partial) and the Layer 9 uniform pinned construction (partial).
+### Layers 8–9 (§§8.1–8.2, §9B, §§9B.1–9B.3) Split data, pinnings and the pinned Chevalley–Demazure models over ℤ
+- Status: PARTIAL. Exists: the split maximal torus `TauCeti.SplitMaximalTorus` with `comapOfIso` and `baseChange` (Algebra/AlgebraicGroup/SplitTorus/Maximal.lean), pinnings `TauCeti.Pinning` with `Pinning.comapOfIso` (Algebra/AlgebraicGroup/Pinning/), the integral Chevalley Lie algebra `RootPairing.ChevalleyLieAlgebra`, the Kostant toral closure `TauCeti.UniversalEnvelopingAlgebra.kostantToralDefiningIdeal` and its group scheme (Algebra/Lie/UniversalEnveloping/Kostant/RootSubgroup/Scheme/ToralClosure/, with base change, flatness and finite type), and the Chevalley-datum carriers with Bruhat decomposition and Tits system (Algebra/AlgebraicGroup/Chevalley/). Missing: split reductive data over general nonempty bases with the full root datum (§8.1), the theorem that the toral closure is a split reductive group scheme with root datum `Ψ` (the uniform pinned construction), the integral open cells (§9B.1), central quotients and realizations (§9B.2) and the pinned comparison of based root data (§9B.3).
+- Ready now: no: the uniform pinned construction needs §9A.5's faithful integral realization and §9B.1's chart comparisons (README *Needs*), which STATUS lists under Layer 9's remaining "uniform pinned group construction" and "pinned isomorphism existence"; §§9B.2–9B.3 follow it.
 - Serves defs: 11
-- Evidence: README l.5396 "## Layer 9D: classification, relative groups and forms", l.5397 "The **isomorphism** and **existence theorems**: split reductive groups ↔ root data"; STATUS Layer 9D "remaining: isomorphism and existence theorems, relative center and derived group, forms, perfect-field pseudo-reductivity, nilradical filtration".
+- Evidence: README l.3787 "## Layer 8: split groups and pinnings", l.3789 "### 8.1 Split reductive data", l.3819 "### 8.2 Pinnings"; l.3868 "## Layer 9: pinned Chevalley–Demazure group schemes over `ℤ`", l.4510 "#### 9B. Pinned groups and their explicit carriers" (l.4532: the pinned model "is neither a group chosen by Layer 9D's existence theorem nor a group picked out from an arbitrary concrete realization"), l.4592 "##### 9B.1 Integral open cells", l.4669 "##### 9B.2 Central quotients and realizations", l.4733 "##### 9B.3 Pinned comparison"; STATUS Layer 8 "remaining: split reductive data over general nonempty bases retaining the full root datum", Layer 9 "remaining: Chevalley Lie algebra vs group Lie algebra comparison, uniform pinned group construction, general folding, pinned isomorphism existence".
+
+### §§9B.5–9B.8 Classical group schemes: Sp and GSp, O, SO, GO and GSO with the Dickson invariant, GPin, GSpin and Spin, low-rank isomorphisms
+- Status: NOT-STARTED. Tau Ceti has the carriers these sections start from: the pinned `Sp₂ₘ` (`TauCeti.Symplectic.groupScheme`, `Symplectic.standardPinning`, Algebra/AlgebraicGroup/Symplectic/), the constant-form subgroup schemes `TauCeti.ConstantForm` (Algebra/AlgebraicGroup/ConstantForm/Basic.lean), the identity-form `SOₙ` (Algebra/AlgebraicGroup/SpecialOrthogonal/), the point groups `TauCeti.QuadraticMap.orthogonalGroup` (LinearAlgebra/QuadraticForm/OrthogonalGroup/Basic.lean), the Lipschitz vector action and norm `lipschitzVectorAction`, `lipschitzNorm` (LinearAlgebra/CliffordAlgebra/Lipschitz/), and the low-rank Clifford isomorphisms on points (LinearAlgebra/CliffordAlgebra/Spin/LowRank/). No `GSp₂ₘ`, no orthogonal group scheme of a quadratic module, no Dickson invariant, no `GPin`, `GSpin` or `Spin` group scheme (grep `GSpin|gSpinGroup` in Algebra/AlgebraicGroup/ and LinearAlgebra/CliffordAlgebra/ empty; the Dickson invariant appears there only in a docstring of SpecialOrthogonal/Basic.lean). Open Tau Ceti PR https://git.taucetiproject.org/TauCetiProject/TauCeti/pulls/2348 constructs the group of points `GSpin(Q)` over a field with the exact sequence on points.
+- Ready now: yes for the definitions as closed subgroup schemes, by the `ConstantForm` closure argument: `GSp₂ₘ` with its multiplier, the polynomial presentation of `O(Sp₂ₘ)`, the transport of the `Sp₂ₘ` pinning to a congruent Gram matrix such as `J_{Sp₂ₘ}` (§9B.5), `O(q)` and `GO(q)` of a quadratic module (§9B.6), and `GPin(q)`, `GSpin(q)` with `ρ` and `ν` (§9B.7). The comparisons with pinned models need Layers 8–9 above (partial); the Dickson invariant and smoothness need LefschetzPencilsAndVanishingCycles §§2.1–2.2 (ordinary forms and the étale even Clifford centre; not in code beyond the field case `CliffordAlgebra.adjoinRootEquivCenterEven`) and DeformationAndDerivedPatchingAlgebra §3.3 (local fibral flatness; not in code); the exact sequences need Layers 3–4 (Layer 3 partial) and SchemeAndStackFoundations §2.11 (partial); §9B.8 needs §§9B.5–9B.7.
+- Serves defs: 11
+- Evidence: README l.4830 "##### Conventions for §§9B.5–9B.8", l.4862 "##### 9B.5 The symplectic and symplectic-similitude groups", l.4916 "##### 9B.6 Orthogonal groups of a quadratic module and the Dickson invariant", l.5027 "##### 9B.7 Clifford groups, general spin groups and spin groups", l.5117 "##### 9B.8 Low-rank identifications and duality of classical root data"; *Needs* l.4898, l.4995, l.5086, l.5136; added by roadmap PR #2530 (merged 2026-11-19, commit 1b7b481a2), after the STATUS snapshot.
 
 ### 3A.5e The complex Lie group G(ℂ)
 - Status: NOT-STARTED. Its 3A.5c input is largely in code: point topology and topological group `TauCeti.PointTopology.isTopologicalGroup` (Topology/Algebra/PointTopology/Group.lean), scheme point topology with charts (Topology/Algebra/PointTopology/Scheme/Charts.lean), the point functor (Scheme/Functor.lean), fibre products `pointsEquivOfIsPullback` (Scheme/FiberProduct.lean), reduction and thickenings inducing homeomorphisms (Scheme/{Reduction,Thickening}.lean), and properness of complex points of projective schemes (Scheme/Projective.lean). 3A.5d is not: only the point spaces of standard smooth presentations are identified (Topology/Algebra/PointTopology/Presentation.lean). No complex manifold or Lie-group structure on G(ℂ).
@@ -2567,7 +2577,7 @@ No STATUS.md (merged as roadmap PR #1756; Tau Ceti checked at b958110baf, 2026-1
 ### §§0.0, 0.3, 0.4, 10.1 Split classical and GSpin groups, standard transfer degree, archimedean transfer, weak functorial transfer
 - Status: NOT-STARTED. Open Tau Ceti PR https://git.taucetiproject.org/TauCetiProject/TauCeti/pulls/2348 (§0.0's general spin group `CliffordAlgebra.gSpinGroup` as the even Lipschitz group, with the exact sequence `1 → Kˣ → GSpin(Q) → SO(Q) → 1` over a field).
 - Ready now: no: §0.0 needs ReductiveGroupsPartII RG2.0a and RG2.5, OrthogonalSpinGroups Layers 0–1, GeometryOfNumbersAndQuadraticArithmetic §2.9 and MetaplecticAutomorphicForms §3.2a (merged roadmap, not in code); §10.1 needs SmoothRepresentationsOfLocalGroups SR.4, AutomorphicFormsOnReductiveGroups §§2.1–2.7, AutomorphicSpectralTheory §§2.1–2.6 and AutomorphicLFunctionsAndLocalFactors AL.3, none started
-- Serves defs: 88 (target: §10.1), 11
+- Serves defs: 88 (target: §10.1)
 - Evidence: README l.41 §0.0 (*Needs* l.59), l.135 §0.3 (*Needs* l.172), l.174 §0.4 (*Needs* l.188), l.1604 §10.1 (*Needs* l.1636).
 
 ## TauCetiRoadmap/AnabelianGeometryAndNonabelianChabauty
@@ -2795,7 +2805,7 @@ No STATUS.md (Tau Ceti checked at b958110baf, 2026-11-22).
 ### §3.2a Split étale Hermitian spaces and oscillator comparison (`splitHermitianOscillator`)
 - Status: NOT-STARTED (no `splitHermitianOscillator` or oscillator representation in TauCeti/). The Heisenberg groups of its Layer 0 are in open Tau Ceti PR https://github.com/TauCetiProject/TauCeti/pull/44876 (Heisenberg group of a bilinear form, Layer 0.1–0.6, 0.9) and Forgejo PR https://git.taucetiproject.org/TauCetiProject/TauCeti/pulls/2351.
 - Ready now: no: needs §0.15 (Schrödinger representation), §2.5 (Weil operators on generators), §2.7 (character change and dual Weil models), none implemented.
-- Serves defs: 88 (through AutomorphicLFunctionsAndLocalFactorsPartII §0.0, on which §§0.3–0.4 and §10.1 build), 11 (through §0.0)
+- Serves defs: 88 (through AutomorphicLFunctionsAndLocalFactorsPartII §0.0, on which §§0.3–0.4 and §10.1 build)
 - Evidence: README l.564 "### 3.2a Split étale Hermitian spaces and oscillator comparison" (*Needs:* "0.15, 2.5, 2.7"); l.225 "### 0.15 Schrödinger representation", l.478 "### 2.5 Weil operators on generators", l.508 "### 2.7 Character change and dual Weil models"; merged as roadmap PR #1063.
 
 ## TauCetiRoadmap/CountableStructureSpacesPartII

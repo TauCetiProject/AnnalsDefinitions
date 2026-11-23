@@ -944,6 +944,11 @@ Title: Real semisimple Lie groups, parabolic subgroups and Riemannian symmetric 
 
 Builds the structure theory of real semisimple and reductive Lie groups on top of the Cartan, Iwasawa and KAK decompositions: Cartan involutions, restricted roots, the real rank, the restricted Weyl group, minimal and general parabolic subgroups with their Langlands decompositions, and the Bruhat decomposition. It then develops the Riemannian symmetric space G/K: its invariant metric, curvature and geodesics, flats and rank, the conjugacy of maximal compact subgroups, and quotients by discrete subgroups.
 
+## ReductiveGroups
+Title: Reductive algebraic groups
+
+Builds the general theory of affine algebraic groups and reductive groups from Hopf algebras and comodules: representations, Lie algebras, quotients, tori, solvable and unipotent groups, structure theory with root data, parabolics and the Bruhat decomposition, finite groups of Lie type, and classification by root data. It constructs the pinned Chevalley–Demazure group scheme over the integers of every root datum, and identifies with these models the classical group schemes over every commutative ring: symplectic and symplectic-similitude groups, orthogonal and special orthogonal groups of a quadratic form with the Dickson invariant, and general spin and spin groups, with their low-rank isomorphisms. It also develops highest-weight representations and regular-semisimple spectral quotients.
+
 ## ReductiveGroupsPartIII
 Title: Reductive groups, part III — arithmetic conjugacy quotients and tori
 

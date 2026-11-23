@@ -8,7 +8,7 @@ A roadmap is *merged* when the census links its folder on TauCetiRoadmap `main`,
 
 | Group | Count |
 | --- | --- |
-| [Merged roadmaps](#merged-roadmaps) | 158 |
+| [Merged roadmaps](#merged-roadmaps) | 159 |
 | [Roadmaps in open PRs](#roadmaps-in-open-prs) | 60 |
 | [Other cited PRs](#other-cited-prs) | 12 |
 
@@ -234,9 +234,8 @@ Develops the analytic theory of L-functions of characters and of automorphic rep
 
 Develops the doubling method for standard L-functions: classical doubling for unitary groups, with its archimedean sections, and generalised doubling for split symplectic, special orthogonal and general spin groups. Its main results are local functional equations, entireness of the global L-functions after highly ramified twists, and a weak transfer of automorphic representations of these groups to general linear groups.
 
-- [#11 Split classical groups $\mathrm{Sp}_{2n}$, $\mathrm{SO}_l$ and general spin groups $\mathrm{GSpin}_l$](census/011.md): §0.0
 - [#88 Weak functorial transfer to $\mathrm{GL}_N$](census/088.md): §10.1 (split classical groups, standard `r_G`)
-- Also cited in the evidence for [#4 Parabolic subgroups of a real semisimple Lie group (minimal and standard parabolics)](census/004.md), [#5 Infinitesimal character (and Casimir eigenvalue) of a representation of a real reductive group](census/005.md), [#82 The quasi-split unitary group of a self-dual hermitian lattice](census/082.md).
+- Also cited in the evidence for [#4 Parabolic subgroups of a real semisimple Lie group (minimal and standard parabolics)](census/004.md), [#5 Infinitesimal character (and Casimir eigenvalue) of a representation of a real reductive group](census/005.md), [#11 Split classical groups $\mathrm{Sp}_{2n}$, $\mathrm{SO}_l$ and general spin groups $\mathrm{GSpin}_l$](census/011.md), [#82 The quasi-split unitary group of a self-dual hermitian lattice](census/082.md).
 
 ### [AutomorphicPadicLFunctionsPartII](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/AutomorphicPadicLFunctionsPartII/README.md)
 
@@ -1117,6 +1116,14 @@ Builds the structure theory of real semisimple and reductive Lie groups on top o
 - [#62 Riemannian symmetric space of a semisimple Lie group](census/062.md): §0.2, §§5.2–5.4, §5.6
 - [#79 Minimal parabolic subgroups and the Langlands decomposition (real rank one)](census/079.md): §3.1
 - Also cited in the evidence for [#49 Second fundamental form, principal curvatures and mean curvature of a hypersurface](census/049.md), [#68 Arithmetic lattice in a semisimple Lie group](census/068.md).
+
+### [ReductiveGroups](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/ReductiveGroups/README.md)
+
+*Reductive algebraic groups.* Merged.
+
+Builds the general theory of affine algebraic groups and reductive groups from Hopf algebras and comodules: representations, Lie algebras, quotients, tori, solvable and unipotent groups, structure theory with root data, parabolics and the Bruhat decomposition, finite groups of Lie type, and classification by root data. It constructs the pinned Chevalley–Demazure group scheme over the integers of every root datum, and identifies with these models the classical group schemes over every commutative ring: symplectic and symplectic-similitude groups, orthogonal and special orthogonal groups of a quadratic form with the Dickson invariant, and general spin and spin groups, with their low-rank isomorphisms. It also develops highest-weight representations and regular-semisimple spectral quotients.
+
+- [#11 Split classical groups $\mathrm{Sp}_{2n}$, $\mathrm{SO}_l$ and general spin groups $\mathrm{GSpin}_l$](census/011.md): §9B.5 (`Sp₂ₙ`, `GSp₂ₙ`), §9B.6 (`SO(q)`, split `SO_l` of `J_l`), §9B.7 (`GSpin`, `Spin`, root datum of Def. 11.2), §9B.8 (low rank, dual root data)
 
 ### [ReductiveGroupsPartIII](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/ReductiveGroupsPartIII/README.md)
 
