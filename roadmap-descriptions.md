@@ -281,6 +281,12 @@ PR: #2442
 
 Develops the classical theory of the compressible Euler equations of a perfect fluid on ℝ × ℝⁿ: the barotropic and full systems, their symmetric hyperbolic form, sound cones and domains of dependence. Main results are local well-posedness in Sobolev spaces for data without vacuum, uniqueness on domains of dependence, and the theory of developments of initial data, including the existence of maximal developments and the fact that their regular boundary is null for the acoustical metric.
 
+## CompressibleEulerEquationsPartII
+Title: Compressible Euler equations, part II: acoustical geometry and characteristic data
+PR: #3010
+
+Builds the geometry of the acoustical metric of a solution of the compressible Euler equations, whose null cones are the sound cones: acoustical functions whose level sets are sound fronts, acoustical coordinates, and the characteristic boundary of a development, each point of which lies on a null geodesic issuing from the edge of the data. It then treats initial data prescribed partly on a characteristic hypersurface, with their developments, maximal developments, local existence near the edge and the Goursat problem, and shows that the plane-symmetric centered rarefaction wave of a polytropic gas fits this setting.
+
 ## CongruenceSpectralGap
 Title: The congruence spectral gap
 

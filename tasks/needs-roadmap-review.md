@@ -1,6 +1,6 @@
 # Needs roadmap review
 
-Snapshot 2026-11-23 (Tau Ceti `b958110ba`, Mathlib `31ce06eaadf4`, roadmaps `886c89ef3`, 495 open roadmap PRs).
+Snapshot 2026-11-23 (Tau Ceti `43e15f746`, Mathlib `31ce06eaadf4`, roadmaps `886c89ef3`, 496 open roadmap PRs).
 
 Every one of the 100 definitions is in exactly one of four files: [ready-to-write-statements.md](ready-to-write-statements.md), [ready-to-formalize-in-tau-ceti.md](ready-to-formalize-in-tau-ceti.md), [needs-roadmap-review.md](needs-roadmap-review.md), [needs-roadmap-written.md](needs-roadmap-written.md). A definition is placed in the furthest-along file whose condition holds for the definition as Kevin Buzzard's text states it; gaps that matter only for a particular paper are noted on the entry.
 
@@ -13,7 +13,7 @@ A definition appears under every PR that specifies it.
 - Add classical ergodic theory, entropy and flows roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2231: #39, #96, #97
 - SurfaceGroupCharacterVarieties: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2430: #54, #58, #61
 - HyperbolicDynamicsAndThermodynamicFormalism: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2441: #91, #96, #97
-- Add semi-Riemannian foundations and Lorentzian causality roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2232: #50, #51
+- Add semi-Riemannian foundations and Lorentzian causality roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2232: #33, #50, #51
 - MappingClassGroupsAndCanonicalRepresentations: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2266: #58, #61
 - SchrodingerOperatorsAndSpectralTypes: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2424: #40, #45
 - PDE Mixed Boundary Conditions, https://github.com/TauCetiProject/TauCetiRoadmap/pull/1614: #34
@@ -25,7 +25,7 @@ A definition appears under every PR that specifies it.
 - SchemeAndStackFoundationsPartII: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2272: #21
 - SchattenClassesAndSchurMultipliers: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2421: #46
 - ConstructiveFieldTheoryPhi4: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2432: #99
-- CompressibleEulerEquations: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2442: #51
+- CompressibleEulerEquations: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2442: #33, #51
 - VirtualFundamentalClassPartII: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2446: #16
 - HochschildHomologyAndHKR: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2447: #10
 - HardSphereDynamicsAndKineticLimits: roadmap, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2448: #39
@@ -34,10 +34,11 @@ A definition appears under every PR that specifies it.
 - MinimalSurfaces: stability across a singular set and strict stability, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2491: #65
 - feat: add the normal Cauchy-Riemann operator to AnalyticStableMaps, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2529: #60
 - feat: add quasi-affine descent, quasi-finite spaces and fppf cohomology with supports to SchemeAndStackFoundations, https://github.com/TauCetiProject/TauCetiRoadmap/pull/2531: #21
+- feat: add CompressibleEulerEquationsPartII, acoustical geometry and characteristic data, https://github.com/TauCetiProject/TauCetiRoadmap/pull/3010: #33, #51
 
 ## By definition
 
-24 definitions.
+25 definitions.
 
 
 ### Algebra, representation theory & homotopy theory
@@ -58,6 +59,8 @@ A definition appears under every PR that specifies it.
 
 ### Analysis & PDE
 
+- **#33 Domain of dependence and development of initial data for the compressible Euler equations.** PR [#2442](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2442) §§1.2, 3.1–3.3 (Euler, acoustical form, `D⁺_D(S)`, 33.1–33.2), §8.1 (developments of type (i) data), §8.2 (maximal developments; it shows that Proposition 33.4's uniqueness claim fails in general and proves uniqueness under a criterion), §8.4 (null regular boundary); PR [#3010](https://github.com/TauCetiProject/TauCetiRoadmap/pull/3010) (CompressibleEulerEquationsPartII) §2.2 (the characteristic boundary ruled by null geodesics from the edge, 33.5), §§3.2–3.3 (characteristic data sets on `S₀ ∪ C` and their developments, 33.3 (ii)), §3.4 (local existence near the edge); acoustical metric and `D⁺_D(S)` also PR [#2232](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2232) §7.3, §12.6, with Cauchy horizons in §12.7; symmetric hyperbolic systems PR [#2246](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2246).  
+  Papers: [2025·202(2)·2] On the stability of multi-dimensional rarefaction waves I: the energy estimates; [2025·202(2)·3] On the stability of multi-dimensional rarefaction waves II: existence of solutions and applications to the Riemann problem. [census](../census/033.md)
 - **#34 Neumann eigenvalues and eigenfunctions of the Laplacian on a bounded domain.** PR [#1614](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1614) §4.6 "Mixed and Neumann spectra" of the [PDE](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/PDE/README.md) roadmap (with §1.8 `H¹_Γ(Ω)` and §4.5 the Neumann problem): weak Neumann eigenvalues, eigenbasis, min–max, the kernel as the locally constant functions (multiplicity the number of components), the second eigenvalue as the mean-zero Rayleigh minimum, and the self-adjoint realization. The abstract eigenbasis and operator of a coercive form along a compact map are in code (`IsCoercive.exists_hilbertBasis_forall_apply_eq_smul_inner`, `IsCoercive.formOperator`, `TauCeti/Analysis/InnerProductSpace/Variational/`), and `TauCeti.W1p mu Ω 2` is an inner product space; the application to `W^{1,2}(Ω)` is not in code. Proposition 34.3 (regularity up to a smooth boundary and at polygon corners, the classical problem), which both papers use, is left by the PR to a later PDE part and is unplanned.  
   Papers: [2020·191(1)·3] Euclidean triangles have no hot spots; [2022·196(3)·4] One can hear the shape of ellipses of small eccentricity. [census](../census/034.md)
 - **#39 Hard sphere dynamics on the torus.** PR [#2448](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2448) Layers 1–3 (flat tori, scattering, hard-core phase space, 39.1), Layer 5 (trajectories, 39.2), §6.4 (Alexander's theorem `volume_hardCoreSet_diff_goodSet`, 39.3), §§7.1–7.5 (the flow, measure preservation, grand canonical phase space), §§8.1–8.2 (transported densities, weak Liouville equation with specular reflection, 39.4); consumes PR [#2231](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2231) §3.5. PR #2448 §10.4 states Lanford's theorem as `HardSphere.LanfordStatement`; its proof, and the fluctuations and large deviations of the paper's theorems, are in no open PR.  
@@ -73,7 +76,7 @@ A definition appears under every PR that specifies it.
 
 - **#50 Lorentzian manifold, time orientation and spacetime.** Code: `ContMDiffNondegenerateMetric` and its Levi-Civita connection ([Completed/HopfRinow](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/Completed/HopfRinow/README.md) L1). Partly in code (smooth nondegenerate metrics of any signature); Lorentzian scalar products and time cones, `C^k` and Hölder Lorentzian metrics on manifolds with boundary or corners, time orientations, causal curves and extensions are PR [#2232](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2232) §§6.1–6.2, §§2.2–2.3, §7.1, §§8.1–8.2, §2.7.  
   Papers: [2023·198(1)·3] Naked singularities for the Einstein vacuum equations: The exterior solution; [2025·201(3)·3] Naked singularity censoring with anisotropic apparent horizon; [2025·202(2)·1] The interior of dynamical vacuum black holes I: The $C^0$-stability of the Kerr Cauchy horizon; [2025·202(2)·2] On the stability of multi-dimensional rarefaction waves I: the energy estimates; [2025·202(2)·3] On the stability of multi-dimensional rarefaction waves II: existence of solutions and applications to the Riemann problem. [census](../census/050.md)
-- **#51 Null (characteristic) hypersurface of a Lorentzian manifold.** PR [#2232](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2232) §6.3 (causal type of hyperplanes), §9.2 (null hypersurfaces, null normals, optical functions, eikonal equation), §9.3 (null generators). PR [#2442](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2442) §3.1 identifies null covectors of the acoustical form with the characteristic variety of the Euler system.  
+- **#51 Null (characteristic) hypersurface of a Lorentzian manifold.** PR [#2232](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2232) §6.3 (causal type of hyperplanes), §9.2 (null hypersurfaces, null normals, optical functions, eikonal equation), §9.3 (null generators). PR [#2442](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2442) §3.1 identifies null covectors of the acoustical form with the characteristic variety of the Euler system; PR [#3010](https://github.com/TauCetiProject/TauCetiRoadmap/pull/3010) §§1.2, 3.1 uses sound-null hypersurfaces as level sets of acoustical functions and carriers of characteristic data.  
   Papers: [2025·202(2)·2] On the stability of multi-dimensional rarefaction waves I: the energy estimates; [2025·202(2)·3] On the stability of multi-dimensional rarefaction waves II: existence of solutions and applications to the Riemann problem. [census](../census/051.md)
 - **#54 Character variety of a surface group in a real reductive group.** PR [#2430](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2430) §§4.2–4.3 (`Hom(π₁Σ_g, G^ℝ)`, 54.2), §§5.1–5.2 (real reductive data, real forms `H(ℂ)^τ`, 54.1), §6.1 `IsReductiveRep` (54.3), §6.7 (Proposition 54.4), §7.1 `CharacterVariety` Hausdorff (54.5); Cartan involution `σ` and maximal compact `H^τ ∩ H^σ` in [RealSemisimpleLieGroups](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/RealSemisimpleLieGroups/README.md) §2.5. Code: Cartan involutions of real Lie algebras (`LieEquiv.IsCartanInvolution`) and of real affine algebraic groups (`TauCeti.IsCartanInvolution`), `TauCeti.OuterAut`.  
   Papers: [2024·200(3)·1] A general Cayley correspondence and higher rank Teichmüller spaces. [census](../census/054.md)
