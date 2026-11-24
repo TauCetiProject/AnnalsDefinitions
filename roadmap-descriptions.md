@@ -198,12 +198,6 @@ PR: #2249
 
 Develops measurability, Bochner and Pettis integration, Bochner spaces, integral operators and vector measures for functions with values in a Banach space. Main results include the Pettis measurability theorem, Hille's theorem on closed operators and Bochner integrals, Minkowski's integral inequality and Fubini's theorem, the identification of the Bochner space L¹ with a projective tensor product, criteria for Pettis integrability, and the characterization of duality of Bochner spaces by the Radon–Nikodým property.
 
-## BoltzmannGradLimitAndLanford
-Title: The Boltzmann–Grad limit and Lanford's theorem
-PR: #2467
-
-Proves Lanford's theorem for hard spheres on the unit torus in every dimension at least two, in the grand canonical setting: for initial data that, with their spatial gradient, decay like a Gaussian in velocity, the rescaled correlation functions converge in the Boltzmann–Grad limit, on a short time interval, to tensor powers of a solution of the Boltzmann equation. The proof takes the route of Gallagher, Saint-Raymond and Texier, through the BBGKY and Boltzmann hierarchies, uniform bounds on their Duhamel series, pseudo-trajectories along collision trees and geometric estimates excluding recollisions.
-
 ## CalibratedGeometry
 Title: Calibrations, volume minimization and special Lagrangian geometry
 
@@ -1221,11 +1215,6 @@ Relates point counts over finite fields to the zeta function and its cohomologic
 Title: Yang–Mills connections on Euclidean space and the caloric gauge
 
 Develops connections on Euclidean space with values in a compact Lie group at critical regularity: Sobolev gauge transformations, Uhlenbeck's Coulomb gauge, the good global gauge theorem, and the topological class and instanton number of a finite-energy connection. It then treats harmonic Yang–Mills connections on ℝ⁴ (energy gap and ground state), the Yang–Mills heat flow, and the caloric gauge of Oh and Tataru, ending with the theorem that the caloric connections form a C¹ submanifold of a Banach space.
-
-## #920
-Title: GlobalGaloisDeformations: global Galois deformation rings
-
-The pull request of the merged roadmap GlobalGaloisDeformations, which builds the global deformation rings that classify lifts of a residual Galois representation, with the maps between them used in modularity lifting.
 
 ## #1614
 Title: PDE: mixed and Neumann boundary conditions
