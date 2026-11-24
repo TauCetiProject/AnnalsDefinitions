@@ -83,8 +83,8 @@ definition of the entry at the stated generality; missing propositions are noted
   to titles through Crossref. Only the papers named in each definition's "use in the Annals papers"
   remarks are linked, 71 in all. The full definition-to-paper map (`definitions_100_v2.md`) is not
   public, so [papers.md](papers.md) undercounts.
-- **Snapshot.** The census describes Tau Ceti `main` at `fb3fbc9f0`, Mathlib at Tau Ceti's pinned
-  revision `31ce06eaadf4`, TauCetiRoadmap `main` at `7f0e00fbe`, and the 491 roadmap PRs open on
+- **Snapshot.** The census describes Tau Ceti `main` at `db970e289`, Mathlib at Tau Ceti's pinned
+  revision `31ce06eaadf4`, TauCetiRoadmap `main` at `5db85432c`, and the 483 roadmap PRs open on
   2026-11-24. It was carried out by Claude agents reading the code and the roadmaps. Every status is
   a judgment, and borderline calls are flagged in the census files.
 
