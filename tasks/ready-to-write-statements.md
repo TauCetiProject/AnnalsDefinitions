@@ -1,6 +1,6 @@
 # Ready to write statements
 
-Snapshot 2026-11-24 (Tau Ceti `e1ec80368`, Mathlib `31ce06eaadf4`, roadmaps `865b63187`, 473 open roadmap PRs).
+Snapshot 2026-11-24 (Tau Ceti `92b7beaad`, Mathlib `31ce06eaadf4`, roadmaps `28e2a1dce`, 473 open roadmap PRs).
 
 Every one of the 100 definitions is in exactly one of four files: [ready-to-write-statements.md](ready-to-write-statements.md), [ready-to-formalize-in-tau-ceti.md](ready-to-formalize-in-tau-ceti.md), [needs-roadmap-review.md](needs-roadmap-review.md), [needs-roadmap-written.md](needs-roadmap-written.md). A definition is placed in the furthest-along file whose condition holds for the definition as Kevin Buzzard's text states it; gaps that matter only for a particular paper are noted on the entry.
 
