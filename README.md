@@ -84,8 +84,8 @@ definition of the entry at the stated generality; missing propositions are noted
   remarks are linked, 71 in all. The full definition-to-paper map (`definitions_100_v2.md`) is not
   public, so [papers.md](papers.md) undercounts.
 - **Snapshot.** The census describes Tau Ceti `main` at `fb3fbc9f0`, Mathlib at Tau Ceti's pinned
-  revision `31ce06eaadf4`, TauCetiRoadmap `main` at `592bdb192`, and the 487 roadmap PRs open on
-  2026-11-23. It was carried out by Claude agents reading the code and the roadmaps. Every status is
+  revision `31ce06eaadf4`, TauCetiRoadmap `main` at `592bdb192`, and the 488 roadmap PRs open on
+  2026-11-24. It was carried out by Claude agents reading the code and the roadmaps. Every status is
   a judgment, and borderline calls are flagged in the census files.
 
 See [AGENTS.md](AGENTS.md) for how to bring the repository up to date.
