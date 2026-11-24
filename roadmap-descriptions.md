@@ -203,6 +203,11 @@ Title: Calibrations, volume minimization and special Lagrangian geometry
 
 Develops calibrated geometry, from the linear algebra of comass and calibrated planes through volume minimization to the Kähler and special Lagrangian calibrations and the deformation theory of compact special Lagrangian submanifolds. Main results are the fundamental theorem of calibrations for compact submanifolds and integral chains, the Wirtinger inequality in every degree with volume minimization of complex submanifolds of Kähler manifolds, minimality of special Lagrangian submanifolds, and McLean's theorem that their deformations form a smooth manifold of dimension equal to the first Betti number.
 
+## CharacteristicClasses
+Title: Characteristic classes and Chern–Weil theory
+
+Builds characteristic classes of vector bundles both topologically, from Thom classes and the cohomology of projective bundles, and geometrically, from the curvature of a connection, and proves that the two agree in real cohomology. It constructs the Stiefel–Whitney classes mod 2, the integral Chern, Pontryagin and Euler classes with Thom and Gysin maps, the cohomology of classifying spaces, the Chern character and the Todd, L and Â classes. Main results include the vanishing of the Euler class as the obstruction to a nowhere-zero section, the Euler class of a closed manifold evaluating to its Euler characteristic, Thom's theorem on embedded representatives in codimensions one and two, Whitney's nonimmersion theorem for projective spaces, Borel's theorem on the rational cohomology of classifying spaces and the identification of the second Stiefel–Whitney class with the obstruction to a spin structure.
+
 ## ClassicalAdicEtaleCohomology
 Title: Classical analytic étale cohomology
 

@@ -7,14 +7,16 @@ Papers are grouped by the least-advanced status among their listed definitions (
 
 ## Bottleneck: in code (all listed definitions)
 
-1 paper.
+2 papers.
 
+- <a id="202219612"></a>**[2022·196(1)·2]** The Birkhoff-Poritsky conjecture for centrally-symmetric billiard tables, Bialy, Mironov. https://doi.org/10.4007/annals.2022.196.1.2  
+  #92 Billiard ball map of a convex billiard table (In Tau Ceti)
 - <a id="202420016"></a>**[2024·200(1)·6]** On $L^\infty$ estimates for fully non-linear partial differential equations, Guo, Phong. https://doi.org/10.4007/annals.2024.200.1.6  
   #14 The volume form $\omega^n$ and integration on a compact Kähler (or Hermitian) manifold (In Tau Ceti)
 
 ## Bottleneck: partly in code
 
-9 papers.
+8 papers.
 
 - <a id="202019134"></a>**[2020·191(3)·4]** A geometric version of the circle method, Browning, Sawin. https://doi.org/10.4007/annals.2020.191.3.4  
   #6 Convergence of a spectral sequence (Partly in code)
@@ -22,8 +24,6 @@ Papers are grouped by the least-advanced status among their listed definitions (
   #36 Amenable trace on a C\*-algebra (Partly in code)
 - <a id="202019227"></a>**[2020·192(2)·7]** Unitriangular shape of decomposition matrices of unipotent blocks, Brunat, Dudas, Taylor. https://doi.org/10.4007/annals.2020.192.2.7  
   #2 p-block (Brauer block) of a finite group (Partly in code)
-- <a id="202219612"></a>**[2022·196(1)·2]** The Birkhoff-Poritsky conjecture for centrally-symmetric billiard tables, Bialy, Mironov. https://doi.org/10.4007/annals.2022.196.1.2  
-  #92 Billiard ball map of a convex billiard table (Partly in code)
 - <a id="202319813"></a>**[2023·198(1)·3]** Naked singularities for the Einstein vacuum equations: The exterior solution, Rodnianski, Shlapentokh-Rothman. https://doi.org/10.4007/annals.2023.198.1.3  
   #32 The spaces $C^k(M)$ and $C^{k,\alpha}(M)$ on a compact manifold (Partly in code), #50 Lorentzian manifold, time orientation and spacetime (Partly in code)
 - <a id="202419935"></a>**[2024·199(3)·5]** Exponential mixing implies Bernoulli, Dolgopyat, Kanigowski, Rodriguez Hertz. https://doi.org/10.4007/annals.2024.199.3.5  
@@ -54,7 +54,7 @@ Papers are grouped by the least-advanced status among their listed definitions (
 - <a id="202119334"></a>**[2021·193(3)·4]** Arithmeticity, superrigidity, and totally geodesic submanifolds, Bader, Fisher, Miller, Stover. https://doi.org/10.4007/annals.2021.193.3.4  
   #68 Arithmetic lattice in a semisimple Lie group (Merged roadmap), #79 Minimal parabolic subgroups and the Langlands decomposition (real rank one) (Merged roadmap)
 - <a id="202119411"></a>**[2021·194(1)·1]** Local and global boundary rigidity and the geodesic X-ray transform in the normal gauge, Stefanov, Uhlmann, Vasy. https://doi.org/10.4007/annals.2021.194.1.1  
-  #49 Second fundamental form, principal curvatures and mean curvature of a hypersurface (Merged roadmap), #66 Strictly convex boundary of a Riemannian manifold (Merged roadmap)
+  #49 Second fundamental form, principal curvatures and mean curvature of a hypersurface (Merged roadmap), #66 Strictly convex boundary of a Riemannian manifold (Partly in code)
 - <a id="202119415"></a>**[2021·194(1)·5]** Spectral interpretations of dynamical degrees and applications, Dang, Favre. https://doi.org/10.4007/annals.2021.194.1.5  
   #95 Dynamical degree of a dominant rational self-map (Merged roadmap)
 - <a id="202119421"></a>**[2021·194(2)·1]** The threshold conjecture for the energy critical hyperbolic Yang–Mills equation, Oh, Tataru. https://doi.org/10.4007/annals.2021.194.2.1  
@@ -88,11 +88,11 @@ Papers are grouped by the least-advanced status among their listed definitions (
 - <a id="202419934"></a>**[2024·199(3)·4]** Torsion-free abelian groups are Borel complete, Paolini, Shelah. https://doi.org/10.4007/annals.2024.199.3.4  
   #94 Borel complete class of countable structures (Merged roadmap), #98 Polish space of countable structures $\mathrm{Mod}_L(\omega)$ (Partly in code)
 - <a id="202420024"></a>**[2024·200(2)·4]** Brauer's Height Zero Conjecture, Malle, Navarro, Schaeffer Fry, Tiep. https://doi.org/10.4007/annals.2024.200.2.4  
-  #2 p-block (Brauer block) of a finite group (Partly in code), #3 Defect group of a block (Merged roadmap), #9 Height zero characters of a block (Merged roadmap)
+  #2 p-block (Brauer block) of a finite group (Partly in code), #3 Defect group of a block (Partly in code), #9 Height zero characters of a block (Merged roadmap)
 - <a id="202420032"></a>**[2024·200(3)·2]** Doubling constructions: Global functoriality for non-generic cuspidal representations, Cai, Friedberg, Kaplan. https://doi.org/10.4007/annals.2024.200.3.2  
   #5 Infinitesimal character (and Casimir eigenvalue) of a representation of a real reductive group (Partly in code), #11 Split classical groups $\mathrm{Sp}_{2n}$, $\mathrm{SO}_l$ and general spin groups $\mathrm{GSpin}_l$ (Partly in code), #67 Local components of an automorphic representation (restricted tensor product) (Merged roadmap), #73 Central character of an automorphic representation (Merged roadmap), #88 Weak functorial transfer to $\mathrm{GL}_N$ (Merged roadmap)
 - <a id="202520122"></a>**[2025·201(2)·2]** The Alperin--McKay and Brauer's height zero conjecture for the prime 2, Ruhstorfer. https://doi.org/10.4007/annals.2025.201.2.2  
-  #2 p-block (Brauer block) of a finite group (Partly in code), #3 Defect group of a block (Merged roadmap), #9 Height zero characters of a block (Merged roadmap)
+  #2 p-block (Brauer block) of a finite group (Partly in code), #3 Defect group of a block (Partly in code), #9 Height zero characters of a block (Merged roadmap)
 - <a id="202520123"></a>**[2025·201(2)·3]** De Rham algebras of closed quasiregularly elliptic manifolds are Euclidean, Heikkilä, Pankka. https://doi.org/10.4007/annals.2025.201.2.3  
   #41 Quasiregular map between Riemannian manifolds (Merged roadmap), #42 Quasiregularly elliptic manifold (Merged roadmap), #47 Sobolev space $W^{1,p}_{\mathrm{loc}}(M,N)$ of maps between Riemannian manifolds (Merged roadmap)
 - <a id="202520132"></a>**[2025·201(3)·2]** Mod-$p$ Poincaré Duality in $p$-adic analytic geometry, Zavyalov. https://doi.org/10.4007/annals.2025.201.3.2  

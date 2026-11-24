@@ -1,6 +1,6 @@
 # Needs roadmap review
 
-Snapshot 2026-11-24 (Tau Ceti `5b5d5152e`, Mathlib `31ce06eaadf4`, roadmaps `40b141730`, 456 open roadmap PRs).
+Snapshot 2026-11-24 (Tau Ceti `edaa3846cd9`, Mathlib `31ce06eaadf4`, roadmaps `5d2b51b54`, 457 open roadmap PRs).
 
 Every one of the 100 definitions is in exactly one of four files: [ready-to-write-statements.md](ready-to-write-statements.md), [ready-to-formalize-in-tau-ceti.md](ready-to-formalize-in-tau-ceti.md), [needs-roadmap-review.md](needs-roadmap-review.md), [needs-roadmap-written.md](needs-roadmap-written.md). A definition is placed in the furthest-along file whose condition holds for the definition as Kevin Buzzard's text states it; gaps that matter only for a particular paper are noted on the entry.
 
@@ -43,7 +43,7 @@ A definition appears under every PR that specifies it.
 
 ### Algebra, representation theory & homotopy theory
 
-- **#10 Hochschild--Kostant--Rosenberg antisymmetrisation map.** PR [#2447](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2447) §1.2 (cochain complex `C^•(A,M)` on Tau Ceti's `hochschildBimoduleCoface`; the complex and `HHⁿ(A, M)` are in code as `hochschildBimoduleCochainComplex`, `hochschildBimoduleCohomology`), §2.2 (normalised cochains), §7.4 (polyvector fields `T^n_{R/k}`), §7.5 (`detCochain` `⟨D₁,…,D_n⟩`, `hkrMap` and `Φ^n_HKR`, Lemma 10.3 and Definition 10.4), §9.2 (`cohomological_hkr`, Theorem 10.5), Layer 8 (polynomial algebras). §9.2 rests on §9.1's homological HKR theorem, proved by étale localisation from the étale base change of RefinedTraceMethods §1.8 (open PR [#1493](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1493)).  
+- **#10 Hochschild--Kostant--Rosenberg antisymmetrisation map.** PR [#2447](https://github.com/TauCetiProject/TauCetiRoadmap/pull/2447) §1.2 (cochain complex `C^•(A,M)` on Tau Ceti's `hochschildBimoduleCoface`; the complex and `HHⁿ(A, M)` are in code as `hochschildBimoduleCochainComplex`, `hochschildBimoduleCohomology`), §2.2 (normalised cochains; the normalized subcomplex with the comparison in degrees ≤ 2 is in code, `hochschildBimoduleNormalizedCochainComplex`), §7.4 (polyvector fields `T^n_{R/k}`), §7.5 (`detCochain` `⟨D₁,…,D_n⟩`, `hkrMap` and `Φ^n_HKR`, Lemma 10.3 and Definition 10.4), §9.2 (`cohomological_hkr`, Theorem 10.5), Layer 8 (polynomial algebras). §9.2 rests on §9.1's homological HKR theorem, proved by étale localisation from the étale base change of RefinedTraceMethods §1.8 (open PR [#1493](https://github.com/TauCetiProject/TauCetiRoadmap/pull/1493)).  
   Papers: [2020·191(2)·3] A $k$-linear triangulated category without a model. [census](../census/010.md)
 
 ### Algebraic geometry
