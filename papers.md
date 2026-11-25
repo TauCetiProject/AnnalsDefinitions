@@ -7,10 +7,12 @@ Papers are grouped by the least-advanced status among their listed definitions a
 
 ## Bottleneck: in code (all listed definitions and extra notions)
 
-2 papers, both statable now.
+3 papers, all statable now.
 
 - <a id="202219612"></a>**[2022·196(1)·2]** The Birkhoff-Poritsky conjecture for centrally-symmetric billiard tables, Bialy, Mironov. https://doi.org/10.4007/annals.2022.196.1.2  
   #92 Billiard ball map of a convex billiard table (In Tau Ceti)
+- <a id="202419934"></a>**[2024·199(3)·4]** Torsion-free abelian groups are Borel complete, Paolini, Shelah. https://doi.org/10.4007/annals.2024.199.3.4  
+  #94 Borel complete class of countable structures (In Tau Ceti), #98 Polish space of countable structures $\mathrm{Mod}_L(\omega)$ (In Tau Ceti)
 - <a id="202420016"></a>**[2024·200(1)·6]** On $L^\infty$ estimates for fully non-linear partial differential equations, Guo, Phong. https://doi.org/10.4007/annals.2024.200.1.6  
   #14 The volume form $\omega^n$ and integration on a compact Kähler (or Hermitian) manifold (In Tau Ceti)
 
@@ -28,6 +30,8 @@ Papers are grouped by the least-advanced status among their listed definitions a
   #49 Second fundamental form, principal curvatures and mean curvature of a hypersurface (Partly in code), #66 Strictly convex boundary of a Riemannian manifold (In Tau Ceti)
 - <a id="202219512"></a>**[2022·195(1)·2]** The Gaussian Double-Bubble and Multi-Bubble Conjectures, Milman, Neeman. https://doi.org/10.4007/annals.2022.195.1.2  
   #55 Gaussian $q$-cluster (Partly in code)
+- <a id="202219522"></a>**[2022·195(2)·2]** Measures of maximal entropy for surface diffeomorphisms, Buzzi, Crovisier, Sarig. https://doi.org/10.4007/annals.2022.195.2.2  
+  #97 Measure of maximal entropy (Partly in code)
 - <a id="202219631"></a>**[2022·196(3)·1]** Zimmer's conjecture: Subexponential growth, measure rigidity, and strong property (T), Brown, Fisher, Hurtado. https://doi.org/10.4007/annals.2022.196.3.1  
   #1 Real rank of a semisimple Lie group (Partly in code), #4 Parabolic subgroups of a real semisimple Lie group (minimal and standard parabolics) (Partly in code)
 - <a id="202219632"></a>**[2022·196(3)·2]** Invariant measures and measurable projective factors for actions of higher-rank lattices on manifolds, Brown, Hertz, Wang. https://doi.org/10.4007/annals.2022.196.3.2  
@@ -40,8 +44,6 @@ Papers are grouped by the least-advanced status among their listed definitions a
   #53 Stationary varifold (Partly in code)
 - <a id="202419935"></a>**[2024·199(3)·5]** Exponential mixing implies Bernoulli, Dolgopyat, Kanigowski, Rodriguez Hertz. https://doi.org/10.4007/annals.2024.199.3.5  
   #32 The spaces $C^k(M)$ and $C^{k,\alpha}(M)$ on a compact manifold (Partly in code)
-- <a id="202419934"></a>**[2024·199(3)·4]** Torsion-free abelian groups are Borel complete, Paolini, Shelah. https://doi.org/10.4007/annals.2024.199.3.4  
-  #94 Borel complete class of countable structures (Partly in code), #98 Polish space of countable structures $\mathrm{Mod}_L(\omega)$ (Partly in code)
 - <a id="202520111"></a>**[2025·201(1)·1]** Grid diagrams and Heegaard Floer invariants, Manolescu, Ozsváth, Thurston. https://doi.org/10.4007/annals.2025.201.1.1  
   #64 Spin$^c$ structure on an oriented manifold (Partly in code)
 - <a id="202520133"></a>**[2025·201(3)·3]** Naked singularity censoring with anisotropic apparent horizon, An. https://doi.org/10.4007/annals.2025.201.3.3  
@@ -53,7 +55,7 @@ Papers are grouped by the least-advanced status among their listed definitions a
 
 ## Bottleneck: merged roadmap
 
-35 papers.
+34 papers.
 
 - <a id="202019113"></a>**[2020·191(1)·3]** Euclidean triangles have no hot spots, Judge, Mondal. https://doi.org/10.4007/annals.2020.191.1.3  
   #34 Neumann eigenvalues and eigenfunctions of the Laplacian on a bounded domain (Merged roadmap)
@@ -67,7 +69,7 @@ Papers are grouped by the least-advanced status among their listed definitions a
   #8 Glauberman correspondence (Merged roadmap)
 - <a id="202019221"></a>**[2020·192(2)·1]** Subalgebras of simple AF-algebras, Schafhauser. https://doi.org/10.4007/annals.2020.192.2.1  
   #36 Amenable trace on a C\*-algebra (In Tau Ceti)  
-  Extra notions: exact C\*-algebras (Merged roadmap; nuclearity and the spatial tensor product of concrete operator algebras in code), the UCT (Merged roadmap, early OperatorKTheory layers partly in code); AF algebras in code (`TauCeti.IsAF`) ([census 036](census/036.md)).
+  Extra notions: exact C\*-algebras (Merged roadmap; nuclearity and the spatial tensor product of concrete operator algebras in code, its representation independence, VonNeumannAlgebras V13b.SpatialNorm, not), the UCT (Merged roadmap, early OperatorKTheory layers partly in code); AF algebras in code (`TauCeti.IsAF`) ([census 036](census/036.md)).
 - <a id="202019233"></a>**[2020·192(3)·3]** On the Multiplicity One Conjecture in min-max theory, Zhou. https://doi.org/10.4007/annals.2020.192.3.3  
   #49 Second fundamental form, principal curvatures and mean curvature of a hypersurface (Partly in code), #52 Minimal hypersurface in a Riemannian manifold (Merged roadmap)
 - <a id="202119334"></a>**[2021·193(3)·4]** Arithmeticity, superrigidity, and totally geodesic submanifolds, Bader, Fisher, Miller, Stover. https://doi.org/10.4007/annals.2021.193.3.4  
@@ -76,8 +78,6 @@ Papers are grouped by the least-advanced status among their listed definitions a
   #95 Dynamical degree of a dominant rational self-map (Merged roadmap)
 - <a id="202119421"></a>**[2021·194(2)·1]** The threshold conjecture for the energy critical hyperbolic Yang–Mills equation, Oh, Tataru. https://doi.org/10.4007/annals.2021.194.2.1  
   #37 Caloric gauge and the manifold of caloric connections (Merged roadmap), #48 Topological class (instanton number) of a finite-energy connection on $\mathbb{R}^4$ (Merged roadmap)
-- <a id="202219522"></a>**[2022·195(2)·2]** Measures of maximal entropy for surface diffeomorphisms, Buzzi, Crovisier, Sarig. https://doi.org/10.4007/annals.2022.195.2.2  
-  #97 Measure of maximal entropy (Merged roadmap)
 - <a id="202219634"></a>**[2022·196(3)·4]** One can hear the shape of ellipses of small eccentricity, Hezari, Zelditch. https://doi.org/10.4007/annals.2022.196.3.4  
   #34 Neumann eigenvalues and eigenfunctions of the Laplacian on a bounded domain (Merged roadmap)
 - <a id="202219635"></a>**[2022·196(3)·5]** Prisms and prismatic cohomology, Bhatt, Scholze. https://doi.org/10.4007/annals.2022.196.3.5  
@@ -95,7 +95,7 @@ Papers are grouped by the least-advanced status among their listed definitions a
 - <a id="202419921"></a>**[2024·199(2)·1]** On the generic part of the cohomology of non-compact unitary Shimura varieties, Caraiani, Scholze. https://doi.org/10.4007/annals.2024.199.2.1  
   #82 The quasi-split unitary group of a self-dual hermitian lattice (Merged roadmap)
 - <a id="202419924"></a>**[2024·199(2)·4]** Pointwise convergence of the non-linear Fourier transform, Poltoratski. https://doi.org/10.4007/annals.2024.199.2.4  
-  #43 SU(1,1) non-linear Fourier transform of an $L^2$ function on the half-line (Merged roadmap), #44 Scattering functions of a real Dirac system (Merged roadmap)
+  #43 SU(1,1) non-linear Fourier transform of an $L^2$ function on the half-line (Merged roadmap), #44 Scattering functions of a real Dirac system (Partly in code)
 - <a id="202420024"></a>**[2024·200(2)·4]** Brauer's Height Zero Conjecture, Malle, Navarro, Schaeffer Fry, Tiep. https://doi.org/10.4007/annals.2024.200.2.4  
   #2 p-block (Brauer block) of a finite group (Partly in code), #3 Defect group of a block (Partly in code), #9 Height zero characters of a block (Merged roadmap)
 - <a id="202420032"></a>**[2024·200(3)·2]** Doubling constructions: Global functoriality for non-generic cuspidal representations, Cai, Friedberg, Kaplan. https://doi.org/10.4007/annals.2024.200.3.2  
@@ -119,7 +119,7 @@ Papers are grouped by the least-advanced status among their listed definitions a
 - <a id="202620313"></a>**[2026·203(1)·3]** On locally analytic vectors of the completed cohomology of modular curves II, Pan. https://doi.org/10.4007/annals.2026.203.1.3  
   #69 Galois representation attached to a cuspidal Hecke eigenform (Merged roadmap), #77 Emerton's completed cohomology of modular curves (Merged roadmap)
 - <a id="202620314"></a>**[2026·203(1)·4]** Symmetric power functoriality for Hilbert modular forms, Newton, Thorne. https://doi.org/10.4007/annals.2026.203.1.4  
-  #7 Discrete series representations of $\mathrm{GL}_2(\mathbb{R})$ (Partly in code), #67 Local components of an automorphic representation (restricted tensor product) (Merged roadmap), #72 CM automorphic representation (Merged roadmap), #86 Symmetric power of a Weil--Deligne representation (Merged roadmap)
+  #7 Discrete series representations of $\mathrm{GL}_2(\mathbb{R})$ (Partly in code), #67 Local components of an automorphic representation (restricted tensor product) (Merged roadmap), #72 CM automorphic representation (Merged roadmap), #86 Symmetric power of a Weil--Deligne representation (Partly in code)
 - <a id="202620321"></a>**[2026·203(2)·1]** Bethe–Sommerfeld Conjecture and absolutely continuous spectrum of multi-dimensional quasi-periodic Schrödinger operators, Karpeshina, Parnovski, Shterenberg. https://doi.org/10.4007/annals.2026.203.2.1  
   #35 Absolutely continuous spectrum of a self-adjoint operator (Merged roadmap), #45 Schrödinger operator $-\Delta+V$ on $L^2(\mathbb{R}^d)$ (Merged roadmap)
 - <a id="202620327"></a>**[2026·203(2)·7]** Nash blowup fails to resolve singularities in dimensions four and higher, Castillo, Duarte, Leyton-Álvarez, Liendo. https://doi.org/10.4007/annals.2026.203.2.7  
@@ -144,7 +144,7 @@ Papers are grouped by the least-advanced status among their listed definitions a
 - <a id="202119431"></a>**[2021·194(3)·1]** Polynomial structure of Gromov–Witten potential of quintic 3-folds, Chang, Guo, Li. https://doi.org/10.4007/annals.2021.194.3.1  
   #16 Rational Chow groups of a Deligne--Mumford stack and the degree of zero-cycles (Merged roadmap), #24 Moduli stack of stable maps $\overline{\mathcal{M}}_{g,n}(X,\beta)$ (Roadmap PR), #27 Perfect obstruction theory and virtual fundamental class (Merged roadmap)
 - <a id="202319712"></a>**[2023·197(1)·2]** Smooth mixing Anosov flows in dimension three are exponentially mixing, Tsujii, Zhang. https://doi.org/10.4007/annals.2023.197.1.2  
-  #32 The spaces $C^k(M)$ and $C^{k,\alpha}(M)$ on a compact manifold (Partly in code), #91 Anosov flow (Roadmap PR), #96 Equilibrium state (measure) of a Hölder potential (Merged roadmap)
+  #32 The spaces $C^k(M)$ and $C^{k,\alpha}(M)$ on a compact manifold (Partly in code), #91 Anosov flow (Roadmap PR), #96 Equilibrium state (measure) of a Hölder potential (Partly in code)
 - <a id="202319734"></a>**[2023·197(3)·4]** Stable minimal hypersurfaces in ℝ^N+1+ℓ with singular set an arbitrary closed K⊂{0}×ℝ^ℓ, Simon. https://doi.org/10.4007/annals.2023.197.3.4  
   #49 Second fundamental form, principal curvatures and mean curvature of a hypersurface (Partly in code), #53 Stationary varifold (Partly in code), #65 Strict stability of a minimal cone/hypersurface (Simon's inequality) (Roadmap PR)
 - <a id="202319812"></a>**[2023·198(1)·2]** Transversality and super-rigidity for multiply covered holomorphic curves, Wendl. https://doi.org/10.4007/annals.2023.198.1.2  
