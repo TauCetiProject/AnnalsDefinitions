@@ -1188,7 +1188,6 @@ Builds the Teichmüller theory of a closed oriented surface of genus at least tw
 
 ## TracesOnCStarAlgebras
 Title: Traces on C\*-algebras and their trace ideals
-PR: #2464
 
 Develops possibly unbounded traces on C\*-algebras in Dixmier's sense, with their domain ideals, lower semicontinuity, semifiniteness, and the trace ideals of elements b with |b|ᵖ of finite trace. Main results are Combes's theorem, Dixmier's theorem extending a semifinite lower semicontinuous trace to a faithful normal semifinite trace on the generated von Neumann algebra, Hölder inequalities for trace ideals, invariance of K-theory under passage to trace ideals, and, for AF algebras, a bijection between densely defined lower semicontinuous traces and positive homomorphisms from K₀ to ℝ.
 

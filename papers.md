@@ -16,12 +16,14 @@ Papers are grouped by the least-advanced status among their listed definitions a
 
 ## Bottleneck: partly in code
 
-10 papers.
+11 papers.
 
 - <a id="202019134"></a>**[2020·191(3)·4]** A geometric version of the circle method, Browning, Sawin. https://doi.org/10.4007/annals.2020.191.3.4  
   #6 Convergence of a spectral sequence (Partly in code)
 - <a id="202019227"></a>**[2020·192(2)·7]** Unitriangular shape of decomposition matrices of unipotent blocks, Brunat, Dudas, Taylor. https://doi.org/10.4007/annals.2020.192.2.7  
   #2 p-block (Brauer block) of a finite group (Partly in code)
+- <a id="202219512"></a>**[2022·195(1)·2]** The Gaussian Double-Bubble and Multi-Bubble Conjectures, Milman, Neeman. https://doi.org/10.4007/annals.2022.195.1.2  
+  #55 Gaussian $q$-cluster (Partly in code)
 - <a id="202319813"></a>**[2023·198(1)·3]** Naked singularities for the Einstein vacuum equations: The exterior solution, Rodnianski, Shlapentokh-Rothman. https://doi.org/10.4007/annals.2023.198.1.3  
   #32 The spaces $C^k(M)$ and $C^{k,\alpha}(M)$ on a compact manifold (Partly in code), #50 Lorentzian manifold, time orientation and spacetime (Partly in code)
 - <a id="202319814"></a>**[2023·198(1)·4]** On $L^\infty$ estimates for complex Monge-Ampère equations, Guo, Phong, Tong. https://doi.org/10.4007/annals.2023.198.1.4  
@@ -41,7 +43,7 @@ Papers are grouped by the least-advanced status among their listed definitions a
 
 ## Bottleneck: merged roadmap
 
-40 papers.
+39 papers.
 
 - <a id="202019113"></a>**[2020·191(1)·3]** Euclidean triangles have no hot spots, Judge, Mondal. https://doi.org/10.4007/annals.2020.191.1.3  
   #34 Neumann eigenvalues and eigenfunctions of the Laplacian on a bounded domain (Merged roadmap)
@@ -55,7 +57,7 @@ Papers are grouped by the least-advanced status among their listed definitions a
   #8 Glauberman correspondence (Merged roadmap)
 - <a id="202019221"></a>**[2020·192(2)·1]** Subalgebras of simple AF-algebras, Schafhauser. https://doi.org/10.4007/annals.2020.192.2.1  
   #36 Amenable trace on a C\*-algebra (In Tau Ceti)  
-  Extra notions: AF algebras (Merged roadmap), exact C\*-algebras (Merged roadmap), the UCT (Merged roadmap) ([census 036](census/036.md)).
+  Extra notions: AF algebras (Merged roadmap, `TauCeti.IsAF` in an open Tau Ceti PR), exact C\*-algebras (Merged roadmap), the UCT (Merged roadmap, early OperatorKTheory layers partly in code) ([census 036](census/036.md)).
 - <a id="202019222"></a>**[2020·192(2)·2]** Uniqueness of two-convex closed ancient solutions to the mean curvature flow, Angenent, Daskalopoulos, Sesum. https://doi.org/10.4007/annals.2020.192.2.2  
   #49 Second fundamental form, principal curvatures and mean curvature of a hypersurface (Merged roadmap)
 - <a id="202019233"></a>**[2020·192(3)·3]** On the Multiplicity One Conjecture in min-max theory, Zhou. https://doi.org/10.4007/annals.2020.192.3.3  
@@ -68,8 +70,6 @@ Papers are grouped by the least-advanced status among their listed definitions a
   #95 Dynamical degree of a dominant rational self-map (Merged roadmap)
 - <a id="202119421"></a>**[2021·194(2)·1]** The threshold conjecture for the energy critical hyperbolic Yang–Mills equation, Oh, Tataru. https://doi.org/10.4007/annals.2021.194.2.1  
   #37 Caloric gauge and the manifold of caloric connections (Merged roadmap), #48 Topological class (instanton number) of a finite-energy connection on $\mathbb{R}^4$ (Merged roadmap)
-- <a id="202219512"></a>**[2022·195(1)·2]** The Gaussian Double-Bubble and Multi-Bubble Conjectures, Milman, Neeman. https://doi.org/10.4007/annals.2022.195.1.2  
-  #55 Gaussian $q$-cluster (Merged roadmap)
 - <a id="202219631"></a>**[2022·196(3)·1]** Zimmer's conjecture: Subexponential growth, measure rigidity, and strong property (T), Brown, Fisher, Hurtado. https://doi.org/10.4007/annals.2022.196.3.1  
   #1 Real rank of a semisimple Lie group (Merged roadmap), #4 Parabolic subgroups of a real semisimple Lie group (minimal and standard parabolics) (Partly in code)
 - <a id="202219632"></a>**[2022·196(3)·2]** Invariant measures and measurable projective factors for actions of higher-rank lattices on manifolds, Brown, Hertz, Wang. https://doi.org/10.4007/annals.2022.196.3.2  
