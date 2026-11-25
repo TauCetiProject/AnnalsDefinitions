@@ -194,7 +194,6 @@ Builds weight-two Bianchi modular forms for GL₂ over an imaginary quadratic fi
 
 ## BochnerSpaces
 Title: Bochner spaces
-PR: #2249
 
 Develops measurability, Bochner and Pettis integration, Bochner spaces, integral operators and vector measures for functions with values in a Banach space. Main results include the Pettis measurability theorem, Hille's theorem on closed operators and Bochner integrals, Minkowski's integral inequality and Fubini's theorem, the identification of the Bochner space L¹ with a projective tensor product, criteria for Pettis integrability, and the characterization of duality of Bochner spaces by the Radon–Nikodým property.
 
@@ -608,6 +607,11 @@ Title: Implicit atlases and rational virtual fundamental classes
 
 Develops Pardon's implicit atlases on compact Hausdorff spaces, built from finite-group equivariant thickenings with obstruction spaces, and constructs from them virtual cochain complexes, a virtual orientation sheaf and a rational virtual fundamental class on Čech cohomology. Main results are independence of the class from the finite subatlas, its boundary, cobordism, refinement, pushforward and normalization properties, agreement with the Euler pairing of a smooth section, a product formula, and a formula for transverse fiber products through a Gysin map.
 
+## IncompressibleFluids
+Title: Incompressible fluids
+
+Develops the theory of the incompressible Navier–Stokes and Euler equations on the whole space: solenoidal fields, the Helmholtz–Weyl decomposition and the Leray projection, the Stokes semigroup and its estimates, and the nonlinear and compactness estimates. Main results include Leray's existence theorem for weak solutions, two-dimensional uniqueness and regularity, Prodi–Serrin weak–strong uniqueness, the Fujita–Kato and Kato theorems for mild solutions, and for the Euler equations Kato's local well-posedness, the Beale–Kato–Majda criterion, the inviscid limit and the global two-dimensional theory of Wolibner and Yudovich.
+
 ## InstantonFloerTheory
 Title: Instanton Floer theory
 
@@ -988,7 +992,6 @@ Builds cyclic and cyclotomic refinements of Hochschild homology, the cyclotomic 
 
 ## RelativisticQuantumFieldTheory
 Title: Relativistic quantum field theory, free fields and perturbative renormalization
-PR: #1772
 
 Develops the mathematics linking Lorentzian field equations and Fock space models to local quantum fields: causal Green operators of the Klein–Gordon, Dirac and Maxwell equations, free fields as operator-valued tempered distributions, the Wightman and Haag–Kastler frameworks, Feynman graphs and their Hopf algebras, and renormalization by extension of distributions. Main results include the Reeh–Schlieder, spin–statistics and PCT theorems under stated hypotheses, Osterwalder–Schrader reconstruction, Haag–Ruelle scattering and the LSZ formula for massive theories, the forest formula and Ward identities, and Shale's implementability theorem.
 
