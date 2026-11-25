@@ -224,7 +224,6 @@ Builds integral Faltings traces and local almost Poincaré duality on admissible
 
 ## ClassicalErgodicTheory
 Title: Classical ergodic theory, entropy, the variational principle and flows
-PR: #2231
 
 Builds classical ergodic theory for measure-preserving maps, group actions and flows: factors and joinings, the mixing hierarchy and its spectral characterisations, Kolmogorov–Sinai entropy, topological entropy and pressure, and the variational principle. It defines equilibrium states and measures of maximal entropy, and proves Bowen's uniqueness theorem for expansive systems with specification and the Ruelle–Perron–Frobenius theorem.
 

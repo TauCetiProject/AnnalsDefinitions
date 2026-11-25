@@ -16,7 +16,7 @@ Papers are grouped by the least-advanced status among their listed definitions a
 
 ## Bottleneck: partly in code
 
-11 papers.
+12 papers.
 
 - <a id="202019134"></a>**[2020·191(3)·4]** A geometric version of the circle method, Browning, Sawin. https://doi.org/10.4007/annals.2020.191.3.4  
   #6 Convergence of a spectral sequence (Partly in code)
@@ -28,6 +28,8 @@ Papers are grouped by the least-advanced status among their listed definitions a
   #32 The spaces $C^k(M)$ and $C^{k,\alpha}(M)$ on a compact manifold (Partly in code), #50 Lorentzian manifold, time orientation and spacetime (Partly in code)
 - <a id="202319814"></a>**[2023·198(1)·4]** On $L^\infty$ estimates for complex Monge-Ampère equations, Guo, Phong, Tong. https://doi.org/10.4007/annals.2023.198.1.4  
   #14 The volume form $\omega^n$ and integration on a compact Kähler (or Hermitian) manifold (In Tau Ceti), #38 Fully nonlinear complex Hessian-type equations on a compact Hermitian manifold (Partly in code)
+- <a id="202319832"></a>**[2023·198(3)·2]** Regularity of minimal surfaces near quadratic cones, Edelen, Spolaor. https://doi.org/10.4007/annals.2023.198.3.2  
+  #53 Stationary varifold (Partly in code)
 - <a id="202419935"></a>**[2024·199(3)·5]** Exponential mixing implies Bernoulli, Dolgopyat, Kanigowski, Rodriguez Hertz. https://doi.org/10.4007/annals.2024.199.3.5  
   #32 The spaces $C^k(M)$ and $C^{k,\alpha}(M)$ on a compact manifold (Partly in code)
 - <a id="202419934"></a>**[2024·199(3)·4]** Torsion-free abelian groups are Borel complete, Paolini, Shelah. https://doi.org/10.4007/annals.2024.199.3.4  
@@ -70,6 +72,8 @@ Papers are grouped by the least-advanced status among their listed definitions a
   #95 Dynamical degree of a dominant rational self-map (Merged roadmap)
 - <a id="202119421"></a>**[2021·194(2)·1]** The threshold conjecture for the energy critical hyperbolic Yang–Mills equation, Oh, Tataru. https://doi.org/10.4007/annals.2021.194.2.1  
   #37 Caloric gauge and the manifold of caloric connections (Merged roadmap), #48 Topological class (instanton number) of a finite-energy connection on $\mathbb{R}^4$ (Merged roadmap)
+- <a id="202219522"></a>**[2022·195(2)·2]** Measures of maximal entropy for surface diffeomorphisms, Buzzi, Crovisier, Sarig. https://doi.org/10.4007/annals.2022.195.2.2  
+  #97 Measure of maximal entropy (Merged roadmap)
 - <a id="202219631"></a>**[2022·196(3)·1]** Zimmer's conjecture: Subexponential growth, measure rigidity, and strong property (T), Brown, Fisher, Hurtado. https://doi.org/10.4007/annals.2022.196.3.1  
   #1 Real rank of a semisimple Lie group (Merged roadmap), #4 Parabolic subgroups of a real semisimple Lie group (minimal and standard parabolics) (Partly in code)
 - <a id="202219632"></a>**[2022·196(3)·2]** Invariant measures and measurable projective factors for actions of higher-rank lattices on manifolds, Brown, Hertz, Wang. https://doi.org/10.4007/annals.2022.196.3.2  
@@ -88,8 +92,6 @@ Papers are grouped by the least-advanced status among their listed definitions a
   #52 Minimal hypersurface in a Riemannian manifold (Merged roadmap)
 - <a id="202319831"></a>**[2023·198(3)·1]** Universality for lozenge tiling local statistics, Aggarwal. https://doi.org/10.4007/annals.2023.198.3.1  
   #100 Translation-invariant ergodic Gibbs measure on lozenge tilings of given slope (Merged roadmap)
-- <a id="202319832"></a>**[2023·198(3)·2]** Regularity of minimal surfaces near quadratic cones, Edelen, Spolaor. https://doi.org/10.4007/annals.2023.198.3.2  
-  #53 Stationary varifold (Merged roadmap)
 - <a id="202419921"></a>**[2024·199(2)·1]** On the generic part of the cohomology of non-compact unitary Shimura varieties, Caraiani, Scholze. https://doi.org/10.4007/annals.2024.199.2.1  
   #82 The quasi-split unitary group of a self-dual hermitian lattice (Merged roadmap)
 - <a id="202419924"></a>**[2024·199(2)·4]** Pointwise convergence of the non-linear Fourier transform, Poltoratski. https://doi.org/10.4007/annals.2024.199.2.4  
@@ -127,7 +129,7 @@ Papers are grouped by the least-advanced status among their listed definitions a
 
 ## Bottleneck: open roadmap PR
 
-19 papers.
+18 papers.
 
 - <a id="202019123"></a>**[2020·191(2)·3]** A $k$-linear triangulated category without a model, Rizzardo, Van den Bergh. https://doi.org/10.4007/annals.2020.191.2.3  
   #10 Hochschild--Kostant--Rosenberg antisymmetrisation map (Roadmap PR)
@@ -141,12 +143,10 @@ Papers are grouped by the least-advanced status among their listed definitions a
   #67 Local components of an automorphic representation (restricted tensor product) (Merged roadmap), #73 Central character of an automorphic representation (Merged roadmap), #83 Schwartz (Hecke) algebra of an adelic reductive group (Merged roadmap), #90 The $\pi$-nearly isotypic cuspidal subspace (Roadmap PR)
 - <a id="202119431"></a>**[2021·194(3)·1]** Polynomial structure of Gromov–Witten potential of quintic 3-folds, Chang, Guo, Li. https://doi.org/10.4007/annals.2021.194.3.1  
   #16 Rational Chow groups of a Deligne--Mumford stack and the degree of zero-cycles (Merged roadmap), #24 Moduli stack of stable maps $\overline{\mathcal{M}}_{g,n}(X,\beta)$ (Roadmap PR), #27 Perfect obstruction theory and virtual fundamental class (Merged roadmap)
-- <a id="202219522"></a>**[2022·195(2)·2]** Measures of maximal entropy for surface diffeomorphisms, Buzzi, Crovisier, Sarig. https://doi.org/10.4007/annals.2022.195.2.2  
-  #97 Measure of maximal entropy (Roadmap PR)
 - <a id="202319712"></a>**[2023·197(1)·2]** Smooth mixing Anosov flows in dimension three are exponentially mixing, Tsujii, Zhang. https://doi.org/10.4007/annals.2023.197.1.2  
-  #32 The spaces $C^k(M)$ and $C^{k,\alpha}(M)$ on a compact manifold (Partly in code), #91 Anosov flow (Roadmap PR), #96 Equilibrium state (measure) of a Hölder potential (Roadmap PR)
+  #32 The spaces $C^k(M)$ and $C^{k,\alpha}(M)$ on a compact manifold (Partly in code), #91 Anosov flow (Roadmap PR), #96 Equilibrium state (measure) of a Hölder potential (Merged roadmap)
 - <a id="202319734"></a>**[2023·197(3)·4]** Stable minimal hypersurfaces in ℝ^N+1+ℓ with singular set an arbitrary closed K⊂{0}×ℝ^ℓ, Simon. https://doi.org/10.4007/annals.2023.197.3.4  
-  #49 Second fundamental form, principal curvatures and mean curvature of a hypersurface (Merged roadmap), #53 Stationary varifold (Merged roadmap), #65 Strict stability of a minimal cone/hypersurface (Simon's inequality) (Roadmap PR)
+  #49 Second fundamental form, principal curvatures and mean curvature of a hypersurface (Merged roadmap), #53 Stationary varifold (Partly in code), #65 Strict stability of a minimal cone/hypersurface (Simon's inequality) (Roadmap PR)
 - <a id="202319812"></a>**[2023·198(1)·2]** Transversality and super-rigidity for multiply covered holomorphic curves, Wendl. https://doi.org/10.4007/annals.2023.198.1.2  
   #56 Linearized Cauchy–Riemann operator at a J-holomorphic curve (Merged roadmap), #60 Normal Cauchy–Riemann operator of a J-holomorphic curve (Roadmap PR), #63 Space of compatible almost complex structures (In Tau Ceti)
 - <a id="202319826"></a>**[2023·198(2)·6]** Near optimal spectral gaps for hyperbolic surfaces, Hide, Magee. https://doi.org/10.4007/annals.2023.198.2.6  
