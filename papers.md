@@ -16,7 +16,7 @@ Papers are grouped by the least-advanced status among their listed definitions a
 
 ## Bottleneck: partly in code
 
-8 papers.
+9 papers.
 
 - <a id="202019134"></a>**[2020·191(3)·4]** A geometric version of the circle method, Browning, Sawin. https://doi.org/10.4007/annals.2020.191.3.4  
   #6 Convergence of a spectral sequence (Partly in code)
@@ -26,6 +26,8 @@ Papers are grouped by the least-advanced status among their listed definitions a
   #32 The spaces $C^k(M)$ and $C^{k,\alpha}(M)$ on a compact manifold (Partly in code), #50 Lorentzian manifold, time orientation and spacetime (Partly in code)
 - <a id="202419935"></a>**[2024·199(3)·5]** Exponential mixing implies Bernoulli, Dolgopyat, Kanigowski, Rodriguez Hertz. https://doi.org/10.4007/annals.2024.199.3.5  
   #32 The spaces $C^k(M)$ and $C^{k,\alpha}(M)$ on a compact manifold (Partly in code)
+- <a id="202419934"></a>**[2024·199(3)·4]** Torsion-free abelian groups are Borel complete, Paolini, Shelah. https://doi.org/10.4007/annals.2024.199.3.4  
+  #94 Borel complete class of countable structures (Partly in code), #98 Polish space of countable structures $\mathrm{Mod}_L(\omega)$ (Partly in code)
 - <a id="202520111"></a>**[2025·201(1)·1]** Grid diagrams and Heegaard Floer invariants, Manolescu, Ozsváth, Thurston. https://doi.org/10.4007/annals.2025.201.1.1  
   #64 Spin$^c$ structure on an oriented manifold (Partly in code)
 - <a id="202520133"></a>**[2025·201(3)·3]** Naked singularity censoring with anisotropic apparent horizon, An. https://doi.org/10.4007/annals.2025.201.3.3  
@@ -37,7 +39,7 @@ Papers are grouped by the least-advanced status among their listed definitions a
 
 ## Bottleneck: merged roadmap
 
-42 papers.
+41 papers.
 
 - <a id="202019113"></a>**[2020·191(1)·3]** Euclidean triangles have no hot spots, Judge, Mondal. https://doi.org/10.4007/annals.2020.191.1.3  
   #34 Neumann eigenvalues and eigenfunctions of the Laplacian on a bounded domain (Merged roadmap)
@@ -92,8 +94,6 @@ Papers are grouped by the least-advanced status among their listed definitions a
   #82 The quasi-split unitary group of a self-dual hermitian lattice (Merged roadmap)
 - <a id="202419924"></a>**[2024·199(2)·4]** Pointwise convergence of the non-linear Fourier transform, Poltoratski. https://doi.org/10.4007/annals.2024.199.2.4  
   #43 SU(1,1) non-linear Fourier transform of an $L^2$ function on the half-line (Merged roadmap), #44 Scattering functions of a real Dirac system (Merged roadmap)
-- <a id="202419934"></a>**[2024·199(3)·4]** Torsion-free abelian groups are Borel complete, Paolini, Shelah. https://doi.org/10.4007/annals.2024.199.3.4  
-  #94 Borel complete class of countable structures (Merged roadmap), #98 Polish space of countable structures $\mathrm{Mod}_L(\omega)$ (Partly in code)
 - <a id="202420024"></a>**[2024·200(2)·4]** Brauer's Height Zero Conjecture, Malle, Navarro, Schaeffer Fry, Tiep. https://doi.org/10.4007/annals.2024.200.2.4  
   #2 p-block (Brauer block) of a finite group (Partly in code), #3 Defect group of a block (Partly in code), #9 Height zero characters of a block (Merged roadmap)
 - <a id="202420032"></a>**[2024·200(3)·2]** Doubling constructions: Global functoriality for non-generic cuspidal representations, Cai, Friedberg, Kaplan. https://doi.org/10.4007/annals.2024.200.3.2  
