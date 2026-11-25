@@ -19,12 +19,21 @@ reviewed or written first.
 
 ## Writing statements
 
-When [tasks/ready-to-write-statements.md](tasks/ready-to-write-statements.md) lists a paper, every
-one of the 100 definitions it needs is formalized. Formalize the paper's main theorem statements and
+Work from the "Statable now" papers in
+[tasks/ready-to-write-statements.md](tasks/ready-to-write-statements.md): every one of the 100
+definitions each needs is formalized, and every other notion its main statement needs is in Mathlib
+or Tau Ceti code or small enough to define inline. Formalize the paper's main theorem statements and
 contribute them to [lean-eval](https://github.com/leanprover/lean-eval) or
 [formal-conjectures](https://github.com/google-deepmind/formal-conjectures), following that
-repository's contribution instructions. Check first that the statement does not need further
-notions that are missing; if it does, record them in the definitions' census files.
+repository's contribution instructions. If you find a further notion the statement needs, add it to
+the paper's extra notions in its census file and move the paper if its group changes.
+
+When a paper first reaches that file (all its listed definitions are in code), do the extra-notions
+check before listing it: find every notion outside the 100 that the main statement needs, and
+record each with its status in the census file, in the form README.md describes under
+[Extra notions](README.md#extra-notions). Then list the paper under "Statable now" or under
+"Waiting on notions outside the 100", and in the latter case name each library-scale notion in the
+paper's entry with its roadmap and status.
 
 ## Reviewing or writing roadmaps
 
@@ -53,20 +62,27 @@ The census describes a snapshot, recorded in [README.md](README.md#sources). To 
    (every PR cited in [tasks/needs-roadmap-review.md](tasks/needs-roadmap-review.md) and in the
    census files); new roadmaps and roadmap PRs; Tau Ceti code for the items in
    [prerequisites.md](prerequisites.md) (check the code, since `STATUS.md` files can lag); and new
-   Mathlib declarations for the definitions.
+   Mathlib declarations for the definitions. Re-check the status of every recorded extra notion
+   (the `Extra notions for ...` lists in the census files' `Papers` sections) against the code, the
+   roadmaps and the roadmap PRs, and do the extra-notions check for each paper whose listed
+   definitions are now all in code.
 3. **Update the census files first.** For each affected definition, rewrite the sections of
    `census/NNN.md` to describe the current state, with evidence: Lean declaration names and file
    paths, roadmap sections, PR numbers. Re-decide the status on the first line of `## Status`.
 4. **Then update the views from the census files.**
    - Move the definition to the right `tasks/` file, by the placement rule in
-     [README.md](README.md#tasks).
+     [README.md](README.md#tasks). In
+     [tasks/ready-to-write-statements.md](tasks/ready-to-write-statements.md), list each paper whose
+     listed definitions are all in code under "Statable now" or "Waiting on notions outside the 100"
+     by its extra notions.
    - Update its row in [definitions.md](definitions.md).
    - Add or revise the entry in [roadmap-descriptions.md](roadmap-descriptions.md) for each newly
      cited roadmap or roadmap PR, then run `python3 scripts/build_roadmaps.py` to regenerate
      [roadmaps.md](roadmaps.md). Run it again after step 5: the file repeats the snapshot.
    - Update [prerequisites.md](prerequisites.md): drop finished items, update the status and
      readiness of the others, and add items for newly merged roadmaps.
-   - Regroup [papers.md](papers.md) if a paper's least-advanced definition changed.
+   - Regroup [papers.md](papers.md) if a paper's least-advanced definition or extra notion
+     changed.
    - Run `python3 scripts/build_site.py` to regenerate [docs/index.html](docs/index.html), and
      again after step 5.
 5. **Update the snapshot** in [README.md](README.md#sources).

@@ -39,7 +39,7 @@ definition of the entry at the stated generality; missing propositions are noted
 
 | File | Condition |
 | --- | --- |
-| [ready-to-write-statements.md](tasks/ready-to-write-statements.md) | The definition is in Mathlib or Tau Ceti code, in the generality its papers need, with basic API. Also lists the papers all of whose listed definitions are here. |
+| [ready-to-write-statements.md](tasks/ready-to-write-statements.md) | The definition is in Mathlib or Tau Ceti code, in the generality its papers need, with basic API. Also lists the papers all of whose listed definitions are here, each with its [extra notions](#extra-notions): **statable now** if every extra notion is in Mathlib or Tau Ceti code or small enough to define inline in the statement file, otherwise **waiting on notions outside the 100**, naming each missing notion with its roadmap and status. |
 | [ready-to-formalize-in-tau-ceti.md](tasks/ready-to-formalize-in-tau-ceti.md) | A merged roadmap names the definition as a target, so implementation can be dispatched against it. |
 | [needs-roadmap-review.md](tasks/needs-roadmap-review.md) | Open roadmap PRs specify the definition, and no merged roadmap specifies all of it. Listed by PR and by definition. |
 | [needs-roadmap-written.md](tasks/needs-roadmap-written.md) | No roadmap or PR specifies the definition (or those that do cover only part of it). Grouped by the roadmap section or new roadmap that should cover it, with standard sources, a suggested order, and the further theory the papers need beyond the 100. |
@@ -62,12 +62,35 @@ definition of the entry at the stated generality; missing propositions are noted
 - [prerequisites.md](prerequisites.md) lists the items that merged roadmaps specify, that Tau Ceti
   has not yet implemented, and that lie on the prerequisite chain of at least one definition. Each
   item gives its status, whether it can start now, and the definitions it serves.
-- [papers.md](papers.md) lists the cited Annals papers, grouped by the least-advanced definition each
-  one needs.
+- [papers.md](papers.md) lists the cited Annals papers, grouped by the least-advanced of the
+  definitions each one needs and its recorded [extra notions](#extra-notions), and names the extra
+  notions that are not in code.
 - [`census/NNN.md`](census/) holds the evidence for definition NNN under fixed headings: `Status`
   (the finer status on its first line), `Mathlib`, `Tau Ceti code`, `Merged roadmaps`,
   `Open roadmap PRs`, `Prerequisite chain`, `Library-scale gap`, `Papers`. Every other file is a view
   of these, so when they disagree the census file is the one to fix first.
+
+### Extra notions
+
+The extra notions of a paper are the notions outside the 100 that its main statement needs. They are
+recorded in the census file of the paper's lowest-numbered listed definition, in the paper's entry
+under `Papers`, as a sub-list headed `Extra notions for <statement>:` with one line per notion (or
+per group of notions with the same status), of the form `<Status>: <notion>. <evidence>`. The status
+is one of:
+
+- `In code`: in Mathlib or Tau Ceti code, in the generality the statement needs.
+- `Inline`: not in code, but small enough to define inline in the statement file over Mathlib and
+  Tau Ceti code.
+- `Partly in code`, `Merged roadmap`, `Roadmap PR`, `Prerequisites planned`, `Unplanned`: a
+  library-scale notion, with the meanings these statuses have for definitions in
+  [definitions.md](definitions.md), and the evidence naming the roadmap section or PR.
+
+Extra notions are recorded for every paper all of whose listed definitions are in code (the papers in
+[ready-to-write-statements.md](tasks/ready-to-write-statements.md)); for other papers they are
+recorded when known. A paper is statable now when all its listed definitions and all its extra
+notions are `In code` or `Inline`. In [papers.md](papers.md), `In code` and `Inline` extra notions
+count as in code, and each other extra notion counts like a listed definition with the same status
+when choosing the paper's group.
 
 ## Sources
 

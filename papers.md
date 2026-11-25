@@ -2,16 +2,13 @@
 
 Papers are cited as [year, volume(issue), no. n], resolved to titles via Crossref. The paper-to-definition links come only from the "use in the Annals papers" remarks of the definition texts, so they record which of the 100 definitions a paper needs, not everything it needs. A paper whose listed definitions are all formalized is not thereby statable: it may need other notions too.
 
-Papers are grouped by the least-advanced status among their listed definitions (the bottleneck).
+Papers are grouped by the least-advanced status among their listed definitions and their recorded extra notions (the bottleneck). Extra notions are the notions outside the 100 that a paper's main statement needs; they are recorded in the census file of the paper's lowest-numbered listed definition, under `Papers`, with a status per notion (see [README.md](README.md#extra-notions)). An extra notion in Mathlib or Tau Ceti code, or small enough to define inline, counts as in code. Extra notions are recorded for every paper all of whose listed definitions are in code; for other papers they are recorded when known.
 
 
-## Bottleneck: in code (all listed definitions)
+## Bottleneck: in code (all listed definitions and extra notions)
 
-3 papers.
+2 papers, both statable now.
 
-- <a id="202019221"></a>**[2020·192(2)·1]** Subalgebras of simple AF-algebras, Schafhauser. https://doi.org/10.4007/annals.2020.192.2.1  
-  #36 Amenable trace on a C\*-algebra (In Tau Ceti)  
-  Theorem A also needs AF algebras, exact C\*-algebras and the UCT, outside the 100 and not in code ([census 036](census/036.md)).
 - <a id="202219612"></a>**[2022·196(1)·2]** The Birkhoff-Poritsky conjecture for centrally-symmetric billiard tables, Bialy, Mironov. https://doi.org/10.4007/annals.2022.196.1.2  
   #92 Billiard ball map of a convex billiard table (In Tau Ceti)
 - <a id="202420016"></a>**[2024·200(1)·6]** On $L^\infty$ estimates for fully non-linear partial differential equations, Guo, Phong. https://doi.org/10.4007/annals.2024.200.1.6  
@@ -40,7 +37,7 @@ Papers are grouped by the least-advanced status among their listed definitions (
 
 ## Bottleneck: merged roadmap
 
-41 papers.
+42 papers.
 
 - <a id="202019113"></a>**[2020·191(1)·3]** Euclidean triangles have no hot spots, Judge, Mondal. https://doi.org/10.4007/annals.2020.191.1.3  
   #34 Neumann eigenvalues and eigenfunctions of the Laplacian on a bounded domain (Merged roadmap)
@@ -52,6 +49,9 @@ Papers are grouped by the least-advanced status among their listed definitions (
   #12 The Hodge structure on $H^1$ of a complex abelian variety (Partly in code), #13 Mumford--Tate group of a rational Hodge structure (In Tau Ceti), #23 Hodge-generic abelian variety (Merged roadmap)
 - <a id="202019214"></a>**[2020·192(1)·4]** Green functions and Glauberman degree-divisibility, Geck. https://doi.org/10.4007/annals.2020.192.1.4  
   #8 Glauberman correspondence (Merged roadmap)
+- <a id="202019221"></a>**[2020·192(2)·1]** Subalgebras of simple AF-algebras, Schafhauser. https://doi.org/10.4007/annals.2020.192.2.1  
+  #36 Amenable trace on a C\*-algebra (In Tau Ceti)  
+  Extra notions: AF algebras (Merged roadmap), exact C\*-algebras (Merged roadmap), the UCT (Merged roadmap) ([census 036](census/036.md)).
 - <a id="202019222"></a>**[2020·192(2)·2]** Uniqueness of two-convex closed ancient solutions to the mean curvature flow, Angenent, Daskalopoulos, Sesum. https://doi.org/10.4007/annals.2020.192.2.2  
   #49 Second fundamental form, principal curvatures and mean curvature of a hypersurface (Merged roadmap)
 - <a id="202019233"></a>**[2020·192(3)·3]** On the Multiplicity One Conjecture in min-max theory, Zhou. https://doi.org/10.4007/annals.2020.192.3.3  
