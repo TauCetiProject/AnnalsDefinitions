@@ -1,6 +1,6 @@
 # Ready to write statements
 
-Snapshot 2026-11-25 (Tau Ceti `5d7b2806e93`, Mathlib `31ce06eaadf4`, roadmaps `797823f88`, 405 open roadmap PRs).
+Snapshot 2026-11-25 (Tau Ceti `dd39011e209`, Mathlib `31ce06eaadf4`, roadmaps `797823f88`, 405 open roadmap PRs).
 
 Every one of the 100 definitions is in exactly one of four files: [ready-to-write-statements.md](ready-to-write-statements.md), [ready-to-formalize-in-tau-ceti.md](ready-to-formalize-in-tau-ceti.md), [needs-roadmap-review.md](needs-roadmap-review.md), [needs-roadmap-written.md](needs-roadmap-written.md). A definition is placed in the furthest-along file whose condition holds for the definition as Kevin Buzzard's text states it; gaps that matter only for a particular paper are noted on the entry.
 
@@ -41,4 +41,4 @@ The main statement needs a library-scale notion that is not in code. Each entry 
   - Exact C*-algebras: merged roadmap, [CStarAlgebras](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/CStarAlgebras/README.md) C7.1, on the minimal tensor product C5.1, not in code.
   - The UCT: merged roadmap, [OperatorKTheory](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/OperatorKTheory/README.md) K8.3, on K-groups, KK-groups and the bootstrap class (K1–K8); the roadmap has no code.
 
-The closest further definitions are fifteen with a special case or close variant in code (#2, #3, #4, #5, #6, #7, #11, #12, #32, #50, #59, #64, #66, #94, #98); each is filed according to where the rest of it is specified.
+The closest further definitions are sixteen with a special case or close variant in code (#2, #3, #4, #5, #6, #7, #11, #12, #32, #38, #50, #59, #64, #66, #94, #98); each is filed according to where the rest of it is specified.

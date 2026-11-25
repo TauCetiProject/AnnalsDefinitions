@@ -16,7 +16,7 @@ Papers are grouped by the least-advanced status among their listed definitions a
 
 ## Bottleneck: partly in code
 
-9 papers.
+10 papers.
 
 - <a id="202019134"></a>**[2020·191(3)·4]** A geometric version of the circle method, Browning, Sawin. https://doi.org/10.4007/annals.2020.191.3.4  
   #6 Convergence of a spectral sequence (Partly in code)
@@ -24,6 +24,8 @@ Papers are grouped by the least-advanced status among their listed definitions a
   #2 p-block (Brauer block) of a finite group (Partly in code)
 - <a id="202319813"></a>**[2023·198(1)·3]** Naked singularities for the Einstein vacuum equations: The exterior solution, Rodnianski, Shlapentokh-Rothman. https://doi.org/10.4007/annals.2023.198.1.3  
   #32 The spaces $C^k(M)$ and $C^{k,\alpha}(M)$ on a compact manifold (Partly in code), #50 Lorentzian manifold, time orientation and spacetime (Partly in code)
+- <a id="202319814"></a>**[2023·198(1)·4]** On $L^\infty$ estimates for complex Monge-Ampère equations, Guo, Phong, Tong. https://doi.org/10.4007/annals.2023.198.1.4  
+  #14 The volume form $\omega^n$ and integration on a compact Kähler (or Hermitian) manifold (In Tau Ceti), #38 Fully nonlinear complex Hessian-type equations on a compact Hermitian manifold (Partly in code)
 - <a id="202419935"></a>**[2024·199(3)·5]** Exponential mixing implies Bernoulli, Dolgopyat, Kanigowski, Rodriguez Hertz. https://doi.org/10.4007/annals.2024.199.3.5  
   #32 The spaces $C^k(M)$ and $C^{k,\alpha}(M)$ on a compact manifold (Partly in code)
 - <a id="202419934"></a>**[2024·199(3)·4]** Torsion-free abelian groups are Borel complete, Paolini, Shelah. https://doi.org/10.4007/annals.2024.199.3.4  
@@ -39,7 +41,7 @@ Papers are grouped by the least-advanced status among their listed definitions a
 
 ## Bottleneck: merged roadmap
 
-41 papers.
+40 papers.
 
 - <a id="202019113"></a>**[2020·191(1)·3]** Euclidean triangles have no hot spots, Judge, Mondal. https://doi.org/10.4007/annals.2020.191.1.3  
   #34 Neumann eigenvalues and eigenfunctions of the Laplacian on a bounded domain (Merged roadmap)
@@ -84,8 +86,6 @@ Papers are grouped by the least-advanced status among their listed definitions a
   #1 Real rank of a semisimple Lie group (Merged roadmap), #62 Riemannian symmetric space of a semisimple Lie group (Merged roadmap)
 - <a id="202319731"></a>**[2023·197(3)·1]** Existence of infinitely many minimal hypersurfaces in closed manifolds, Song. https://doi.org/10.4007/annals.2023.197.3.1  
   #52 Minimal hypersurface in a Riemannian manifold (Merged roadmap)
-- <a id="202319814"></a>**[2023·198(1)·4]** On $L^\infty$ estimates for complex Monge-Ampère equations, Guo, Phong, Tong. https://doi.org/10.4007/annals.2023.198.1.4  
-  #14 The volume form $\omega^n$ and integration on a compact Kähler (or Hermitian) manifold (In Tau Ceti), #38 Fully nonlinear complex Hessian-type equations on a compact Hermitian manifold (Merged roadmap)
 - <a id="202319831"></a>**[2023·198(3)·1]** Universality for lozenge tiling local statistics, Aggarwal. https://doi.org/10.4007/annals.2023.198.3.1  
   #100 Translation-invariant ergodic Gibbs measure on lozenge tilings of given slope (Merged roadmap)
 - <a id="202319832"></a>**[2023·198(3)·2]** Regularity of minimal surfaces near quadratic cones, Edelen, Spolaor. https://doi.org/10.4007/annals.2023.198.3.2  
