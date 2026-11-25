@@ -32,7 +32,6 @@ Develops the 2–3 switch for abelian surfaces over ℚ: permitted mod-3 symplec
 
 ## AbelianVarietiesOverFiniteFields
 Title: Abelian varieties over finite fields
-PR: #1720
 
 Develops the invariants of an abelian variety over a finite field that are determined by the characteristic polynomial of its Frobenius: point counts, simple factors, twists, the endomorphism field, the p-rank and Newton polygon, and the group of rational points. Main results include Waterhouse's list of elliptic isogeny classes, invariants of Frobenius orders, Deligne's equivalence for ordinary abelian varieties, the Centeleghe–Stix equivalence over prime fields with the resulting count of isomorphism classes, and the Howe–Nart–Ritzenthaler criterion for Jacobians in isogeny classes of abelian surfaces.
 
@@ -611,6 +610,11 @@ Develops Pardon's implicit atlases on compact Hausdorff spaces, built from finit
 Title: Incompressible fluids
 
 Develops the theory of the incompressible Navier–Stokes and Euler equations on the whole space: solenoidal fields, the Helmholtz–Weyl decomposition and the Leray projection, the Stokes semigroup and its estimates, and the nonlinear and compactness estimates. Main results include Leray's existence theorem for weak solutions, two-dimensional uniqueness and regularity, Prodi–Serrin weak–strong uniqueness, the Fujita–Kato and Kato theorems for mild solutions, and for the Euler equations Kato's local well-posedness, the Beale–Kato–Majda criterion, the inviscid limit and the global two-dimensional theory of Wolibner and Yudovich.
+
+## InfinitaryModelExistence
+Title: Infinitary model existence, omitting types and interpolation
+
+Derives the model theory of the infinitary logic Lω₁ω over countable languages from one engine, the model existence theorem for consistency properties, together with countable fragments, infinitary types, projective classes and the graph translation from function symbols to relations. Main results are downward Löwenheim–Skolem for countable fragments, the omitting types theorem, Craig, Lyndon and Malitz interpolation and projective-class separation for sentences, and Marker's boundedness theorems showing that no Lω₁ω sentence defines the class of well-orders.
 
 ## InstantonFloerTheory
 Title: Instanton Floer theory
@@ -1237,11 +1241,6 @@ Relates point counts over finite fields to the zeta function and its cohomologic
 Title: Yang–Mills connections on Euclidean space and the caloric gauge
 
 Develops connections on Euclidean space with values in a compact Lie group at critical regularity: Sobolev gauge transformations, Uhlenbeck's Coulomb gauge, the good global gauge theorem, and the topological class and instanton number of a finite-energy connection. It then treats harmonic Yang–Mills connections on ℝ⁴ (energy gap and ground state), the Yang–Mills heat flow, and the caloric gauge of Oh and Tataru, ending with the theorem that the caloric connections form a C¹ submanifold of a Banach space.
-
-## #1615
-Title: InfinitaryModelExistence: revision
-
-Revises the merged roadmap InfinitaryModelExistence, which derives the model theory of the infinitary logic Lω₁ω from the model existence theorem for consistency properties: omitting types, interpolation, and the theorem that no sentence defines the class of well-orders.
 
 ## #1797
 Title: GeometricTopology: revision
