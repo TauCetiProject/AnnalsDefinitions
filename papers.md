@@ -16,7 +16,7 @@ Papers are grouped by the least-advanced status among their listed definitions a
 
 ## Bottleneck: partly in code
 
-14 papers.
+16 papers.
 
 - <a id="202019134"></a>**[2020·191(3)·4]** A geometric version of the circle method, Browning, Sawin. https://doi.org/10.4007/annals.2020.191.3.4  
   #6 Convergence of a spectral sequence (Partly in code)
@@ -25,9 +25,13 @@ Papers are grouped by the least-advanced status among their listed definitions a
 - <a id="202019227"></a>**[2020·192(2)·7]** Unitriangular shape of decomposition matrices of unipotent blocks, Brunat, Dudas, Taylor. https://doi.org/10.4007/annals.2020.192.2.7  
   #2 p-block (Brauer block) of a finite group (Partly in code)
 - <a id="202119411"></a>**[2021·194(1)·1]** Local and global boundary rigidity and the geodesic X-ray transform in the normal gauge, Stefanov, Uhlmann, Vasy. https://doi.org/10.4007/annals.2021.194.1.1  
-  #49 Second fundamental form, principal curvatures and mean curvature of a hypersurface (Partly in code), #66 Strictly convex boundary of a Riemannian manifold (Partly in code)
+  #49 Second fundamental form, principal curvatures and mean curvature of a hypersurface (Partly in code), #66 Strictly convex boundary of a Riemannian manifold (In Tau Ceti)
 - <a id="202219512"></a>**[2022·195(1)·2]** The Gaussian Double-Bubble and Multi-Bubble Conjectures, Milman, Neeman. https://doi.org/10.4007/annals.2022.195.1.2  
   #55 Gaussian $q$-cluster (Partly in code)
+- <a id="202219631"></a>**[2022·196(3)·1]** Zimmer's conjecture: Subexponential growth, measure rigidity, and strong property (T), Brown, Fisher, Hurtado. https://doi.org/10.4007/annals.2022.196.3.1  
+  #1 Real rank of a semisimple Lie group (Partly in code), #4 Parabolic subgroups of a real semisimple Lie group (minimal and standard parabolics) (Partly in code)
+- <a id="202219632"></a>**[2022·196(3)·2]** Invariant measures and measurable projective factors for actions of higher-rank lattices on manifolds, Brown, Hertz, Wang. https://doi.org/10.4007/annals.2022.196.3.2  
+  #1 Real rank of a semisimple Lie group (Partly in code), #4 Parabolic subgroups of a real semisimple Lie group (minimal and standard parabolics) (Partly in code)
 - <a id="202319813"></a>**[2023·198(1)·3]** Naked singularities for the Einstein vacuum equations: The exterior solution, Rodnianski, Shlapentokh-Rothman. https://doi.org/10.4007/annals.2023.198.1.3  
   #32 The spaces $C^k(M)$ and $C^{k,\alpha}(M)$ on a compact manifold (Partly in code), #50 Lorentzian manifold, time orientation and spacetime (Partly in code)
 - <a id="202319814"></a>**[2023·198(1)·4]** On $L^\infty$ estimates for complex Monge-Ampère equations, Guo, Phong, Tong. https://doi.org/10.4007/annals.2023.198.1.4  
@@ -49,7 +53,7 @@ Papers are grouped by the least-advanced status among their listed definitions a
 
 ## Bottleneck: merged roadmap
 
-37 papers.
+35 papers.
 
 - <a id="202019113"></a>**[2020·191(1)·3]** Euclidean triangles have no hot spots, Judge, Mondal. https://doi.org/10.4007/annals.2020.191.1.3  
   #34 Neumann eigenvalues and eigenfunctions of the Laplacian on a bounded domain (Merged roadmap)
@@ -63,7 +67,7 @@ Papers are grouped by the least-advanced status among their listed definitions a
   #8 Glauberman correspondence (Merged roadmap)
 - <a id="202019221"></a>**[2020·192(2)·1]** Subalgebras of simple AF-algebras, Schafhauser. https://doi.org/10.4007/annals.2020.192.2.1  
   #36 Amenable trace on a C\*-algebra (In Tau Ceti)  
-  Extra notions: AF algebras (Merged roadmap, `TauCeti.IsAF` in an open Tau Ceti PR), exact C\*-algebras (Merged roadmap), the UCT (Merged roadmap, early OperatorKTheory layers partly in code) ([census 036](census/036.md)).
+  Extra notions: exact C\*-algebras (Merged roadmap; nuclearity and the spatial tensor product of concrete operator algebras in code), the UCT (Merged roadmap, early OperatorKTheory layers partly in code); AF algebras in code (`TauCeti.IsAF`) ([census 036](census/036.md)).
 - <a id="202019233"></a>**[2020·192(3)·3]** On the Multiplicity One Conjecture in min-max theory, Zhou. https://doi.org/10.4007/annals.2020.192.3.3  
   #49 Second fundamental form, principal curvatures and mean curvature of a hypersurface (Partly in code), #52 Minimal hypersurface in a Riemannian manifold (Merged roadmap)
 - <a id="202119334"></a>**[2021·193(3)·4]** Arithmeticity, superrigidity, and totally geodesic submanifolds, Bader, Fisher, Miller, Stover. https://doi.org/10.4007/annals.2021.193.3.4  
@@ -74,10 +78,6 @@ Papers are grouped by the least-advanced status among their listed definitions a
   #37 Caloric gauge and the manifold of caloric connections (Merged roadmap), #48 Topological class (instanton number) of a finite-energy connection on $\mathbb{R}^4$ (Merged roadmap)
 - <a id="202219522"></a>**[2022·195(2)·2]** Measures of maximal entropy for surface diffeomorphisms, Buzzi, Crovisier, Sarig. https://doi.org/10.4007/annals.2022.195.2.2  
   #97 Measure of maximal entropy (Merged roadmap)
-- <a id="202219631"></a>**[2022·196(3)·1]** Zimmer's conjecture: Subexponential growth, measure rigidity, and strong property (T), Brown, Fisher, Hurtado. https://doi.org/10.4007/annals.2022.196.3.1  
-  #1 Real rank of a semisimple Lie group (Merged roadmap), #4 Parabolic subgroups of a real semisimple Lie group (minimal and standard parabolics) (Partly in code)
-- <a id="202219632"></a>**[2022·196(3)·2]** Invariant measures and measurable projective factors for actions of higher-rank lattices on manifolds, Brown, Hertz, Wang. https://doi.org/10.4007/annals.2022.196.3.2  
-  #1 Real rank of a semisimple Lie group (Merged roadmap), #4 Parabolic subgroups of a real semisimple Lie group (minimal and standard parabolics) (Partly in code)
 - <a id="202219634"></a>**[2022·196(3)·4]** One can hear the shape of ellipses of small eccentricity, Hezari, Zelditch. https://doi.org/10.4007/annals.2022.196.3.4  
   #34 Neumann eigenvalues and eigenfunctions of the Laplacian on a bounded domain (Merged roadmap)
 - <a id="202219635"></a>**[2022·196(3)·5]** Prisms and prismatic cohomology, Bhatt, Scholze. https://doi.org/10.4007/annals.2022.196.3.5  
@@ -87,7 +87,7 @@ Papers are grouped by the least-advanced status among their listed definitions a
 - <a id="202319713"></a>**[2023·197(1)·3]** Special subvarieties of non-arithmetic ball quotients and Hodge theory, Baldi, Ullmo. https://doi.org/10.4007/annals.2023.197.1.3  
   #15 Ball quotients as quasi-projective varieties (Merged roadmap), #31 Totally geodesic subvariety of a ball quotient (Merged roadmap), #68 Arithmetic lattice in a semisimple Lie group (Merged roadmap)
 - <a id="202319716"></a>**[2023·197(1)·6]** Infinite volume and infinite injectivity radius, Fraczyk, Gelander. https://doi.org/10.4007/annals.2023.197.1.6  
-  #1 Real rank of a semisimple Lie group (Merged roadmap), #62 Riemannian symmetric space of a semisimple Lie group (Merged roadmap)
+  #1 Real rank of a semisimple Lie group (Partly in code), #62 Riemannian symmetric space of a semisimple Lie group (Merged roadmap)
 - <a id="202319731"></a>**[2023·197(3)·1]** Existence of infinitely many minimal hypersurfaces in closed manifolds, Song. https://doi.org/10.4007/annals.2023.197.3.1  
   #52 Minimal hypersurface in a Riemannian manifold (Merged roadmap)
 - <a id="202319831"></a>**[2023·198(3)·1]** Universality for lozenge tiling local statistics, Aggarwal. https://doi.org/10.4007/annals.2023.198.3.1  
@@ -103,7 +103,7 @@ Papers are grouped by the least-advanced status among their listed definitions a
 - <a id="202520122"></a>**[2025·201(2)·2]** The Alperin--McKay and Brauer's height zero conjecture for the prime 2, Ruhstorfer. https://doi.org/10.4007/annals.2025.201.2.2  
   #2 p-block (Brauer block) of a finite group (Partly in code), #3 Defect group of a block (Partly in code), #9 Height zero characters of a block (Merged roadmap)
 - <a id="202520123"></a>**[2025·201(2)·3]** De Rham algebras of closed quasiregularly elliptic manifolds are Euclidean, Heikkilä, Pankka. https://doi.org/10.4007/annals.2025.201.2.3  
-  #41 Quasiregular map between Riemannian manifolds (Merged roadmap), #42 Quasiregularly elliptic manifold (Merged roadmap), #47 Sobolev space $W^{1,p}_{\mathrm{loc}}(M,N)$ of maps between Riemannian manifolds (Merged roadmap)
+  #41 Quasiregular map between Riemannian manifolds (Partly in code), #42 Quasiregularly elliptic manifold (Merged roadmap), #47 Sobolev space $W^{1,p}_{\mathrm{loc}}(M,N)$ of maps between Riemannian manifolds (Merged roadmap)
 - <a id="202520132"></a>**[2025·201(3)·2]** Mod-$p$ Poincaré Duality in $p$-adic analytic geometry, Zavyalov. https://doi.org/10.4007/annals.2025.201.3.2  
   #18 Cup product in étale cohomology (Merged roadmap), #22 Galois action on the étale cohomology of the geometric fibre (Merged roadmap)
 - <a id="202520211"></a>**[2025·202(1)·1]** Eisenstein–Kronecker classes, integrality of critical values of Hecke $L$-functions and $p$-adic interpolation, Kings, Sprang. https://doi.org/10.4007/annals.2025.202.1.1  
@@ -136,7 +136,7 @@ Papers are grouped by the least-advanced status among their listed definitions a
 - <a id="202019131"></a>**[2020·191(3)·1]** A Luna étale slice theorem for algebraic stacks, Alper, Hall, Rydh. https://doi.org/10.4007/annals.2020.191.3.1  
   #17 Cohomologically affine morphisms of algebraic stacks (Roadmap PR), #28 Points of an algebraic stack (Merged roadmap), #29 Residual gerbe at a point of an algebraic stack (Merged roadmap)
 - <a id="202119332"></a>**[2021·193(3)·2]** Filling functions of arithmetic groups, Leuzinger, Young. https://doi.org/10.4007/annals.2021.193.3.2  
-  #1 Real rank of a semisimple Lie group (Merged roadmap), #57 Lipschitz singular chains and their mass (Roadmap PR)
+  #1 Real rank of a semisimple Lie group (Partly in code), #57 Lipschitz singular chains and their mass (Roadmap PR)
 - <a id="202119413"></a>**[2021·194(1)·3]** Marginal triviality of the scaling limits of critical 4D Ising and $\lambda\phi_4^4$ models, Aizenman, Duminil-Copin. https://doi.org/10.4007/annals.2021.194.1.3  
   #99 Scaling limit of lattice $\phi^4$ fields (reachable random field) (Roadmap PR)
 - <a id="202119425"></a>**[2021·194(2)·5]** Isolation of cuspidal spectrum, with application to the Gan–Gross–Prasad conjecture, Beuzart-Plessis, Liu, Zhang, Zhu. https://doi.org/10.4007/annals.2021.194.2.5  

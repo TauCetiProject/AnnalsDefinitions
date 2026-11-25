@@ -106,8 +106,8 @@ when choosing the paper's group.
   to titles through Crossref. Only the papers named in each definition's "use in the Annals papers"
   remarks are linked, 71 in all. The full definition-to-paper map (`definitions_100_v2.md`) is not
   public, so [papers.md](papers.md) undercounts.
-- **Snapshot.** The census describes Tau Ceti `main` at `522d48f5cf3`, Mathlib at Tau Ceti's pinned
-  revision `31ce06eaadf4`, TauCetiRoadmap `main` at `a620bbb50`, and the 394 roadmap PRs open on
+- **Snapshot.** The census describes Tau Ceti `main` at `91113fe317a`, Mathlib at Tau Ceti's pinned
+  revision `31ce06eaadf4`, TauCetiRoadmap `main` at `a89ce4d87`, and the 392 roadmap PRs open on
   2026-11-25. It was carried out by Claude agents reading the code and the roadmaps. Every status is
   a judgment, and borderline calls are flagged in the census files.
 
