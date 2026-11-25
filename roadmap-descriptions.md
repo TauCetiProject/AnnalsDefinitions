@@ -793,6 +793,11 @@ Title: The Feit–Thompson odd order theorem
 
 Proves that every finite group of odd order is solvable, by the Bender–Glauberman local analysis and Peterfalvi's character theory. Along the way it develops the reduction to a minimal simple counterexample, local analysis for solvable groups of odd order, the Dade isometry and coherence of characters, the division of maximal subgroups of a minimal counterexample into five types with their character analysis, and the finite field comparison that yields the final contradiction.
 
+## OperatorKTheory
+Title: Operator K-theory, extensions and KK-theory
+
+Builds the K-groups K₀ and K₁ of complex C\*-algebras from projections and unitaries, and Kasparov's bivariant groups KK(A,B) with the Kasparov product. Main results are Bott periodicity, the six-term exact sequence of an extension, Atkinson's theorem and Fredholm indices, the Brown–Douglas–Fillmore theorem, K-theory computations for free-group, rotation and Cuntz algebras, the bootstrap class with the universal coefficient and Künneth theorems, and E-theory from asymptotic morphisms.
+
 ## OperatorTheory/SelfAdjointSpectralTheory
 Title: Self-adjoint spectral theory: the Borel functional calculus, unbounded operators, and Stone's theorem
 

@@ -8,7 +8,7 @@ A roadmap is *merged* when the census links its folder on TauCetiRoadmap `main`,
 
 | Group | Count |
 | --- | --- |
-| [Merged roadmaps](#merged-roadmaps) | 171 |
+| [Merged roadmaps](#merged-roadmaps) | 172 |
 | [Roadmaps in open PRs](#roadmaps-in-open-prs) | 54 |
 | [Other cited PRs](#other-cited-prs) | 9 |
 
@@ -982,6 +982,14 @@ Develops the measurable and unitary representation theory of locally compact gro
 Proves that every finite group of odd order is solvable, by the Bender–Glauberman local analysis and Peterfalvi's character theory. Along the way it develops the reduction to a minimal simple counterexample, local analysis for solvable groups of odd order, the Dade isometry and coherence of characters, the division of maximal subgroups of a minimal counterexample into five types with their character analysis, and the finite field comparison that yields the final contradiction.
 
 - Also cited in the evidence for [#8 Glauberman correspondence](census/008.md).
+
+### [OperatorKTheory](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/OperatorKTheory/README.md)
+
+*Operator K-theory, extensions and KK-theory.* Merged.
+
+Builds the K-groups K₀ and K₁ of complex C\*-algebras from projections and unitaries, and Kasparov's bivariant groups KK(A,B) with the Kasparov product. Main results are Bott periodicity, the six-term exact sequence of an extension, Atkinson's theorem and Fredholm indices, the Brown–Douglas–Fillmore theorem, K-theory computations for free-group, rotation and Cuntz algebras, the bootstrap class with the universal coefficient and Künneth theorems, and E-theory from asymptotic morphisms.
+
+- Also cited in the evidence for [#36 Amenable trace on a C\*-algebra](census/036.md).
 
 ### [OperatorTheory/SelfAdjointSpectralTheory](https://github.com/TauCetiProject/TauCetiRoadmap/blob/main/TauCetiRoadmap/OperatorTheory/SelfAdjointSpectralTheory/README.md)
 

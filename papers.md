@@ -10,7 +10,8 @@ Papers are grouped by the least-advanced status among their listed definitions (
 3 papers.
 
 - <a id="202019221"></a>**[2020·192(2)·1]** Subalgebras of simple AF-algebras, Schafhauser. https://doi.org/10.4007/annals.2020.192.2.1  
-  #36 Amenable trace on a C\*-algebra (In Tau Ceti)
+  #36 Amenable trace on a C\*-algebra (In Tau Ceti)  
+  Theorem A also needs AF algebras, exact C\*-algebras and the UCT, outside the 100 and not in code ([census 036](census/036.md)).
 - <a id="202219612"></a>**[2022·196(1)·2]** The Birkhoff-Poritsky conjecture for centrally-symmetric billiard tables, Bialy, Mironov. https://doi.org/10.4007/annals.2022.196.1.2  
   #92 Billiard ball map of a convex billiard table (In Tau Ceti)
 - <a id="202420016"></a>**[2024·200(1)·6]** On $L^\infty$ estimates for fully non-linear partial differential equations, Guo, Phong. https://doi.org/10.4007/annals.2024.200.1.6  
