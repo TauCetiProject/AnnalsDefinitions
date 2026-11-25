@@ -16,12 +16,16 @@ Papers are grouped by the least-advanced status among their listed definitions a
 
 ## Bottleneck: partly in code
 
-12 papers.
+14 papers.
 
 - <a id="202019134"></a>**[2020·191(3)·4]** A geometric version of the circle method, Browning, Sawin. https://doi.org/10.4007/annals.2020.191.3.4  
   #6 Convergence of a spectral sequence (Partly in code)
+- <a id="202019222"></a>**[2020·192(2)·2]** Uniqueness of two-convex closed ancient solutions to the mean curvature flow, Angenent, Daskalopoulos, Sesum. https://doi.org/10.4007/annals.2020.192.2.2  
+  #49 Second fundamental form, principal curvatures and mean curvature of a hypersurface (Partly in code)
 - <a id="202019227"></a>**[2020·192(2)·7]** Unitriangular shape of decomposition matrices of unipotent blocks, Brunat, Dudas, Taylor. https://doi.org/10.4007/annals.2020.192.2.7  
   #2 p-block (Brauer block) of a finite group (Partly in code)
+- <a id="202119411"></a>**[2021·194(1)·1]** Local and global boundary rigidity and the geodesic X-ray transform in the normal gauge, Stefanov, Uhlmann, Vasy. https://doi.org/10.4007/annals.2021.194.1.1  
+  #49 Second fundamental form, principal curvatures and mean curvature of a hypersurface (Partly in code), #66 Strictly convex boundary of a Riemannian manifold (Partly in code)
 - <a id="202219512"></a>**[2022·195(1)·2]** The Gaussian Double-Bubble and Multi-Bubble Conjectures, Milman, Neeman. https://doi.org/10.4007/annals.2022.195.1.2  
   #55 Gaussian $q$-cluster (Partly in code)
 - <a id="202319813"></a>**[2023·198(1)·3]** Naked singularities for the Einstein vacuum equations: The exterior solution, Rodnianski, Shlapentokh-Rothman. https://doi.org/10.4007/annals.2023.198.1.3  
@@ -45,12 +49,12 @@ Papers are grouped by the least-advanced status among their listed definitions a
 
 ## Bottleneck: merged roadmap
 
-39 papers.
+37 papers.
 
 - <a id="202019113"></a>**[2020·191(1)·3]** Euclidean triangles have no hot spots, Judge, Mondal. https://doi.org/10.4007/annals.2020.191.1.3  
   #34 Neumann eigenvalues and eigenfunctions of the Laplacian on a bounded domain (Merged roadmap)
 - <a id="202019114"></a>**[2020·191(1)·4]** Minimal surfaces and the Allen--Cahn equation on 3-manifolds: index, multiplicity, and curvature estimates, Chodosh, Mantoulidis. https://doi.org/10.4007/annals.2020.191.1.4  
-  #49 Second fundamental form, principal curvatures and mean curvature of a hypersurface (Merged roadmap), #52 Minimal hypersurface in a Riemannian manifold (Merged roadmap)
+  #49 Second fundamental form, principal curvatures and mean curvature of a hypersurface (Partly in code), #52 Minimal hypersurface in a Riemannian manifold (Merged roadmap)
 - <a id="202019121"></a>**[2020·191(2)·1]** A converse to a theorem of Gross, Zagier, and Kolyvagin, Skinner. https://doi.org/10.4007/annals.2020.191.2.1  
   #67 Local components of an automorphic representation (restricted tensor product) (Merged roadmap), #69 Galois representation attached to a cuspidal Hecke eigenform (Merged roadmap), #71 Abelian variety $A_f$ attached to a weight-2 newform (Merged roadmap), #76 The cuspidal automorphic representation $\pi_f$ attached to a newform (Merged roadmap), #87 Tate--Shafarevich group of an abelian variety over a number field (Merged roadmap)
 - <a id="202019127"></a>**[2020·191(2)·7]** Abelian varieties isogenous to no Jacobian, Masser, Zannier. https://doi.org/10.4007/annals.2020.191.2.7  
@@ -60,14 +64,10 @@ Papers are grouped by the least-advanced status among their listed definitions a
 - <a id="202019221"></a>**[2020·192(2)·1]** Subalgebras of simple AF-algebras, Schafhauser. https://doi.org/10.4007/annals.2020.192.2.1  
   #36 Amenable trace on a C\*-algebra (In Tau Ceti)  
   Extra notions: AF algebras (Merged roadmap, `TauCeti.IsAF` in an open Tau Ceti PR), exact C\*-algebras (Merged roadmap), the UCT (Merged roadmap, early OperatorKTheory layers partly in code) ([census 036](census/036.md)).
-- <a id="202019222"></a>**[2020·192(2)·2]** Uniqueness of two-convex closed ancient solutions to the mean curvature flow, Angenent, Daskalopoulos, Sesum. https://doi.org/10.4007/annals.2020.192.2.2  
-  #49 Second fundamental form, principal curvatures and mean curvature of a hypersurface (Merged roadmap)
 - <a id="202019233"></a>**[2020·192(3)·3]** On the Multiplicity One Conjecture in min-max theory, Zhou. https://doi.org/10.4007/annals.2020.192.3.3  
-  #49 Second fundamental form, principal curvatures and mean curvature of a hypersurface (Merged roadmap), #52 Minimal hypersurface in a Riemannian manifold (Merged roadmap)
+  #49 Second fundamental form, principal curvatures and mean curvature of a hypersurface (Partly in code), #52 Minimal hypersurface in a Riemannian manifold (Merged roadmap)
 - <a id="202119334"></a>**[2021·193(3)·4]** Arithmeticity, superrigidity, and totally geodesic submanifolds, Bader, Fisher, Miller, Stover. https://doi.org/10.4007/annals.2021.193.3.4  
   #68 Arithmetic lattice in a semisimple Lie group (Merged roadmap), #79 Minimal parabolic subgroups and the Langlands decomposition (real rank one) (Merged roadmap)
-- <a id="202119411"></a>**[2021·194(1)·1]** Local and global boundary rigidity and the geodesic X-ray transform in the normal gauge, Stefanov, Uhlmann, Vasy. https://doi.org/10.4007/annals.2021.194.1.1  
-  #49 Second fundamental form, principal curvatures and mean curvature of a hypersurface (Merged roadmap), #66 Strictly convex boundary of a Riemannian manifold (Partly in code)
 - <a id="202119415"></a>**[2021·194(1)·5]** Spectral interpretations of dynamical degrees and applications, Dang, Favre. https://doi.org/10.4007/annals.2021.194.1.5  
   #95 Dynamical degree of a dominant rational self-map (Merged roadmap)
 - <a id="202119421"></a>**[2021·194(2)·1]** The threshold conjecture for the energy critical hyperbolic Yang–Mills equation, Oh, Tataru. https://doi.org/10.4007/annals.2021.194.2.1  
@@ -109,7 +109,7 @@ Papers are grouped by the least-advanced status among their listed definitions a
 - <a id="202520211"></a>**[2025·202(1)·1]** Eisenstein–Kronecker classes, integrality of critical values of Hecke $L$-functions and $p$-adic interpolation, Kings, Sprang. https://doi.org/10.4007/annals.2025.202.1.1  
   #70 Abelian scheme with complex multiplication by $\mathcal{O}_L$ of CM type $\Sigma$ (Merged roadmap), #74 Complex CM periods of a CM abelian scheme (Merged roadmap), #75 Critical infinity types $\mathrm{Crit}_L(\Gamma)$ and the attached CM type (Merged roadmap)
 - <a id="202520212"></a>**[2025·202(1)·2]** Weil-Petersson curves, $\beta$-numbers, and minimal surfaces, Bishop. https://doi.org/10.4007/annals.2025.202.1.2  
-  #49 Second fundamental form, principal curvatures and mean curvature of a hypersurface (Merged roadmap), #52 Minimal hypersurface in a Riemannian manifold (Merged roadmap)
+  #49 Second fundamental form, principal curvatures and mean curvature of a hypersurface (Partly in code), #52 Minimal hypersurface in a Riemannian manifold (Merged roadmap)
 - <a id="202520231"></a>**[2025·202(3)·1]** The Shafarevich conjecture for hypersurfaces in abelian varieties, Lawrence, Sawin. https://doi.org/10.4007/annals.2025.202.3.1  
   #78 Good reduction of a hypersurface in an abelian variety (Merged roadmap)
 - <a id="202520233"></a>**[2025·202(3)·3]** Independence of $\ell$ for Frobenius conjugacy classes attached to abelian varieties, Kisin, Zhou. https://doi.org/10.4007/annals.2025.202.3.3  
@@ -146,7 +146,7 @@ Papers are grouped by the least-advanced status among their listed definitions a
 - <a id="202319712"></a>**[2023·197(1)·2]** Smooth mixing Anosov flows in dimension three are exponentially mixing, Tsujii, Zhang. https://doi.org/10.4007/annals.2023.197.1.2  
   #32 The spaces $C^k(M)$ and $C^{k,\alpha}(M)$ on a compact manifold (Partly in code), #91 Anosov flow (Roadmap PR), #96 Equilibrium state (measure) of a Hölder potential (Merged roadmap)
 - <a id="202319734"></a>**[2023·197(3)·4]** Stable minimal hypersurfaces in ℝ^N+1+ℓ with singular set an arbitrary closed K⊂{0}×ℝ^ℓ, Simon. https://doi.org/10.4007/annals.2023.197.3.4  
-  #49 Second fundamental form, principal curvatures and mean curvature of a hypersurface (Merged roadmap), #53 Stationary varifold (Partly in code), #65 Strict stability of a minimal cone/hypersurface (Simon's inequality) (Roadmap PR)
+  #49 Second fundamental form, principal curvatures and mean curvature of a hypersurface (Partly in code), #53 Stationary varifold (Partly in code), #65 Strict stability of a minimal cone/hypersurface (Simon's inequality) (Roadmap PR)
 - <a id="202319812"></a>**[2023·198(1)·2]** Transversality and super-rigidity for multiply covered holomorphic curves, Wendl. https://doi.org/10.4007/annals.2023.198.1.2  
   #56 Linearized Cauchy–Riemann operator at a J-holomorphic curve (Merged roadmap), #60 Normal Cauchy–Riemann operator of a J-holomorphic curve (Roadmap PR), #63 Space of compatible almost complex structures (In Tau Ceti)
 - <a id="202319826"></a>**[2023·198(2)·6]** Near optimal spectral gaps for hyperbolic surfaces, Hide, Magee. https://doi.org/10.4007/annals.2023.198.2.6  

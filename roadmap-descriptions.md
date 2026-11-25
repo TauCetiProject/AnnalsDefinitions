@@ -504,7 +504,6 @@ Develops the geometry of numbers and the arithmetic of integral quadratic and he
 
 ## GibbsMeasuresAndTheIsingModel
 Title: Gibbs measures and the Ising model
-PR: #2976
 
 Builds the theory of infinite-volume Gibbs measures of lattice spin systems with a finite single-site space: existence by compactness, extremal Gibbs measures as the tail-trivial ones, and Dobrushin's uniqueness criterion. It applies this to the nearest-neighbour Ising model on the integer lattice, with the plus and minus states, uniqueness in one dimension and at high temperature, and spontaneous magnetization in two dimensions by Peierls' argument.
 
