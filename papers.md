@@ -7,8 +7,10 @@ Papers are grouped by the least-advanced status among their listed definitions (
 
 ## Bottleneck: in code (all listed definitions)
 
-2 papers.
+3 papers.
 
+- <a id="202019221"></a>**[2020·192(2)·1]** Subalgebras of simple AF-algebras, Schafhauser. https://doi.org/10.4007/annals.2020.192.2.1  
+  #36 Amenable trace on a C\*-algebra (In Tau Ceti)
 - <a id="202219612"></a>**[2022·196(1)·2]** The Birkhoff-Poritsky conjecture for centrally-symmetric billiard tables, Bialy, Mironov. https://doi.org/10.4007/annals.2022.196.1.2  
   #92 Billiard ball map of a convex billiard table (In Tau Ceti)
 - <a id="202420016"></a>**[2024·200(1)·6]** On $L^\infty$ estimates for fully non-linear partial differential equations, Guo, Phong. https://doi.org/10.4007/annals.2024.200.1.6  
@@ -20,8 +22,6 @@ Papers are grouped by the least-advanced status among their listed definitions (
 
 - <a id="202019134"></a>**[2020·191(3)·4]** A geometric version of the circle method, Browning, Sawin. https://doi.org/10.4007/annals.2020.191.3.4  
   #6 Convergence of a spectral sequence (Partly in code)
-- <a id="202019221"></a>**[2020·192(2)·1]** Subalgebras of simple AF-algebras, Schafhauser. https://doi.org/10.4007/annals.2020.192.2.1  
-  #36 Amenable trace on a C\*-algebra (Partly in code)
 - <a id="202019227"></a>**[2020·192(2)·7]** Unitriangular shape of decomposition matrices of unipotent blocks, Brunat, Dudas, Taylor. https://doi.org/10.4007/annals.2020.192.2.7  
   #2 p-block (Brauer block) of a finite group (Partly in code)
 - <a id="202319813"></a>**[2023·198(1)·3]** Naked singularities for the Einstein vacuum equations: The exterior solution, Rodnianski, Shlapentokh-Rothman. https://doi.org/10.4007/annals.2023.198.1.3  
@@ -34,17 +34,21 @@ Papers are grouped by the least-advanced status among their listed definitions (
   #50 Lorentzian manifold, time orientation and spacetime (Partly in code)
 - <a id="202520221"></a>**[2025·202(2)·1]** The interior of dynamical vacuum black holes I: The $C^0$-stability of the Kerr Cauchy horizon, Dafermos, Luk. https://doi.org/10.4007/annals.2025.202.2.1  
   #50 Lorentzian manifold, time orientation and spacetime (Partly in code)
+- <a id="202620333"></a>**[2026·203(3)·3]** Quantum variance on quaternion algebras, III, Nelson. https://doi.org/10.4007/annals.2026.203.3.3  
+  #5 Infinitesimal character (and Casimir eigenvalue) of a representation of a real reductive group (Partly in code), #7 Discrete series representations of $\mathrm{GL}_2(\mathbb{R})$ (Partly in code)
 
 ## Bottleneck: merged roadmap
 
-40 papers.
+41 papers.
 
+- <a id="202019113"></a>**[2020·191(1)·3]** Euclidean triangles have no hot spots, Judge, Mondal. https://doi.org/10.4007/annals.2020.191.1.3  
+  #34 Neumann eigenvalues and eigenfunctions of the Laplacian on a bounded domain (Merged roadmap)
 - <a id="202019114"></a>**[2020·191(1)·4]** Minimal surfaces and the Allen--Cahn equation on 3-manifolds: index, multiplicity, and curvature estimates, Chodosh, Mantoulidis. https://doi.org/10.4007/annals.2020.191.1.4  
   #49 Second fundamental form, principal curvatures and mean curvature of a hypersurface (Merged roadmap), #52 Minimal hypersurface in a Riemannian manifold (Merged roadmap)
 - <a id="202019121"></a>**[2020·191(2)·1]** A converse to a theorem of Gross, Zagier, and Kolyvagin, Skinner. https://doi.org/10.4007/annals.2020.191.2.1  
   #67 Local components of an automorphic representation (restricted tensor product) (Merged roadmap), #69 Galois representation attached to a cuspidal Hecke eigenform (Merged roadmap), #71 Abelian variety $A_f$ attached to a weight-2 newform (Merged roadmap), #76 The cuspidal automorphic representation $\pi_f$ attached to a newform (Merged roadmap), #87 Tate--Shafarevich group of an abelian variety over a number field (Merged roadmap)
 - <a id="202019127"></a>**[2020·191(2)·7]** Abelian varieties isogenous to no Jacobian, Masser, Zannier. https://doi.org/10.4007/annals.2020.191.2.7  
-  #12 The Hodge structure on $H^1$ of a complex abelian variety (Partly in code), #13 Mumford--Tate group of a rational Hodge structure (Partly in code), #23 Hodge-generic abelian variety (Merged roadmap)
+  #12 The Hodge structure on $H^1$ of a complex abelian variety (Partly in code), #13 Mumford--Tate group of a rational Hodge structure (In Tau Ceti), #23 Hodge-generic abelian variety (Merged roadmap)
 - <a id="202019214"></a>**[2020·192(1)·4]** Green functions and Glauberman degree-divisibility, Geck. https://doi.org/10.4007/annals.2020.192.1.4  
   #8 Glauberman correspondence (Merged roadmap)
 - <a id="202019222"></a>**[2020·192(2)·2]** Uniqueness of two-convex closed ancient solutions to the mean curvature flow, Angenent, Daskalopoulos, Sesum. https://doi.org/10.4007/annals.2020.192.2.2  
@@ -65,6 +69,8 @@ Papers are grouped by the least-advanced status among their listed definitions (
   #1 Real rank of a semisimple Lie group (Merged roadmap), #4 Parabolic subgroups of a real semisimple Lie group (minimal and standard parabolics) (Partly in code)
 - <a id="202219632"></a>**[2022·196(3)·2]** Invariant measures and measurable projective factors for actions of higher-rank lattices on manifolds, Brown, Hertz, Wang. https://doi.org/10.4007/annals.2022.196.3.2  
   #1 Real rank of a semisimple Lie group (Merged roadmap), #4 Parabolic subgroups of a real semisimple Lie group (minimal and standard parabolics) (Partly in code)
+- <a id="202219634"></a>**[2022·196(3)·4]** One can hear the shape of ellipses of small eccentricity, Hezari, Zelditch. https://doi.org/10.4007/annals.2022.196.3.4  
+  #34 Neumann eigenvalues and eigenfunctions of the Laplacian on a bounded domain (Merged roadmap)
 - <a id="202219635"></a>**[2022·196(3)·5]** Prisms and prismatic cohomology, Bhatt, Scholze. https://doi.org/10.4007/annals.2022.196.3.5  
   #81 The prismatic site and prismatic cohomology (Merged roadmap)
 - <a id="202319711"></a>**[2023·197(1)·1]** There is no Enriques surface over the integers, Schröer. https://doi.org/10.4007/annals.2023.197.1.1  
@@ -104,28 +110,24 @@ Papers are grouped by the least-advanced status among their listed definitions (
 - <a id="202520231"></a>**[2025·202(3)·1]** The Shafarevich conjecture for hypersurfaces in abelian varieties, Lawrence, Sawin. https://doi.org/10.4007/annals.2025.202.3.1  
   #78 Good reduction of a hypersurface in an abelian variety (Merged roadmap)
 - <a id="202520233"></a>**[2025·202(3)·3]** Independence of $\ell$ for Frobenius conjugacy classes attached to abelian varieties, Kisin, Zhou. https://doi.org/10.4007/annals.2025.202.3.3  
-  #12 The Hodge structure on $H^1$ of a complex abelian variety (Partly in code), #13 Mumford--Tate group of a rational Hodge structure (Partly in code), #89 $\ell$-adic Galois representation with values in the Mumford--Tate group (Merged roadmap)
+  #12 The Hodge structure on $H^1$ of a complex abelian variety (Partly in code), #13 Mumford--Tate group of a rational Hodge structure (In Tau Ceti), #89 $\ell$-adic Galois representation with values in the Mumford--Tate group (Merged roadmap)
 - <a id="202620312"></a>**[2026·203(1)·2]** Arithmetic bigness and a uniform Bogomolov-type result, Yuan. https://doi.org/10.4007/annals.2026.203.1.2  
   #30 Theta divisor of a Jacobian (Merged roadmap), #80 The Néron–Tate (canonical) height on an abelian variety (Merged roadmap), #85 Stable Faltings height of an abelian variety (Merged roadmap)
 - <a id="202620313"></a>**[2026·203(1)·3]** On locally analytic vectors of the completed cohomology of modular curves II, Pan. https://doi.org/10.4007/annals.2026.203.1.3  
   #69 Galois representation attached to a cuspidal Hecke eigenform (Merged roadmap), #77 Emerton's completed cohomology of modular curves (Merged roadmap)
 - <a id="202620314"></a>**[2026·203(1)·4]** Symmetric power functoriality for Hilbert modular forms, Newton, Thorne. https://doi.org/10.4007/annals.2026.203.1.4  
-  #7 Discrete series representations of $\mathrm{GL}_2(\mathbb{R})$ (Merged roadmap), #67 Local components of an automorphic representation (restricted tensor product) (Merged roadmap), #72 CM automorphic representation (Merged roadmap), #86 Symmetric power of a Weil--Deligne representation (Merged roadmap)
+  #7 Discrete series representations of $\mathrm{GL}_2(\mathbb{R})$ (Partly in code), #67 Local components of an automorphic representation (restricted tensor product) (Merged roadmap), #72 CM automorphic representation (Merged roadmap), #86 Symmetric power of a Weil--Deligne representation (Merged roadmap)
 - <a id="202620321"></a>**[2026·203(2)·1]** Bethe–Sommerfeld Conjecture and absolutely continuous spectrum of multi-dimensional quasi-periodic Schrödinger operators, Karpeshina, Parnovski, Shterenberg. https://doi.org/10.4007/annals.2026.203.2.1  
   #35 Absolutely continuous spectrum of a self-adjoint operator (Merged roadmap), #45 Schrödinger operator $-\Delta+V$ on $L^2(\mathbb{R}^d)$ (Merged roadmap)
 - <a id="202620327"></a>**[2026·203(2)·7]** Nash blowup fails to resolve singularities in dimensions four and higher, Castillo, Duarte, Leyton-Álvarez, Liendo. https://doi.org/10.4007/annals.2026.203.2.7  
   #25 Nash blowup of a variety (Merged roadmap), #26 Normalized Nash blowup (Merged roadmap)
 - <a id="202620331"></a>**[2026·203(3)·1]** Weakly mixing polygonal billiards, Chaika, Forni. https://doi.org/10.4007/annals.2026.203.3.1  
   #93 Billiard flow in a polygon (Merged roadmap)
-- <a id="202620333"></a>**[2026·203(3)·3]** Quantum variance on quaternion algebras, III, Nelson. https://doi.org/10.4007/annals.2026.203.3.3  
-  #5 Infinitesimal character (and Casimir eigenvalue) of a representation of a real reductive group (Partly in code), #7 Discrete series representations of $\mathrm{GL}_2(\mathbb{R})$ (Merged roadmap)
 
 ## Bottleneck: open roadmap PR
 
-21 papers.
+19 papers.
 
-- <a id="202019113"></a>**[2020·191(1)·3]** Euclidean triangles have no hot spots, Judge, Mondal. https://doi.org/10.4007/annals.2020.191.1.3  
-  #34 Neumann eigenvalues and eigenfunctions of the Laplacian on a bounded domain (Roadmap PR)
 - <a id="202019123"></a>**[2020·191(2)·3]** A $k$-linear triangulated category without a model, Rizzardo, Van den Bergh. https://doi.org/10.4007/annals.2020.191.2.3  
   #10 Hochschild--Kostant--Rosenberg antisymmetrisation map (Roadmap PR)
 - <a id="202019131"></a>**[2020·191(3)·1]** A Luna étale slice theorem for algebraic stacks, Alper, Hall, Rydh. https://doi.org/10.4007/annals.2020.191.3.1  
@@ -140,8 +142,6 @@ Papers are grouped by the least-advanced status among their listed definitions (
   #16 Rational Chow groups of a Deligne--Mumford stack and the degree of zero-cycles (Merged roadmap), #24 Moduli stack of stable maps $\overline{\mathcal{M}}_{g,n}(X,\beta)$ (Roadmap PR), #27 Perfect obstruction theory and virtual fundamental class (Merged roadmap)
 - <a id="202219522"></a>**[2022·195(2)·2]** Measures of maximal entropy for surface diffeomorphisms, Buzzi, Crovisier, Sarig. https://doi.org/10.4007/annals.2022.195.2.2  
   #97 Measure of maximal entropy (Roadmap PR)
-- <a id="202219634"></a>**[2022·196(3)·4]** One can hear the shape of ellipses of small eccentricity, Hezari, Zelditch. https://doi.org/10.4007/annals.2022.196.3.4  
-  #34 Neumann eigenvalues and eigenfunctions of the Laplacian on a bounded domain (Roadmap PR)
 - <a id="202319712"></a>**[2023·197(1)·2]** Smooth mixing Anosov flows in dimension three are exponentially mixing, Tsujii, Zhang. https://doi.org/10.4007/annals.2023.197.1.2  
   #32 The spaces $C^k(M)$ and $C^{k,\alpha}(M)$ on a compact manifold (Partly in code), #91 Anosov flow (Roadmap PR), #96 Equilibrium state (measure) of a Hölder potential (Roadmap PR)
 - <a id="202319734"></a>**[2023·197(3)·4]** Stable minimal hypersurfaces in ℝ^N+1+ℓ with singular set an arbitrary closed K⊂{0}×ℝ^ℓ, Simon. https://doi.org/10.4007/annals.2023.197.3.4  

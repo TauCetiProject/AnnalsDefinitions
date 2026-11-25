@@ -198,6 +198,11 @@ PR: #2249
 
 Develops measurability, Bochner and Pettis integration, Bochner spaces, integral operators and vector measures for functions with values in a Banach space. Main results include the Pettis measurability theorem, Hille's theorem on closed operators and Bochner integrals, Minkowski's integral inequality and Fubini's theorem, the identification of the Bochner space L¹ with a projective tensor product, criteria for Pettis integrability, and the characterization of duality of Bochner spaces by the Radon–Nikodým property.
 
+## BorelEquivalenceRelations
+Title: Borel equivalence relations, the G₀ dichotomy and Silver's theorem
+
+Develops the classical descriptive set theory of Borel equivalence relations on Polish and standard Borel spaces by category methods, without forcing or effective descriptive set theory. Its two main results are Silver's theorem, that a Borel equivalence relation has countably many classes or continuum many pairwise inequivalent points forming a Cantor set, and the dichotomy of Kechris, Solecki and Todorcevic, that an analytic graph has a countable Borel colouring or receives a continuous homomorphism from the graph G₀; reusable tools include the perfect set theorem for analytic sets, Borel colourings and the Kuratowski–Ulam theorem.
+
 ## CalibratedGeometry
 Title: Calibrations, volume minimization and special Lagrangian geometry
 
@@ -813,6 +818,11 @@ Title: Painlevé equations
 
 Constructs the Painlevé equations as flat nonlinear connections, the isomonodromic connections, on moduli spaces of meromorphic connections with prescribed singularities, and Painlevé functions as their horizontal sections. Main results are smoothness and symplectic structure of these phase spaces, flatness of the isomonodromic connection, the Painlevé property through the Riemann–Hilbert correspondence, Okamoto's surfaces of initial conditions with symmetries and Riccati reductions, tau functions from Fredholm determinant lines, and comparison with the classical scalar, Hamiltonian and linear-system forms.
 
+## PDE
+Title: Partial differential equations
+
+Builds the theory of second-order elliptic and parabolic equations on Euclidean domains: Sobolev spaces with their embedding, trace, extension and compactness theorems, the harmonic-analysis estimates (interpolation, Calderón–Zygmund theory, BMO), maximum principles, the Hopf lemma and the Aleksandrov–Bakelman–Pucci estimate, and the energy method for the Dirichlet, mixed and Neumann problems with their Fredholm theory and spectra. Its end results are solvability, regularity (De Giorgi–Nash–Moser, Schauder and Calderón–Zygmund estimates, Krylov–Safonov) and the maximum and Harnack principles for uniformly elliptic operators, with parabolic Schauder theory, Strichartz estimates and quasilinear existence as extensions.
+
 ## PELModuli
 Title: Siegel and PEL moduli problems
 
@@ -1221,20 +1231,10 @@ Title: Yang–Mills connections on Euclidean space and the caloric gauge
 
 Develops connections on Euclidean space with values in a compact Lie group at critical regularity: Sobolev gauge transformations, Uhlenbeck's Coulomb gauge, the good global gauge theorem, and the topological class and instanton number of a finite-energy connection. It then treats harmonic Yang–Mills connections on ℝ⁴ (energy gap and ground state), the Yang–Mills heat flow, and the caloric gauge of Oh and Tataru, ending with the theorem that the caloric connections form a C¹ submanifold of a Banach space.
 
-## #1614
-Title: PDE: mixed and Neumann boundary conditions
-
-Extends the merged roadmap PDE, on second-order elliptic and parabolic equations, with functions vanishing on a part of the boundary and their Poincaré–Friedrichs inequality, the mixed and Neumann boundary value problems, and the spectra of these problems.
-
 ## #1615
 Title: InfinitaryModelExistence: revision
 
 Revises the merged roadmap InfinitaryModelExistence, which derives the model theory of the infinitary logic Lω₁ω from the model existence theorem for consistency properties: omitting types, interpolation, and the theorem that no sentence defines the class of well-orders.
-
-## #1616
-Title: BorelEquivalenceRelations: revision
-
-Revises the merged roadmap BorelEquivalenceRelations, on Borel equivalence relations on Polish spaces, whose main results are Silver's theorem and the G₀ dichotomy of Kechris, Solecki and Todorcevic.
 
 ## #1797
 Title: GeometricTopology: revision
