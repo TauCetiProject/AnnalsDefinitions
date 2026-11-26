@@ -18,8 +18,10 @@ Papers are grouped by the least-advanced status among their listed definitions a
 
 ## Bottleneck: partly in code
 
-16 papers.
+18 papers.
 
+- <a id="202019113"></a>**[2020·191(1)·3]** Euclidean triangles have no hot spots, Judge, Mondal. https://doi.org/10.4007/annals.2020.191.1.3  
+  #34 Neumann eigenvalues and eigenfunctions of the Laplacian on a bounded domain (Partly in code)
 - <a id="202019134"></a>**[2020·191(3)·4]** A geometric version of the circle method, Browning, Sawin. https://doi.org/10.4007/annals.2020.191.3.4  
   #6 Convergence of a spectral sequence (Partly in code)
 - <a id="202019222"></a>**[2020·192(2)·2]** Uniqueness of two-convex closed ancient solutions to the mean curvature flow, Angenent, Daskalopoulos, Sesum. https://doi.org/10.4007/annals.2020.192.2.2  
@@ -36,6 +38,8 @@ Papers are grouped by the least-advanced status among their listed definitions a
   #1 Real rank of a semisimple Lie group (Partly in code), #4 Parabolic subgroups of a real semisimple Lie group (minimal and standard parabolics) (Partly in code)
 - <a id="202219632"></a>**[2022·196(3)·2]** Invariant measures and measurable projective factors for actions of higher-rank lattices on manifolds, Brown, Hertz, Wang. https://doi.org/10.4007/annals.2022.196.3.2  
   #1 Real rank of a semisimple Lie group (Partly in code), #4 Parabolic subgroups of a real semisimple Lie group (minimal and standard parabolics) (Partly in code)
+- <a id="202219634"></a>**[2022·196(3)·4]** One can hear the shape of ellipses of small eccentricity, Hezari, Zelditch. https://doi.org/10.4007/annals.2022.196.3.4  
+  #34 Neumann eigenvalues and eigenfunctions of the Laplacian on a bounded domain (Partly in code)
 - <a id="202319813"></a>**[2023·198(1)·3]** Naked singularities for the Einstein vacuum equations: The exterior solution, Rodnianski, Shlapentokh-Rothman. https://doi.org/10.4007/annals.2023.198.1.3  
   #32 The spaces $C^k(M)$ and $C^{k,\alpha}(M)$ on a compact manifold (Partly in code), #50 Lorentzian manifold, time orientation and spacetime (Partly in code)
 - <a id="202319814"></a>**[2023·198(1)·4]** On $L^\infty$ estimates for complex Monge-Ampère equations, Guo, Phong, Tong. https://doi.org/10.4007/annals.2023.198.1.4  
@@ -55,10 +59,8 @@ Papers are grouped by the least-advanced status among their listed definitions a
 
 ## Bottleneck: merged roadmap
 
-36 papers.
+34 papers.
 
-- <a id="202019113"></a>**[2020·191(1)·3]** Euclidean triangles have no hot spots, Judge, Mondal. https://doi.org/10.4007/annals.2020.191.1.3  
-  #34 Neumann eigenvalues and eigenfunctions of the Laplacian on a bounded domain (Merged roadmap)
 - <a id="202019114"></a>**[2020·191(1)·4]** Minimal surfaces and the Allen--Cahn equation on 3-manifolds: index, multiplicity, and curvature estimates, Chodosh, Mantoulidis. https://doi.org/10.4007/annals.2020.191.1.4  
   #49 Second fundamental form, principal curvatures and mean curvature of a hypersurface (Partly in code), #52 Minimal hypersurface in a Riemannian manifold (Merged roadmap)
 - <a id="202019121"></a>**[2020·191(2)·1]** A converse to a theorem of Gross, Zagier, and Kolyvagin, Skinner. https://doi.org/10.4007/annals.2020.191.2.1  
@@ -80,8 +82,6 @@ Papers are grouped by the least-advanced status among their listed definitions a
   #37 Caloric gauge and the manifold of caloric connections (Merged roadmap), #48 Topological class (instanton number) of a finite-energy connection on $\mathbb{R}^4$ (Merged roadmap)
 - <a id="202119425"></a>**[2021·194(2)·5]** Isolation of cuspidal spectrum, with application to the Gan–Gross–Prasad conjecture, Beuzart-Plessis, Liu, Zhang, Zhu. https://doi.org/10.4007/annals.2021.194.2.5  
   #67 Local components of an automorphic representation (restricted tensor product) (Partly in code), #73 Central character of an automorphic representation (Merged roadmap), #83 Schwartz (Hecke) algebra of an adelic reductive group (Merged roadmap), #90 The $\pi$-nearly isotypic cuspidal subspace (Merged roadmap)
-- <a id="202219634"></a>**[2022·196(3)·4]** One can hear the shape of ellipses of small eccentricity, Hezari, Zelditch. https://doi.org/10.4007/annals.2022.196.3.4  
-  #34 Neumann eigenvalues and eigenfunctions of the Laplacian on a bounded domain (Merged roadmap)
 - <a id="202219635"></a>**[2022·196(3)·5]** Prisms and prismatic cohomology, Bhatt, Scholze. https://doi.org/10.4007/annals.2022.196.3.5  
   #81 The prismatic site and prismatic cohomology (Merged roadmap)
 - <a id="202319711"></a>**[2023·197(1)·1]** There is no Enriques surface over the integers, Schröer. https://doi.org/10.4007/annals.2023.197.1.1  
