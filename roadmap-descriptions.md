@@ -126,7 +126,7 @@ Title: Arithmetic locally symmetric spaces and their cohomology
 Builds the locally symmetric spaces attached to a connected reductive group over a number field and a compact open level, and their cohomology with integral coefficients. It covers the decomposition into arithmetic quotients of the symmetric space, neat levels, local systems, the Borel–Serre compactification, Hecke actions, duality, and the comparison with automorphic forms.
 
 ## ArithmeticLocallySymmetricSpacesPartII
-Title: Arithmetic locally symmetric spaces, part II — weight multiplicities
+Title: Arithmetic locally symmetric spaces, part II: weight multiplicities
 PR: #2401
 
 Proves fixed-level bounds in the weight aspect for the cohomology of congruence subgroups of SL₂ over a number field with a complex place, using completed homology and Iwasawa modules. Main results are Fu's local theorem bounding the homology of weight twists of a finitely generated Iwasawa module for products of congruence subgroups of SL₂(ℤₚ), Fu's sharp bound for dimensions of cusp forms of a given weight at fixed level, and two-sided linear bounds in the weight for the first and second cohomology of Bianchi groups.
@@ -149,7 +149,7 @@ PR: #1007
 Realises the Galois representations of cuspidal eigenforms of weight at least two in parabolic cohomology and compares them with the motivic construction, constructs those of Hilbert modular forms, and places the Artin representations of weight-one forms in the same normalisation. Results include local compatibility at every place, compatible systems, ordinary and crystalline properties, large-image theorems, and maps from deformation rings to integral Hecke algebras.
 
 ## AutomorphicGaloisRepresentationsPartII
-Title: Automorphic Galois representations, part II — regular algebraic GLₙ
+Title: Automorphic Galois representations, part II: regular algebraic GLₙ
 
 Constructs the continuous semisimple Galois representations attached to regular algebraic cuspidal representations of GLₙ over CM and totally real fields, through the cohomology of compact unitary Shimura varieties in the polarized case and through boundary cohomology in the non-self-dual case. Main results are local–global compatibility away from the coefficient prime, comparison at the coefficient prime, partly under an irreducibility hypothesis, assembly into compatible systems, and residual properties such as the existence of infinitely many decomposed generic primes.
 
@@ -164,7 +164,7 @@ Title: Automorphic L-functions and local factors, part II
 Develops the doubling method for standard L-functions: classical doubling for unitary groups, with its archimedean sections, and generalised doubling for split symplectic, special orthogonal and general spin groups. Its main results are local functional equations, entireness of the global L-functions after highly ramified twists, and a weak transfer of automorphic representations of these groups to general linear groups.
 
 ## AutomorphicPadicLFunctionsPartII
-Title: Automorphic p-adic L-functions, part II — critical Hecke values
+Title: Automorphic p-adic L-functions, part II: critical Hecke values
 PR: #1543
 
 Studies the critical values of L-functions of algebraic Hecke characters of a totally imaginary field containing a CM field, through Eisenstein–Kronecker classes on abelian schemes with complex multiplication. Its results are the integrality and algebraicity of these values after division by CM periods, and their p-adic interpolation by measures in the ordinary case.
@@ -216,7 +216,7 @@ Title: Classical analytic étale cohomology
 Develops the étale cohomology of analytic adic spaces needed to pass from schemes and formal models to analytic spaces, starting from sheaves with supports, henselian comparison, formal specialization and analytic covering spaces. Main results are comparison and invariance theorems for nearby cycles over valuation rings, cohomology with proper supports, normalized traces for smooth morphisms and Poincaré duality, comparison with Berkovich spaces, and computations for discs, annuli, exhaustions of affine space and the boundary of a smooth curve.
 
 ## ClassicalAdicEtaleCohomologyPartII
-Title: Classical analytic étale cohomology, part II — almost duality and constructible proper base change
+Title: Classical analytic étale cohomology, part II: almost duality and constructible proper base change
 
 Builds integral Faltings traces and local almost Poincaré duality on admissible formal models over the ring of integers of a complete algebraically closed extension of ℚₚ, using almost coherent sheaves, polystable root towers and descent through finite quotients. Main results are Poincaré duality for smooth proper rigid spaces with mod p, p-power torsion, integral and rational coefficients, Zariski-constructible proper pushforward, proper base change for all torsion coefficients, and constancy of the torsion cohomology sheaves of a proper rigid space over smooth rigid bases.
 
@@ -243,12 +243,12 @@ PR: #1270
 Specialises completed cohomology to modular curves and quaternionic Shimura curves over ℚ and studies it as a representation of GL₂(ℚₚ), of the Galois group and of the Hecke algebra. Its main results are Emerton's local–global compatibility with the p-adic local Langlands correspondence, in Banach, mod p and homological forms, with applications to patched modules in modularity lifting.
 
 ## CompletedCohomologyPartII
-Title: Completed cohomology, homology and arithmetic towers — Part II
+Title: Completed cohomology, homology and arithmetic towers: Part II
 
 Defines completed cohomology and completed homology of a tower of arithmetic locally symmetric spaces: with torsion coefficients one takes the colimit over the levels at p and then the limit over the coefficients. It proves finiteness and admissibility over the Iwasawa algebra, descent to finite level and duality, and compares the result with étale cohomology for the modular, Siegel, unitary and Hilbert towers, with their Galois and Hecke actions.
 
 ## ComplexComparisonPartII
-Title: Complex comparison, part II — coherent, de Rham–Betti and étale comparison
+Title: Complex comparison, part II: coherent, de Rham–Betti and étale comparison
 
 Compares complex algebraic geometry with complex analytic geometry and topology for coherent, de Rham and étale coefficients. Main results are coherent GAGA for projective and proper schemes and derived GAGA for proper algebraic spaces, Remmert's proper mapping theorem and Chow's theorem, the comparison of algebraic de Rham and singular cohomology with Gauss–Manin connections and Hodge theory, Deligne's Riemann–Hilbert correspondence for regular singular connections, the Riemann existence theorem, and Artin's comparison of étale and singular cohomology with finite and adic coefficients.
 
@@ -292,7 +292,7 @@ Title: The congruence spectral gap
 Builds the Laplacian on the quotient of the upper half-plane by a congruence subgroup of SL₂(ℤ), with its spectral decomposition, and proves the lower bound 21/100 for the bottom of its positive spectrum. The proof goes through the Luo–Rudnick–Sarnak bound for unitary cuspidal representations of GLₘ over ℚ with spherical archimedean component.
 
 ## ConstructiveFieldTheoryPhi4
-Title: Constructive scalar field theory on the lattice — φ⁴, Ising and their scaling limits
+Title: Constructive scalar field theory on the lattice: φ⁴, Ising and their scaling limits
 PR: #2432
 
 Builds the lattice side of Euclidean scalar field theory: single-site measures of φ⁴ and Ising type, finite-volume Gibbs measures, the Griffiths–Simon class and the classical correlation inequalities. It constructs the infinite-volume state, proves reflection positivity and the infrared bound, and defines the random fields reachable as scaling limits of lattice systems, showing that the Gaussian free field is one of them.
@@ -521,7 +521,7 @@ Title: Gromov–Witten theory of closed symplectic manifolds
 Constructs the cohomology-valued Gromov–Witten operations of a closed symplectic manifold with a tame almost complex structure from virtual classes of moduli spaces of stable maps, and from them the Novikov-completed cohomological field theory, the genus-zero quantum product and descendant and ancestor classes. Main results are the Kontsevich–Manin axioms for these operations, independence of the almost complex structure, the genus-one degree-zero normalization by the Euler characteristic, associativity of the quantum product, and the string, dilaton, divisor and genus-zero topological recursion relations.
 
 ## GrossZagierAndArithmeticHeightsPartII
-Title: Gross–Zagier formulas and arithmetic heights, part II — unitary special cycles and the arithmetic fundamental lemma
+Title: Gross–Zagier formulas and arithmetic heights, part II: unitary special cycles and the arithmetic fundamental lemma
 PR: #2457
 
 Builds the arithmetic intersection theory of special cycles on unitary Rapoport–Zink spaces and unitary Shimura varieties of signature (n−1,1). Main results are the Kudla–Rapoport identities in four unramified and ramified local settings, the arithmetic Siegel–Weil formulas, and Zhang's arithmetic fundamental lemma for strongly regular elements when p is large relative to n. In the ramified Krämer setting the identity is proved in rank at most three and stated in higher rank under an explicit hypothesis, as is the ramified Siegel–Weil formula in dimension at least four.
@@ -550,7 +550,7 @@ PR: #1017
 Builds heights on varieties over number fields and function fields, including Weil's height machine and Néron–Tate heights on abelian varieties, then descent and the Mordell–Weil theorem. It goes on to adelic points with the Brauer–Manin and descent obstructions, and to finiteness results for rational and integral points on curves, for points in subgroups of finite rank and for points of small height.
 
 ## HeightsRationalPointsAndObstructionsPartII
-Title: Heights, rational points and obstructions, part II — uniform Bogomolov and Mordell–Lang
+Title: Heights, rational points and obstructions, part II: uniform Bogomolov and Mordell–Lang
 PR: #1821
 
 Develops uniform results for small points and rational points on subvarieties of abelian varieties. Main results are the Dimitrov–Gao–Habegger height inequality for non-degenerate subvarieties, Kühne's equidistribution in families, the uniform Bogomolov theorem of Gao–Ge–Kühne, uniform Mordell–Lang through a gap principle and a quantitative Vojta method, the geometric Bogomolov theorem over function fields of every characteristic, Yuan's uniform Bogomolov-type bound for curves over global fields, and a bielliptic family of genus-two curves as a worked case.
@@ -637,7 +637,7 @@ Title: The Jacobian challenge
 For a smooth proper geometrically connected curve over a field, builds the Jacobian as an abelian variety representing the degree-zero Picard functor, without assuming a rational point, and, for each rational point, the Abel–Jacobi map with its universal property. Along the way it develops Riemann–Roch and Serre duality on curves, relative Picard schemes, and abelian varieties with their duals, polarizations and theta divisor.
 
 ## JacobianChallengePartII
-Title: The Jacobian challenge, Part II — relative Jacobians, theta bundles and universal differences
+Title: The Jacobian challenge, Part II: relative Jacobians, theta bundles and universal differences
 
 Continues the Jacobian challenge in families: for a smooth projective curve over a noetherian base it shows that the relative Jacobian is an abelian scheme with a canonical principal polarization, and builds Abel maps without a chosen section. It then treats theta divisors and the Poincaré bundle for an arbitrary divisor of degree one, and the difference and Faltings–Zhang morphisms on fibre powers.
 
@@ -669,7 +669,7 @@ PR: #2285
 Develops the Chenevier–Taïbi theory of level-one algebraic cuspidal automorphic representations of PGLₘ over ℚ, using the Rankin–Selberg explicit formula, Arthur's classification for classical groups and Arthur's L²-Lefschetz trace formula. Main results are the classification of such representations of motivic weight at most 22, with partial classifications in weights 23 and 24, dimensions of spaces of level-one Siegel cusp forms in low genus, and the four weight-13 cusp forms of genera 8, 12, 16 and 24 as harmonic theta series of the Leech lattice.
 
 ## LieGroupsPartII
-Title: Lie groups, part II — minimal parabolic subgroups, the Bruhat decomposition and the self-adjoint matrix model of real reductive groups
+Title: Lie groups, part II: minimal parabolic subgroups, the Bruhat decomposition and the self-adjoint matrix model of real reductive groups
 
 Continues the structure theory of real reductive Lie groups after the Cartan, Iwasawa and KAK decompositions, for groups that need not be connected, semisimple, linear or of finite centre. It proves conjugacy of Cartan involutions and of Iwasawa decompositions with a common split centre, defines the minimal parabolic subgroup with its Langlands decomposition, proves the Bruhat decomposition, and shows that the real points of a connected reductive group over ℝ, realised as a self-adjoint matrix group, carry all of this structure.
 
@@ -725,13 +725,13 @@ PR: #1063
 Constructs the Weil representation and the metaplectic double cover over local fields and adeles, and from them the local theta correspondence, global theta kernels and theta lifts, half-integral weight Maass forms with the Kohnen plus space, and the Shimura lift. Main results are Howe duality, conservation relations and see-saw identities, the regularized Siegel–Weil formula, the Rallis inner product formula and theta nonvanishing, the Duke–Imamoḡlu–Tóth trace identities, and the genus-two Jacobi–Eisenstein analysis of Bump–Friedberg–Hoffstein used for nonvanishing of quadratic twists.
 
 ## ModularCharactersAndBlocksPartII
-Title: Modular characters and blocks, Part II — the Glauberman correspondence and heights of characters
+Title: Modular characters and blocks, Part II: the Glauberman correspondence and heights of characters
 PR: #2411
 
 Continues the theory of blocks in two directions. The first is the character theory of coprime actions, ending in the Glauberman correspondence and its degree divisibility. The second is the theory of heights: Brauer's theorem on heights, height zero characters, the Fong–Reynolds correspondence and Reynolds' theorem on blocks with a normal defect group, with the height zero and Alperin–McKay conjectures stated as properties of blocks.
 
 ## ModularCurvesPartII
-Title: Modular curves, Part II — uniformization, integral boundary and Hecke cohomology
+Title: Modular curves, Part II: uniformization, integral boundary and Hecke cohomology
 
 Compares arithmetic modular curves with analytic quotients of the upper half-plane, builds their integral compactifications and bad fibres, and constructs the Hecke action on their Jacobians and cohomology. Results include compact uniformisation with the fields of definition of the cusps, Ihara's theorems, and, for the abelian varieties attached to newforms of weight 2, the corresponding quotients of J₀(N), oldform factors and Abel–Jacobi maps.
 
@@ -742,7 +742,7 @@ PR: #1180
 Extends modularity results to Artin representations, potential automorphy, symmetric power functoriality and the Sato–Tate conjecture, and treats packets for classical groups. It sets up the comparisons of normalizations these results need and states the remaining Langlands conjectures precisely.
 
 ## ModularityAndLanglandsExtensionsPartII
-Title: Modularity and Langlands extensions, part II — the proof of symmetric power functoriality
+Title: Modularity and Langlands extensions, part II: the proof of symmetric power functoriality
 PR: #2449
 
 Carries out the proof of symmetric power functoriality for holomorphic modular forms: analytic continuation along eigenvarieties, level raising on unitary groups, automorphy lifting for symmetric powers, and functoriality for tensor products. The final results are the existence of every symmetric power lift of a non-CM newform of weight at least 2, and the holomorphy of the symmetric power L-functions of such newforms away from the level and of level-one eigenforms.
@@ -880,17 +880,17 @@ PR: #1075
 Develops weakly compatible systems of Galois representations of arbitrary rank, with their operations, monodromy, purity and L-functions, and the choice of auxiliary fields with prescribed local behaviour used to move modularity between coefficient primes. Main results are Moret-Bailly's theorem on points with local splitting conditions over global function fields, potential modularity of given lifts with specified local types, density-one residual irreducibility, and ordinary finiteness results via patching on definite unitary groups, as used in the Khare–Wintenberger proof of Serre's conjecture and in potential automorphy in higher rank.
 
 ## PrismaticCohomology
-Title: Prismatic cohomology, Part I — Delta rings, prisms and relative cohomology
+Title: Prismatic cohomology, Part I: Delta rings, prisms and relative cohomology
 
 The first part of the prismatic theory: δ-rings and prisms over general rings, the site of bounded prisms, and the relative prismatic cohomology of a formal scheme over a bounded prism. It proves the Hodge–Tate and crystalline comparisons for smooth formal schemes and, under a torsion-freeness hypothesis on the prism, the de Rham comparison, and it constructs perfectoidizations.
 
 ## PrismaticCohomologyPartII
-Title: Prismatic cohomology, Part II — Nygaard filtration, absolute prisms and q-de Rham theory
+Title: Prismatic cohomology, Part II: Nygaard filtration, absolute prisms and q-de Rham theory
 
 The second part of the prismatic theory. It treats Breuil–Kisin twists and the Nygaard filtration, absolute prismatic cohomology through the Cartier–Witt stack, and the q-crystalline and q-de Rham comparisons.
 
 ## PrismaticCohomologyPartIII
-Title: Prismatic cohomology, Part III — Étale and syntomic comparisons and F-crystals
+Title: Prismatic cohomology, Part III: Étale and syntomic comparisons and F-crystals
 
 The third part of the prismatic theory. It proves the étale comparison, builds syntomic complexes, and establishes the equivalence between prismatic F-crystals over a complete discrete valuation ring of mixed characteristic and lattices in crystalline Galois representations.
 
@@ -978,7 +978,7 @@ Title: Reductive algebraic groups
 Builds the general theory of affine algebraic groups and reductive groups from Hopf algebras and comodules: representations, Lie algebras, quotients, tori, solvable and unipotent groups, structure theory with root data, parabolics and the Bruhat decomposition, finite groups of Lie type, and classification by root data. It constructs the pinned Chevalley–Demazure group scheme over the integers of every root datum, and identifies with these models the classical group schemes over every commutative ring: symplectic and symplectic-similitude groups, orthogonal and special orthogonal groups of a quadratic form with the Dickson invariant, and general spin and spin groups, with their low-rank isomorphisms. It also develops highest-weight representations and regular-semisimple spectral quotients.
 
 ## ReductiveGroupsPartIII
-Title: Reductive groups, part III — arithmetic conjugacy quotients and tori
+Title: Reductive groups, part III: arithmetic conjugacy quotients and tori
 
 Studies semisimple conjugacy classes and maximal tori of reductive groups over number fields and their completions, starting from the variety of conjugacy classes. Results include the group form of Chevalley's restriction theorem, approximation of local maximal tori by a global one, and the group-theoretic part of the independence of ℓ of Frobenius classes in the Mumford–Tate group of an abelian variety.
 
@@ -1136,7 +1136,7 @@ Title: Spectral sequences and convergence
 Builds, over an arbitrary abelian category, the language in which a spectral sequence converges: cycle and boundary towers, the limit page, and weak, ordinary and strong convergence to filtered objects in a prescribed set of degrees. It proves the comparison theorem, convergence for filtered complexes under the usual boundedness hypotheses, and Boardman's theorems on conditional convergence of exact couples.
 
 ## SpectralSequencesAndConvergencePartII
-Title: Spectral sequences and convergence, part II — the standard constructions and their products
+Title: Spectral sequences and convergence, part II: the standard constructions and their products
 
 Constructs the standard spectral sequences of homological algebra and proves that they converge: the two spectral sequences of a double complex, the hypercohomology and composite-functor spectral sequences, the universal-coefficient, Künneth and change-of-rings spectral sequences, and the Bockstein spectral sequence. It also treats products, with the Leibniz rule on every page.
 
@@ -1240,16 +1240,6 @@ Relates point counts over finite fields to the zeta function and its cohomologic
 Title: Yang–Mills connections on Euclidean space and the caloric gauge
 
 Develops connections on Euclidean space with values in a compact Lie group at critical regularity: Sobolev gauge transformations, Uhlenbeck's Coulomb gauge, the good global gauge theorem, and the topological class and instanton number of a finite-energy connection. It then treats harmonic Yang–Mills connections on ℝ⁴ (energy gap and ground state), the Yang–Mills heat flow, and the caloric gauge of Oh and Tataru, ending with the theorem that the caloric connections form a C¹ submanifold of a Banach space.
-
-## #1797
-Title: GeometricTopology: revision
-
-Revises the merged roadmap GeometricTopology, described under its own entry; it adds no roadmap.
-
-## #1854
-Title: BanachSpaceTheory, MorseNovikov, SelfAdjointSpectralTheory: revision
-
-Revises the merged roadmaps BanachSpaceTheory, MorseNovikov and OperatorTheory/SelfAdjointSpectralTheory to remove circular dependencies between roadmaps; it adds no roadmap.
 
 ## #2489
 Title: SchemeAndStackFoundations: cohomologically affine morphisms
