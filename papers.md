@@ -55,7 +55,7 @@ Papers are grouped by the least-advanced status among their listed definitions a
 
 ## Bottleneck: merged roadmap
 
-34 papers.
+36 papers.
 
 - <a id="202019113"></a>**[2020·191(1)·3]** Euclidean triangles have no hot spots, Judge, Mondal. https://doi.org/10.4007/annals.2020.191.1.3  
   #34 Neumann eigenvalues and eigenfunctions of the Laplacian on a bounded domain (Merged roadmap)
@@ -69,15 +69,17 @@ Papers are grouped by the least-advanced status among their listed definitions a
   #8 Glauberman correspondence (Merged roadmap)
 - <a id="202019221"></a>**[2020·192(2)·1]** Subalgebras of simple AF-algebras, Schafhauser. https://doi.org/10.4007/annals.2020.192.2.1  
   #36 Amenable trace on a C\*-algebra (In Tau Ceti)  
-  Extra notions: exact C\*-algebras (Merged roadmap; nuclearity and the spatial tensor product of concrete operator algebras in code, its representation independence, VonNeumannAlgebras V13b.SpatialNorm, in open Tau Ceti PRs), the UCT (Merged roadmap, early OperatorKTheory layers partly in code); AF algebras in code (`TauCeti.IsAF`) ([census 036](census/036.md)).
+  Extra notions: exact C\*-algebras (Merged roadmap; nuclearity, the spatial tensor product of concrete operator algebras and the maximal C\*-norm on the algebraic tensor product in code, the representation independence of the spatial norm, VonNeumannAlgebras V13b.SpatialNorm, in open Tau Ceti PRs), the UCT (Merged roadmap, early OperatorKTheory layers partly in code); AF algebras in code (`TauCeti.IsAF`) ([census 036](census/036.md)).
 - <a id="202019233"></a>**[2020·192(3)·3]** On the Multiplicity One Conjecture in min-max theory, Zhou. https://doi.org/10.4007/annals.2020.192.3.3  
   #49 Second fundamental form, principal curvatures and mean curvature of a hypersurface (Partly in code), #52 Minimal hypersurface in a Riemannian manifold (Merged roadmap)
 - <a id="202119334"></a>**[2021·193(3)·4]** Arithmeticity, superrigidity, and totally geodesic submanifolds, Bader, Fisher, Miller, Stover. https://doi.org/10.4007/annals.2021.193.3.4  
-  #68 Arithmetic lattice in a semisimple Lie group (Merged roadmap), #79 Minimal parabolic subgroups and the Langlands decomposition (real rank one) (Merged roadmap)
+  #68 Arithmetic lattice in a semisimple Lie group (Partly in code), #79 Minimal parabolic subgroups and the Langlands decomposition (real rank one) (Merged roadmap)
 - <a id="202119415"></a>**[2021·194(1)·5]** Spectral interpretations of dynamical degrees and applications, Dang, Favre. https://doi.org/10.4007/annals.2021.194.1.5  
   #95 Dynamical degree of a dominant rational self-map (Merged roadmap)
 - <a id="202119421"></a>**[2021·194(2)·1]** The threshold conjecture for the energy critical hyperbolic Yang–Mills equation, Oh, Tataru. https://doi.org/10.4007/annals.2021.194.2.1  
   #37 Caloric gauge and the manifold of caloric connections (Merged roadmap), #48 Topological class (instanton number) of a finite-energy connection on $\mathbb{R}^4$ (Merged roadmap)
+- <a id="202119425"></a>**[2021·194(2)·5]** Isolation of cuspidal spectrum, with application to the Gan–Gross–Prasad conjecture, Beuzart-Plessis, Liu, Zhang, Zhu. https://doi.org/10.4007/annals.2021.194.2.5  
+  #67 Local components of an automorphic representation (restricted tensor product) (Partly in code), #73 Central character of an automorphic representation (Merged roadmap), #83 Schwartz (Hecke) algebra of an adelic reductive group (Merged roadmap), #90 The $\pi$-nearly isotypic cuspidal subspace (Merged roadmap)
 - <a id="202219634"></a>**[2022·196(3)·4]** One can hear the shape of ellipses of small eccentricity, Hezari, Zelditch. https://doi.org/10.4007/annals.2022.196.3.4  
   #34 Neumann eigenvalues and eigenfunctions of the Laplacian on a bounded domain (Merged roadmap)
 - <a id="202219635"></a>**[2022·196(3)·5]** Prisms and prismatic cohomology, Bhatt, Scholze. https://doi.org/10.4007/annals.2022.196.3.5  
@@ -85,7 +87,7 @@ Papers are grouped by the least-advanced status among their listed definitions a
 - <a id="202319711"></a>**[2023·197(1)·1]** There is no Enriques surface over the integers, Schröer. https://doi.org/10.4007/annals.2023.197.1.1  
   #19 Enriques surface over an algebraically closed field (Merged roadmap), #20 Families of Enriques surfaces and the moduli stack $\mathscr{M}_{\mathrm{Enr}}$ (Merged roadmap)
 - <a id="202319713"></a>**[2023·197(1)·3]** Special subvarieties of non-arithmetic ball quotients and Hodge theory, Baldi, Ullmo. https://doi.org/10.4007/annals.2023.197.1.3  
-  #15 Ball quotients as quasi-projective varieties (Merged roadmap), #31 Totally geodesic subvariety of a ball quotient (Merged roadmap), #68 Arithmetic lattice in a semisimple Lie group (Merged roadmap)
+  #15 Ball quotients as quasi-projective varieties (Merged roadmap), #31 Totally geodesic subvariety of a ball quotient (Merged roadmap), #68 Arithmetic lattice in a semisimple Lie group (Partly in code)
 - <a id="202319716"></a>**[2023·197(1)·6]** Infinite volume and infinite injectivity radius, Fraczyk, Gelander. https://doi.org/10.4007/annals.2023.197.1.6  
   #1 Real rank of a semisimple Lie group (Partly in code), #62 Riemannian symmetric space of a semisimple Lie group (Merged roadmap)
 - <a id="202319731"></a>**[2023·197(3)·1]** Existence of infinitely many minimal hypersurfaces in closed manifolds, Song. https://doi.org/10.4007/annals.2023.197.3.1  
@@ -100,6 +102,8 @@ Papers are grouped by the least-advanced status among their listed definitions a
   #2 p-block (Brauer block) of a finite group (Partly in code), #3 Defect group of a block (Partly in code), #9 Height zero characters of a block (Merged roadmap)
 - <a id="202420032"></a>**[2024·200(3)·2]** Doubling constructions: Global functoriality for non-generic cuspidal representations, Cai, Friedberg, Kaplan. https://doi.org/10.4007/annals.2024.200.3.2  
   #5 Infinitesimal character (and Casimir eigenvalue) of a representation of a real reductive group (Partly in code), #11 Split classical groups $\mathrm{Sp}_{2n}$, $\mathrm{SO}_l$ and general spin groups $\mathrm{GSpin}_l$ (Partly in code), #67 Local components of an automorphic representation (restricted tensor product) (Partly in code), #73 Central character of an automorphic representation (Merged roadmap), #88 Weak functorial transfer to $\mathrm{GL}_N$ (Merged roadmap)
+- <a id="202520112"></a>**[2025·201(1)·2]** Galois sections and p-adic period mappings, Betts, Stix. https://doi.org/10.4007/annals.2025.201.1.2  
+  #84 Selmer sections and the localisation map (Merged roadmap)
 - <a id="202520122"></a>**[2025·201(2)·2]** The Alperin--McKay and Brauer's height zero conjecture for the prime 2, Ruhstorfer. https://doi.org/10.4007/annals.2025.201.2.2  
   #2 p-block (Brauer block) of a finite group (Partly in code), #3 Defect group of a block (Partly in code), #9 Height zero characters of a block (Merged roadmap)
 - <a id="202520123"></a>**[2025·201(2)·3]** De Rham algebras of closed quasiregularly elliptic manifolds are Euclidean, Heikkilä, Pankka. https://doi.org/10.4007/annals.2025.201.2.3  
@@ -129,7 +133,7 @@ Papers are grouped by the least-advanced status among their listed definitions a
 
 ## Bottleneck: open roadmap PR
 
-18 papers.
+16 papers.
 
 - <a id="202019123"></a>**[2020·191(2)·3]** A $k$-linear triangulated category without a model, Rizzardo, Van den Bergh. https://doi.org/10.4007/annals.2020.191.2.3  
   #10 Hochschild--Kostant--Rosenberg antisymmetrisation map (Roadmap PR)
@@ -139,8 +143,6 @@ Papers are grouped by the least-advanced status among their listed definitions a
   #1 Real rank of a semisimple Lie group (Partly in code), #57 Lipschitz singular chains and their mass (Roadmap PR)
 - <a id="202119413"></a>**[2021·194(1)·3]** Marginal triviality of the scaling limits of critical 4D Ising and $\lambda\phi_4^4$ models, Aizenman, Duminil-Copin. https://doi.org/10.4007/annals.2021.194.1.3  
   #99 Scaling limit of lattice $\phi^4$ fields (reachable random field) (Roadmap PR)
-- <a id="202119425"></a>**[2021·194(2)·5]** Isolation of cuspidal spectrum, with application to the Gan–Gross–Prasad conjecture, Beuzart-Plessis, Liu, Zhang, Zhu. https://doi.org/10.4007/annals.2021.194.2.5  
-  #67 Local components of an automorphic representation (restricted tensor product) (Partly in code), #73 Central character of an automorphic representation (Merged roadmap), #83 Schwartz (Hecke) algebra of an adelic reductive group (Merged roadmap), #90 The $\pi$-nearly isotypic cuspidal subspace (Roadmap PR)
 - <a id="202119431"></a>**[2021·194(3)·1]** Polynomial structure of Gromov–Witten potential of quintic 3-folds, Chang, Guo, Li. https://doi.org/10.4007/annals.2021.194.3.1  
   #16 Rational Chow groups of a Deligne--Mumford stack and the degree of zero-cycles (Merged roadmap), #24 Moduli stack of stable maps $\overline{\mathcal{M}}_{g,n}(X,\beta)$ (Roadmap PR), #27 Perfect obstruction theory and virtual fundamental class (Merged roadmap)
 - <a id="202319712"></a>**[2023·197(1)·2]** Smooth mixing Anosov flows in dimension three are exponentially mixing, Tsujii, Zhang. https://doi.org/10.4007/annals.2023.197.1.2  
@@ -161,8 +163,6 @@ Papers are grouped by the least-advanced status among their listed definitions a
   #58 MCG-finite representation of a surface group (Roadmap PR), #59 Mapping class group of a punctured surface (Partly in code), #61 Outer action of the mapping class group on the fundamental group (Roadmap PR)
 - <a id="202420031"></a>**[2024·200(3)·1]** A general Cayley correspondence and higher rank Teichmüller spaces, Bradlow, Collier, García-Prada, Gothen, Oliveira. https://doi.org/10.4007/annals.2024.200.3.1  
   #4 Parabolic subgroups of a real semisimple Lie group (minimal and standard parabolics) (Partly in code), #54 Character variety of a surface group in a real reductive group (Roadmap PR)
-- <a id="202520112"></a>**[2025·201(1)·2]** Galois sections and p-adic period mappings, Betts, Stix. https://doi.org/10.4007/annals.2025.201.1.2  
-  #84 Selmer sections and the localisation map (Roadmap PR)
 - <a id="202520222"></a>**[2025·202(2)·2]** On the stability of multi-dimensional rarefaction waves I: the energy estimates, Luo, Yu. https://doi.org/10.4007/annals.2025.202.2.2  
   #33 Domain of dependence and development of initial data for the compressible Euler equations (Roadmap PR), #50 Lorentzian manifold, time orientation and spacetime (Partly in code), #51 Null (characteristic) hypersurface of a Lorentzian manifold (Roadmap PR)
 - <a id="202520223"></a>**[2025·202(2)·3]** On the stability of multi-dimensional rarefaction waves II: existence of solutions and applications to the Riemann problem, Luo, Yu. https://doi.org/10.4007/annals.2025.202.2.3  

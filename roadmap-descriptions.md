@@ -176,7 +176,6 @@ Constructs the spectral decomposition of the space of square-integrable function
 
 ## AutomorphicSpectralTheoryPartII
 Title: Automorphic spectral theory and trace distributions, part II
-PR: #1761
 
 Develops multipliers of the Schwartz algebra of a reductive group over a number field: entire functions of controlled growth give multipliers on the real group, which are combined with spherical Hecke operators at finite places. The main results use such multipliers to isolate prescribed parts of the cuspidal spectrum, with the supporting analysis of weighted function spaces on automorphic quotients.
 
@@ -218,7 +217,6 @@ Develops the étale cohomology of analytic adic spaces needed to pass from schem
 
 ## ClassicalAdicEtaleCohomologyPartII
 Title: Classical analytic étale cohomology, part II — almost duality and constructible proper base change
-PR: #1549
 
 Builds integral Faltings traces and local almost Poincaré duality on admissible formal models over the ring of integers of a complete algebraically closed extension of ℚₚ, using almost coherent sheaves, polystable root towers and descent through finite quotients. Main results are Poincaré duality for smooth proper rigid spaces with mod p, p-power torsion, integral and rational coefficients, Zariski-constructible proper pushforward, proper base change for all torsion coefficients, and constancy of the torsion cohomology sheaves of a proper rigid space over smooth rigid bases.
 
@@ -468,7 +466,6 @@ Constructs the action of the absolute Galois group on the étale cohomology of t
 
 ## GaloisSectionsPadicPeriodMaps
 Title: Galois sections and p-adic period mappings
-PR: #1739
 
 Studies sections of the fundamental exact sequence of a variety over a number field by means of p-adic period maps. It defines Selmer sections and their localisation maps and proves, for a smooth projective curve of genus at least two over a number field with no CM subfield, that only finitely many local points at each finite place arise from Selmer sections.
 
@@ -700,11 +697,10 @@ Title: Locally analytic distributions, growth and character spaces
 Develops locally analytic functions and distributions on ℤₚ, on products of p-adic integer rings and on compact p-adic analytic manifolds, the Hyodo–Kato cohomology of semistable Stein curves, and the Fredholm theory of Serre, Coleman and Buzzard for compact operators over Noetherian Banach algebras, as needed for p-adic families. Main results include nonarchimedean Hahn–Banach and open mapping theorems, the Amice transform dictionary, the Amice–Vélu–Vishik extension and uniqueness theorem with its sharp degree bound, Mellin transforms on character spaces, and finite-slope decompositions.
 
 ## LorentzianGeometry
-Title: Semi-Riemannian foundations and Lorentzian causality
+Title: Lorentzian geometry and causality
 PR: #2232
 
-A first part sets up semi-Riemannian foundations: scalar products of any signature, metrics of limited regularity and their Levi-Civita connection, geodesics, submanifold geometry and Jacobi fields. A second part develops Lorentzian geometry and causality: time orientations and spacetimes, causal curves, null hypersurfaces, global hyperbolicity, Cauchy surfaces and domains of dependence, and the singularity theorems of Hawking and Penrose.
-
+Specializes the semi-Riemannian foundations to Lorentzian geometry: Lorentzian scalar products and time cones, time orientations and spacetimes, causal curves, spacelike and null hypersurfaces with optical functions and null generators, and acoustical metrics as the model. It develops the causal ladder, global hyperbolicity, Cauchy surfaces and domains of dependence, also inside subsets of manifolds with boundary and for metrics of low regularity, and ends with focusing and the singularity theorems of Hawking and Penrose.
 ## MaassForms
 Title: Maass forms: the hyperbolic Laplacian on Γ₀(N)\ℍ, Hecke–Maass newforms, and their invariants
 PR: #1717
@@ -1076,6 +1072,12 @@ Title: Selmer groups and Iwasawa cohomology
 
 Builds Selmer groups and Selmer complexes for p-adic Galois representations, compares local conditions under Tate duality, and carries them up cyclotomic towers and towers with group ℤₚᵈ as Iwasawa cohomology, with control and duality theorems. It includes Kummer theory, Selmer groups and the Tate–Shafarevich group of abelian varieties over number fields, structure theorems for ordinary Selmer groups, and a precise statement of the Iwasawa–Greenberg main conjecture.
 
+## SemiRiemannianFoundations
+Title: Semi-Riemannian foundations
+PR: #3176
+
+Develops scalar products and metrics of every signature and of limited regularity, local bundle connections and curvature, one geodesic flow across regularities with its exponential map and Gauss lemmas, the geometry of nondegenerate immersions, and Jacobi fields with variation theory. Main results are the existence and uniqueness of the Levi-Civita connection of a strong nondegenerate metric on a Banach manifold, the maximal geodesic flow of a connection with locally Lipschitz coefficients, and the regularity of the squared distance function in normal neighbourhoods of a C^{1,1} metric.
+
 ## SerreWeightAndLevelOptimisation
 Title: Weight and level optimisation of residual modular representations
 
@@ -1195,7 +1197,6 @@ Develops possibly unbounded traces on C\*-algebras in Dixmier's sense, with thei
 
 ## TwistedAutomorphicDescents
 Title: Twisted automorphic descents and cuspidal automorphic modules
-PR: #1758
 
 Develops the twisted automorphic descent of Jiang and Zhang for special orthogonal and unitary groups over number fields: Bessel–Fourier coefficients of leading residues of Eisenstein series, unfolding of Bessel–Eisenstein integrals, and their factorization into local integrals. Main results are that a nonzero Bessel period forces a nonzero central L-value, the converse under a weak Fourier support hypothesis, and recovery of a prescribed cuspidal automorphic representation, up to outer automorphism, from regular or subregular Fourier support, with conjectural inputs kept as explicit hypotheses.
 
