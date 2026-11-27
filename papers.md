@@ -7,10 +7,14 @@ Papers are grouped by the least-advanced status among their listed definitions a
 
 ## Bottleneck: in code (all listed definitions and extra notions)
 
-3 papers, all statable now.
+5 papers, all statable now.
 
+- <a id="202019113"></a>**[2020·191(1)·3]** Euclidean triangles have no hot spots, Judge, Mondal. https://doi.org/10.4007/annals.2020.191.1.3  
+  #34 Neumann eigenvalues and eigenfunctions of the Laplacian on a bounded domain (In Tau Ceti)
 - <a id="202219612"></a>**[2022·196(1)·2]** The Birkhoff-Poritsky conjecture for centrally-symmetric billiard tables, Bialy, Mironov. https://doi.org/10.4007/annals.2022.196.1.2  
   #92 Billiard ball map of a convex billiard table (In Tau Ceti)
+- <a id="202219634"></a>**[2022·196(3)·4]** One can hear the shape of ellipses of small eccentricity, Hezari, Zelditch. https://doi.org/10.4007/annals.2022.196.3.4  
+  #34 Neumann eigenvalues and eigenfunctions of the Laplacian on a bounded domain (In Tau Ceti)
 - <a id="202419934"></a>**[2024·199(3)·4]** Torsion-free abelian groups are Borel complete, Paolini, Shelah. https://doi.org/10.4007/annals.2024.199.3.4  
   #94 Borel complete class of countable structures (In Tau Ceti), #98 Polish space of countable structures $\mathrm{Mod}_L(\omega)$ (In Tau Ceti)
 - <a id="202420016"></a>**[2024·200(1)·6]** On $L^\infty$ estimates for fully non-linear partial differential equations, Guo, Phong. https://doi.org/10.4007/annals.2024.200.1.6  
@@ -18,10 +22,8 @@ Papers are grouped by the least-advanced status among their listed definitions a
 
 ## Bottleneck: partly in code
 
-18 papers.
+16 papers.
 
-- <a id="202019113"></a>**[2020·191(1)·3]** Euclidean triangles have no hot spots, Judge, Mondal. https://doi.org/10.4007/annals.2020.191.1.3  
-  #34 Neumann eigenvalues and eigenfunctions of the Laplacian on a bounded domain (Partly in code)
 - <a id="202019134"></a>**[2020·191(3)·4]** A geometric version of the circle method, Browning, Sawin. https://doi.org/10.4007/annals.2020.191.3.4  
   #6 Convergence of a spectral sequence (Partly in code)
 - <a id="202019222"></a>**[2020·192(2)·2]** Uniqueness of two-convex closed ancient solutions to the mean curvature flow, Angenent, Daskalopoulos, Sesum. https://doi.org/10.4007/annals.2020.192.2.2  
@@ -38,8 +40,6 @@ Papers are grouped by the least-advanced status among their listed definitions a
   #1 Real rank of a semisimple Lie group (Partly in code), #4 Parabolic subgroups of a real semisimple Lie group (minimal and standard parabolics) (Partly in code)
 - <a id="202219632"></a>**[2022·196(3)·2]** Invariant measures and measurable projective factors for actions of higher-rank lattices on manifolds, Brown, Hertz, Wang. https://doi.org/10.4007/annals.2022.196.3.2  
   #1 Real rank of a semisimple Lie group (Partly in code), #4 Parabolic subgroups of a real semisimple Lie group (minimal and standard parabolics) (Partly in code)
-- <a id="202219634"></a>**[2022·196(3)·4]** One can hear the shape of ellipses of small eccentricity, Hezari, Zelditch. https://doi.org/10.4007/annals.2022.196.3.4  
-  #34 Neumann eigenvalues and eigenfunctions of the Laplacian on a bounded domain (Partly in code)
 - <a id="202319813"></a>**[2023·198(1)·3]** Naked singularities for the Einstein vacuum equations: The exterior solution, Rodnianski, Shlapentokh-Rothman. https://doi.org/10.4007/annals.2023.198.1.3  
   #32 The spaces $C^k(M)$ and $C^{k,\alpha}(M)$ on a compact manifold (Partly in code), #50 Lorentzian manifold, time orientation and spacetime (Partly in code)
 - <a id="202319814"></a>**[2023·198(1)·4]** On $L^\infty$ estimates for complex Monge-Ampère equations, Guo, Phong, Tong. https://doi.org/10.4007/annals.2023.198.1.4  
