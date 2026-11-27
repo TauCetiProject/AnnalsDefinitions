@@ -71,7 +71,7 @@ Papers are grouped by the least-advanced status among their listed definitions a
   #8 Glauberman correspondence (Merged roadmap)
 - <a id="202019221"></a>**[2020·192(2)·1]** Subalgebras of simple AF-algebras, Schafhauser. https://doi.org/10.4007/annals.2020.192.2.1  
   #36 Amenable trace on a C\*-algebra (In Tau Ceti)  
-  Extra notions: exact C\*-algebras (Merged roadmap; nuclearity, nuclear embeddability, the spatial tensor product of concrete operator algebras with the representation independence of its norm (VonNeumannAlgebras V13b.SpatialNorm) and the maximal C\*-norm on the algebraic tensor product in code, the minimal C\*-norm and the maximal C\*-tensor product of abstract C\*-algebras in open Tau Ceti PRs), the UCT (Merged roadmap, early OperatorKTheory layers partly in code); AF algebras in code (`TauCeti.IsAF`) ([census 036](census/036.md)).
+  Extra notions: exact C\*-algebras (Merged roadmap; nuclearity, nuclear embeddability, the spatial tensor product of concrete operator algebras with the representation independence of its norm (VonNeumannAlgebras V13b.SpatialNorm) and the maximal and minimal C\*-norms and C\*-tensor products of abstract C\*-algebras in code, exactness itself in an open Tau Ceti PR), the UCT (Merged roadmap, early OperatorKTheory layers partly in code); AF algebras in code (`TauCeti.IsAF`) ([census 036](census/036.md)).
 - <a id="202019233"></a>**[2020·192(3)·3]** On the Multiplicity One Conjecture in min-max theory, Zhou. https://doi.org/10.4007/annals.2020.192.3.3  
   #49 Second fundamental form, principal curvatures and mean curvature of a hypersurface (Partly in code), #52 Minimal hypersurface in a Riemannian manifold (Merged roadmap)
 - <a id="202119334"></a>**[2021·193(3)·4]** Arithmeticity, superrigidity, and totally geodesic submanifolds, Bader, Fisher, Miller, Stover. https://doi.org/10.4007/annals.2021.193.3.4  
@@ -97,7 +97,7 @@ Papers are grouped by the least-advanced status among their listed definitions a
 - <a id="202419921"></a>**[2024·199(2)·1]** On the generic part of the cohomology of non-compact unitary Shimura varieties, Caraiani, Scholze. https://doi.org/10.4007/annals.2024.199.2.1  
   #82 The quasi-split unitary group of a self-dual hermitian lattice (Merged roadmap)
 - <a id="202419924"></a>**[2024·199(2)·4]** Pointwise convergence of the non-linear Fourier transform, Poltoratski. https://doi.org/10.4007/annals.2024.199.2.4  
-  #43 SU(1,1) non-linear Fourier transform of an $L^2$ function on the half-line (Merged roadmap), #44 Scattering functions of a real Dirac system (Partly in code)
+  #43 SU(1,1) non-linear Fourier transform of an $L^2$ function on the half-line (Merged roadmap), #44 Scattering functions of a real Dirac system (In Tau Ceti)
 - <a id="202420024"></a>**[2024·200(2)·4]** Brauer's Height Zero Conjecture, Malle, Navarro, Schaeffer Fry, Tiep. https://doi.org/10.4007/annals.2024.200.2.4  
   #2 p-block (Brauer block) of a finite group (Partly in code), #3 Defect group of a block (Partly in code), #9 Height zero characters of a block (Merged roadmap)
 - <a id="202420032"></a>**[2024·200(3)·2]** Doubling constructions: Global functoriality for non-generic cuspidal representations, Cai, Friedberg, Kaplan. https://doi.org/10.4007/annals.2024.200.3.2  
